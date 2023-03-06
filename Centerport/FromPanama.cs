@@ -212,13 +212,13 @@ namespace MedicalManagementSoftware
             setCheckBoxValue(cbCovidYes, cbCovidNo, "No");
             setCheckBoxValue(cbRepatriatedYes, cbRepatriatedNo, "No");
             setCheckBoxValue(cbHospitalizedYes, cbHospitalizedNo, "No");
-            setCheckBoxValue(cbSeaDutyYes, cbSeaDutyNo, "No");
-            setCheckBoxValue(cbRevokeYes, cbRevokeNo, "No");
-            setCheckBoxValue(cbConsiderDiseaseYes, cbConsiderDiseaseNo, "No");
-            setCheckBoxValue(cbFitToPerformDuriesYes, cbFitToPerformDuriesNo, "Yes");
+            //setCheckBoxValue(cbSeaDutyYes, cbSeaDutyNo, "No");
+            //setCheckBoxValue(cbRevokeYes, cbRevokeNo, "No");
+            //setCheckBoxValue(cbConsiderDiseaseYes, cbConsiderDiseaseNo, "No");
+            //setCheckBoxValue(cbFitToPerformDuriesYes, cbFitToPerformDuriesNo, "Yes");
 
-            setCheckBoxValue(cbAllergicToAnyMedicationYes, cbAllergicToAnyMedicationNo, "No");
-            setCheckBoxValue(cbAllergicAlternativeSuplimentYes, cbAllergicAlternativeSuplimentNo, "No");
+            //setCheckBoxValue(cbAllergicToAnyMedicationYes, cbAllergicToAnyMedicationNo, "No");
+            //setCheckBoxValue(cbAllergicAlternativeSuplimentYes, cbAllergicAlternativeSuplimentNo, "No");
 
 
             //PHYSICAL EXPLORATION
