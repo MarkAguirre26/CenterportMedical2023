@@ -3017,7 +3017,6 @@
             this.panel1.Controls.Add(this.cb_consulted);
             this.panel1.Controls.Add(this.label141);
             this.panel1.Controls.Add(this.txt_consulted);
-            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.groupBox5);
             this.panel1.Controls.Add(this.label162);
             this.panel1.Controls.Add(this.groupBox4);
@@ -3055,6 +3054,7 @@
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.shapeContainer5);
             this.panel1.Controls.Add(this.overlayShadow1);
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Location = new System.Drawing.Point(1, 20);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(887, 2027);
