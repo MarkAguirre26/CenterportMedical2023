@@ -222,6 +222,8 @@ namespace MedicalManagementSoftware
 
 
             //PHYSICAL EXPLORATION
+
+
             setCheckBoxValue(cbHeadYes, cbHeadNo, "Yes");
             setCheckBoxValue(cbMouthYes, cbMouthNo, "Yes");
             setCheckBoxValue(cbDental, cbDentalNo, "Yes");
@@ -1157,7 +1159,7 @@ namespace MedicalManagementSoftware
 
         }
 
-        private string getCheckBoxValue(CheckBox cbYes, CheckBox cbNo)
+        private string getCheckBoxValue(RadioButton cbYes, RadioButton cbNo)
         {
             string val = "No";
             if (cbYes.Checked == true)
@@ -1174,7 +1176,7 @@ namespace MedicalManagementSoftware
 
 
 
-        private void setCheckBoxValue(CheckBox cbYes, CheckBox cbNo, string val)
+        private void setCheckBoxValue(RadioButton cbYes, RadioButton cbNo, string val)
         {
             if (val == "Yes")
             {
@@ -1417,6 +1419,11 @@ namespace MedicalManagementSoftware
             theTabControl.Appearance = TabAppearance.FlatButtons;
             theTabControl.ItemSize = new Size(0, 1);
             theTabControl.SizeMode = TabSizeMode.Fixed;
+        }
+
+        private void cbLipid_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
 
 
