@@ -790,6 +790,13 @@
             this.cbHidden = new System.Windows.Forms.CheckBox();
             this.txtAssessmentComment4 = new System.Windows.Forms.TextBox();
             this.txtAssessmentComment5 = new System.Windows.Forms.TextBox();
+            this.label77 = new System.Windows.Forms.Label();
+            this.label78 = new System.Windows.Forms.Label();
+            this.label84 = new System.Windows.Forms.Label();
+            this.label85 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel13 = new System.Windows.Forms.FlowLayoutPanel();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PatientPicture)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
@@ -888,6 +895,7 @@
             this.flowLayoutPanel9.SuspendLayout();
             this.tabPage8.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.flowLayoutPanel13.SuspendLayout();
             this.SuspendLayout();
             // 
             // backgroundWorker1
@@ -1439,7 +1447,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 41F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.5275F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 73F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel2.Controls.Add(this.rjLabel16, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.rjLabel17, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.rjLabel22, 0, 3);
@@ -1552,29 +1560,24 @@
             this.tableLayoutPanel2.Controls.Add(this.label49, 1, 11);
             this.tableLayoutPanel2.Controls.Add(this.label50, 1, 12);
             this.tableLayoutPanel2.Controls.Add(this.label51, 1, 13);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(7, 475);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(5, 475);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 14;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(904, 290);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(904, 295);
             this.tableLayoutPanel2.TabIndex = 6;
             // 
             // rjLabel16
@@ -1607,7 +1610,7 @@
             this.rjLabel22.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel22.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel22.Location = new System.Drawing.Point(4, 60);
+            this.rjLabel22.Location = new System.Drawing.Point(4, 64);
             this.rjLabel22.Name = "rjLabel22";
             this.rjLabel22.Size = new System.Drawing.Size(16, 16);
             this.rjLabel22.TabIndex = 10;
@@ -1619,7 +1622,7 @@
             this.rjLabel23.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel23.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel23.Location = new System.Drawing.Point(4, 81);
+            this.rjLabel23.Location = new System.Drawing.Point(4, 85);
             this.rjLabel23.Name = "rjLabel23";
             this.rjLabel23.Size = new System.Drawing.Size(16, 16);
             this.rjLabel23.TabIndex = 11;
@@ -1631,7 +1634,7 @@
             this.rjLabel24.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel24.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel24.Location = new System.Drawing.Point(4, 102);
+            this.rjLabel24.Location = new System.Drawing.Point(4, 106);
             this.rjLabel24.Name = "rjLabel24";
             this.rjLabel24.Size = new System.Drawing.Size(16, 16);
             this.rjLabel24.TabIndex = 12;
@@ -1643,7 +1646,7 @@
             this.rjLabel25.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel25.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel25.Location = new System.Drawing.Point(4, 123);
+            this.rjLabel25.Location = new System.Drawing.Point(4, 127);
             this.rjLabel25.Name = "rjLabel25";
             this.rjLabel25.Size = new System.Drawing.Size(16, 16);
             this.rjLabel25.TabIndex = 13;
@@ -1655,7 +1658,7 @@
             this.rjLabel26.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel26.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel26.Location = new System.Drawing.Point(4, 144);
+            this.rjLabel26.Location = new System.Drawing.Point(4, 148);
             this.rjLabel26.Name = "rjLabel26";
             this.rjLabel26.Size = new System.Drawing.Size(16, 16);
             this.rjLabel26.TabIndex = 14;
@@ -1667,7 +1670,7 @@
             this.rjLabel27.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel27.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel27.Location = new System.Drawing.Point(4, 165);
+            this.rjLabel27.Location = new System.Drawing.Point(4, 169);
             this.rjLabel27.Name = "rjLabel27";
             this.rjLabel27.Size = new System.Drawing.Size(16, 16);
             this.rjLabel27.TabIndex = 15;
@@ -1679,7 +1682,7 @@
             this.rjLabel28.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel28.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel28.Location = new System.Drawing.Point(4, 186);
+            this.rjLabel28.Location = new System.Drawing.Point(4, 190);
             this.rjLabel28.Name = "rjLabel28";
             this.rjLabel28.Size = new System.Drawing.Size(16, 16);
             this.rjLabel28.TabIndex = 16;
@@ -1691,7 +1694,7 @@
             this.rjLabel29.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel29.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel29.Location = new System.Drawing.Point(4, 207);
+            this.rjLabel29.Location = new System.Drawing.Point(4, 211);
             this.rjLabel29.Name = "rjLabel29";
             this.rjLabel29.Size = new System.Drawing.Size(24, 16);
             this.rjLabel29.TabIndex = 17;
@@ -1703,7 +1706,7 @@
             this.rjLabel30.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel30.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel30.Location = new System.Drawing.Point(4, 228);
+            this.rjLabel30.Location = new System.Drawing.Point(4, 232);
             this.rjLabel30.Name = "rjLabel30";
             this.rjLabel30.Size = new System.Drawing.Size(24, 16);
             this.rjLabel30.TabIndex = 18;
@@ -1715,7 +1718,7 @@
             this.rjLabel31.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel31.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel31.Location = new System.Drawing.Point(4, 249);
+            this.rjLabel31.Location = new System.Drawing.Point(4, 253);
             this.rjLabel31.Name = "rjLabel31";
             this.rjLabel31.Size = new System.Drawing.Size(24, 16);
             this.rjLabel31.TabIndex = 19;
@@ -1727,7 +1730,7 @@
             this.rjLabel32.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel32.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel32.Location = new System.Drawing.Point(4, 270);
+            this.rjLabel32.Location = new System.Drawing.Point(4, 274);
             this.rjLabel32.Name = "rjLabel32";
             this.rjLabel32.Size = new System.Drawing.Size(24, 16);
             this.rjLabel32.TabIndex = 20;
@@ -1739,7 +1742,7 @@
             this.rjLabel38.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel38.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel38.Location = new System.Drawing.Point(4, 39);
+            this.rjLabel38.Location = new System.Drawing.Point(4, 43);
             this.rjLabel38.Name = "rjLabel38";
             this.rjLabel38.Size = new System.Drawing.Size(16, 16);
             this.rjLabel38.TabIndex = 9;
@@ -1751,7 +1754,7 @@
             this.rjLabel39.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel39.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel39.Location = new System.Drawing.Point(4, 18);
+            this.rjLabel39.Location = new System.Drawing.Point(4, 22);
             this.rjLabel39.Name = "rjLabel39";
             this.rjLabel39.Size = new System.Drawing.Size(16, 16);
             this.rjLabel39.TabIndex = 8;
@@ -1764,7 +1767,7 @@
             this.cbAllergiesNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbAllergiesNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbAllergiesNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbAllergiesNo.Location = new System.Drawing.Point(389, 273);
+            this.cbAllergiesNo.Location = new System.Drawing.Point(388, 277);
             this.cbAllergiesNo.Name = "cbAllergiesNo";
             this.cbAllergiesNo.Size = new System.Drawing.Size(15, 14);
             this.cbAllergiesNo.TabIndex = 119;
@@ -1777,7 +1780,7 @@
             this.cbSkinProblemNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbSkinProblemNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbSkinProblemNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbSkinProblemNo.Location = new System.Drawing.Point(389, 252);
+            this.cbSkinProblemNo.Location = new System.Drawing.Point(388, 256);
             this.cbSkinProblemNo.Name = "cbSkinProblemNo";
             this.cbSkinProblemNo.Size = new System.Drawing.Size(15, 14);
             this.cbSkinProblemNo.TabIndex = 118;
@@ -1790,7 +1793,7 @@
             this.cbKidneyDisordersNo_.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbKidneyDisordersNo_.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbKidneyDisordersNo_.ForeColor = System.Drawing.Color.Gray;
-            this.cbKidneyDisordersNo_.Location = new System.Drawing.Point(389, 231);
+            this.cbKidneyDisordersNo_.Location = new System.Drawing.Point(388, 235);
             this.cbKidneyDisordersNo_.Name = "cbKidneyDisordersNo_";
             this.cbKidneyDisordersNo_.Size = new System.Drawing.Size(15, 14);
             this.cbKidneyDisordersNo_.TabIndex = 117;
@@ -1803,7 +1806,7 @@
             this.cbDigestiveDisordersNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbDigestiveDisordersNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbDigestiveDisordersNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbDigestiveDisordersNo.Location = new System.Drawing.Point(389, 210);
+            this.cbDigestiveDisordersNo.Location = new System.Drawing.Point(388, 214);
             this.cbDigestiveDisordersNo.Name = "cbDigestiveDisordersNo";
             this.cbDigestiveDisordersNo.Size = new System.Drawing.Size(15, 14);
             this.cbDigestiveDisordersNo.TabIndex = 116;
@@ -1816,7 +1819,7 @@
             this.cbThyroidProblemNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbThyroidProblemNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbThyroidProblemNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbThyroidProblemNo.Location = new System.Drawing.Point(389, 189);
+            this.cbThyroidProblemNo.Location = new System.Drawing.Point(388, 193);
             this.cbThyroidProblemNo.Name = "cbThyroidProblemNo";
             this.cbThyroidProblemNo.Size = new System.Drawing.Size(15, 14);
             this.cbThyroidProblemNo.TabIndex = 115;
@@ -1829,7 +1832,7 @@
             this.cbDiabetesNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbDiabetesNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbDiabetesNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbDiabetesNo.Location = new System.Drawing.Point(389, 168);
+            this.cbDiabetesNo.Location = new System.Drawing.Point(388, 172);
             this.cbDiabetesNo.Name = "cbDiabetesNo";
             this.cbDiabetesNo.Size = new System.Drawing.Size(15, 14);
             this.cbDiabetesNo.TabIndex = 114;
@@ -1842,7 +1845,7 @@
             this.cbBloodDisorderNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbBloodDisorderNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbBloodDisorderNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbBloodDisorderNo.Location = new System.Drawing.Point(389, 147);
+            this.cbBloodDisorderNo.Location = new System.Drawing.Point(388, 151);
             this.cbBloodDisorderNo.Name = "cbBloodDisorderNo";
             this.cbBloodDisorderNo.Size = new System.Drawing.Size(15, 14);
             this.cbBloodDisorderNo.TabIndex = 113;
@@ -1855,7 +1858,7 @@
             this.cbAsthmaBronchitisNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbAsthmaBronchitisNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbAsthmaBronchitisNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbAsthmaBronchitisNo.Location = new System.Drawing.Point(389, 126);
+            this.cbAsthmaBronchitisNo.Location = new System.Drawing.Point(388, 130);
             this.cbAsthmaBronchitisNo.Name = "cbAsthmaBronchitisNo";
             this.cbAsthmaBronchitisNo.Size = new System.Drawing.Size(15, 14);
             this.cbAsthmaBronchitisNo.TabIndex = 112;
@@ -1868,7 +1871,7 @@
             this.cbVaricoseveinsNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbVaricoseveinsNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbVaricoseveinsNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbVaricoseveinsNo.Location = new System.Drawing.Point(389, 105);
+            this.cbVaricoseveinsNo.Location = new System.Drawing.Point(388, 109);
             this.cbVaricoseveinsNo.Name = "cbVaricoseveinsNo";
             this.cbVaricoseveinsNo.Size = new System.Drawing.Size(15, 14);
             this.cbVaricoseveinsNo.TabIndex = 111;
@@ -1881,7 +1884,7 @@
             this.cbHeartSurgeryNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbHeartSurgeryNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbHeartSurgeryNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbHeartSurgeryNo.Location = new System.Drawing.Point(389, 84);
+            this.cbHeartSurgeryNo.Location = new System.Drawing.Point(388, 88);
             this.cbHeartSurgeryNo.Name = "cbHeartSurgeryNo";
             this.cbHeartSurgeryNo.Size = new System.Drawing.Size(15, 14);
             this.cbHeartSurgeryNo.TabIndex = 110;
@@ -1894,7 +1897,7 @@
             this.cbEarNoseThroatNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbEarNoseThroatNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbEarNoseThroatNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbEarNoseThroatNo.Location = new System.Drawing.Point(389, 63);
+            this.cbEarNoseThroatNo.Location = new System.Drawing.Point(388, 67);
             this.cbEarNoseThroatNo.Name = "cbEarNoseThroatNo";
             this.cbEarNoseThroatNo.Size = new System.Drawing.Size(15, 14);
             this.cbEarNoseThroatNo.TabIndex = 109;
@@ -1907,7 +1910,7 @@
             this.cbEyeproblemNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbEyeproblemNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbEyeproblemNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbEyeproblemNo.Location = new System.Drawing.Point(389, 42);
+            this.cbEyeproblemNo.Location = new System.Drawing.Point(388, 46);
             this.cbEyeproblemNo.Name = "cbEyeproblemNo";
             this.cbEyeproblemNo.Size = new System.Drawing.Size(15, 14);
             this.cbEyeproblemNo.TabIndex = 108;
@@ -1920,7 +1923,7 @@
             this.cbHighBloodPressureNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbHighBloodPressureNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbHighBloodPressureNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbHighBloodPressureNo.Location = new System.Drawing.Point(389, 21);
+            this.cbHighBloodPressureNo.Location = new System.Drawing.Point(388, 25);
             this.cbHighBloodPressureNo.Name = "cbHighBloodPressureNo";
             this.cbHighBloodPressureNo.Size = new System.Drawing.Size(15, 14);
             this.cbHighBloodPressureNo.TabIndex = 107;
@@ -1932,7 +1935,7 @@
             this.rjLabel13.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel13.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel13.Location = new System.Drawing.Point(832, 1);
+            this.rjLabel13.Location = new System.Drawing.Point(830, 1);
             this.rjLabel13.Name = "rjLabel13";
             this.rjLabel13.Size = new System.Drawing.Size(29, 16);
             this.rjLabel13.TabIndex = 125;
@@ -1944,7 +1947,7 @@
             this.rjLabel82.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel82.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel82.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel82.Location = new System.Drawing.Point(781, 1);
+            this.rjLabel82.Location = new System.Drawing.Point(779, 1);
             this.rjLabel82.Name = "rjLabel82";
             this.rjLabel82.Size = new System.Drawing.Size(36, 16);
             this.rjLabel82.TabIndex = 126;
@@ -1956,7 +1959,7 @@
             this.rjLabel106.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel106.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel106.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel106.Location = new System.Drawing.Point(489, 1);
+            this.rjLabel106.Location = new System.Drawing.Point(488, 1);
             this.rjLabel106.Name = "rjLabel106";
             this.rjLabel106.Size = new System.Drawing.Size(77, 16);
             this.rjLabel106.TabIndex = 127;
@@ -1968,7 +1971,7 @@
             this.rjLabel19.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel19.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel19.Location = new System.Drawing.Point(447, 1);
+            this.rjLabel19.Location = new System.Drawing.Point(446, 1);
             this.rjLabel19.Name = "rjLabel19";
             this.rjLabel19.Size = new System.Drawing.Size(32, 16);
             this.rjLabel19.TabIndex = 4;
@@ -1980,7 +1983,7 @@
             this.rjLabel21.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel21.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel21.Location = new System.Drawing.Point(389, 1);
+            this.rjLabel21.Location = new System.Drawing.Point(388, 1);
             this.rjLabel21.Name = "rjLabel21";
             this.rjLabel21.Size = new System.Drawing.Size(29, 16);
             this.rjLabel21.TabIndex = 128;
@@ -1992,7 +1995,7 @@
             this.rjLabel107.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel107.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel107.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel107.Location = new System.Drawing.Point(343, 1);
+            this.rjLabel107.Location = new System.Drawing.Point(342, 1);
             this.rjLabel107.Name = "rjLabel107";
             this.rjLabel107.Size = new System.Drawing.Size(36, 16);
             this.rjLabel107.TabIndex = 129;
@@ -2004,7 +2007,7 @@
             this.cbDoyouSmokeNo.Checked = true;
             this.cbDoyouSmokeNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbDoyouSmokeNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbDoyouSmokeNo.Location = new System.Drawing.Point(832, 21);
+            this.cbDoyouSmokeNo.Location = new System.Drawing.Point(830, 25);
             this.cbDoyouSmokeNo.Name = "cbDoyouSmokeNo";
             this.cbDoyouSmokeNo.Size = new System.Drawing.Size(15, 14);
             this.cbDoyouSmokeNo.TabIndex = 130;
@@ -2016,7 +2019,7 @@
             this.cbSurgeriesNo.Checked = true;
             this.cbSurgeriesNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbSurgeriesNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbSurgeriesNo.Location = new System.Drawing.Point(832, 42);
+            this.cbSurgeriesNo.Location = new System.Drawing.Point(830, 46);
             this.cbSurgeriesNo.Name = "cbSurgeriesNo";
             this.cbSurgeriesNo.Size = new System.Drawing.Size(15, 14);
             this.cbSurgeriesNo.TabIndex = 131;
@@ -2028,7 +2031,7 @@
             this.cbInfectiousNo.Checked = true;
             this.cbInfectiousNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbInfectiousNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbInfectiousNo.Location = new System.Drawing.Point(832, 63);
+            this.cbInfectiousNo.Location = new System.Drawing.Point(830, 67);
             this.cbInfectiousNo.Name = "cbInfectiousNo";
             this.cbInfectiousNo.Size = new System.Drawing.Size(15, 14);
             this.cbInfectiousNo.TabIndex = 132;
@@ -2040,7 +2043,7 @@
             this.cbDizzinessFaintingNo.Checked = true;
             this.cbDizzinessFaintingNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbDizzinessFaintingNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbDizzinessFaintingNo.Location = new System.Drawing.Point(832, 84);
+            this.cbDizzinessFaintingNo.Location = new System.Drawing.Point(830, 88);
             this.cbDizzinessFaintingNo.Name = "cbDizzinessFaintingNo";
             this.cbDizzinessFaintingNo.Size = new System.Drawing.Size(15, 14);
             this.cbDizzinessFaintingNo.TabIndex = 133;
@@ -2052,7 +2055,7 @@
             this.cbLossofconsciousnessNo.Checked = true;
             this.cbLossofconsciousnessNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbLossofconsciousnessNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbLossofconsciousnessNo.Location = new System.Drawing.Point(832, 105);
+            this.cbLossofconsciousnessNo.Location = new System.Drawing.Point(830, 109);
             this.cbLossofconsciousnessNo.Name = "cbLossofconsciousnessNo";
             this.cbLossofconsciousnessNo.Size = new System.Drawing.Size(15, 14);
             this.cbLossofconsciousnessNo.TabIndex = 134;
@@ -2064,7 +2067,7 @@
             this.cbPsychiatricProblemNo.Checked = true;
             this.cbPsychiatricProblemNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbPsychiatricProblemNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbPsychiatricProblemNo.Location = new System.Drawing.Point(832, 126);
+            this.cbPsychiatricProblemNo.Location = new System.Drawing.Point(830, 130);
             this.cbPsychiatricProblemNo.Name = "cbPsychiatricProblemNo";
             this.cbPsychiatricProblemNo.Size = new System.Drawing.Size(15, 14);
             this.cbPsychiatricProblemNo.TabIndex = 135;
@@ -2076,7 +2079,7 @@
             this.cbDepressionNo.Checked = true;
             this.cbDepressionNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbDepressionNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbDepressionNo.Location = new System.Drawing.Point(832, 147);
+            this.cbDepressionNo.Location = new System.Drawing.Point(830, 151);
             this.cbDepressionNo.Name = "cbDepressionNo";
             this.cbDepressionNo.Size = new System.Drawing.Size(15, 14);
             this.cbDepressionNo.TabIndex = 136;
@@ -2088,7 +2091,7 @@
             this.cbAttemptedsuicideNo.Checked = true;
             this.cbAttemptedsuicideNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbAttemptedsuicideNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbAttemptedsuicideNo.Location = new System.Drawing.Point(832, 168);
+            this.cbAttemptedsuicideNo.Location = new System.Drawing.Point(830, 172);
             this.cbAttemptedsuicideNo.Name = "cbAttemptedsuicideNo";
             this.cbAttemptedsuicideNo.Size = new System.Drawing.Size(15, 14);
             this.cbAttemptedsuicideNo.TabIndex = 137;
@@ -2100,7 +2103,7 @@
             this.cbLossofmemoryNo.Checked = true;
             this.cbLossofmemoryNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbLossofmemoryNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbLossofmemoryNo.Location = new System.Drawing.Point(832, 189);
+            this.cbLossofmemoryNo.Location = new System.Drawing.Point(830, 193);
             this.cbLossofmemoryNo.Name = "cbLossofmemoryNo";
             this.cbLossofmemoryNo.Size = new System.Drawing.Size(15, 14);
             this.cbLossofmemoryNo.TabIndex = 138;
@@ -2112,7 +2115,7 @@
             this.cbBalanceProblemsNo.Checked = true;
             this.cbBalanceProblemsNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbBalanceProblemsNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbBalanceProblemsNo.Location = new System.Drawing.Point(832, 210);
+            this.cbBalanceProblemsNo.Location = new System.Drawing.Point(830, 214);
             this.cbBalanceProblemsNo.Name = "cbBalanceProblemsNo";
             this.cbBalanceProblemsNo.Size = new System.Drawing.Size(15, 14);
             this.cbBalanceProblemsNo.TabIndex = 139;
@@ -2124,7 +2127,7 @@
             this.cbSevereHeadAchesNo.Checked = true;
             this.cbSevereHeadAchesNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbSevereHeadAchesNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbSevereHeadAchesNo.Location = new System.Drawing.Point(832, 231);
+            this.cbSevereHeadAchesNo.Location = new System.Drawing.Point(830, 235);
             this.cbSevereHeadAchesNo.Name = "cbSevereHeadAchesNo";
             this.cbSevereHeadAchesNo.Size = new System.Drawing.Size(15, 14);
             this.cbSevereHeadAchesNo.TabIndex = 140;
@@ -2136,7 +2139,7 @@
             this.cbVasculardiseaseNo.Checked = true;
             this.cbVasculardiseaseNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbVasculardiseaseNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbVasculardiseaseNo.Location = new System.Drawing.Point(832, 252);
+            this.cbVasculardiseaseNo.Location = new System.Drawing.Point(830, 256);
             this.cbVasculardiseaseNo.Name = "cbVasculardiseaseNo";
             this.cbVasculardiseaseNo.Size = new System.Drawing.Size(15, 14);
             this.cbVasculardiseaseNo.TabIndex = 141;
@@ -2148,7 +2151,7 @@
             this.cbRestrictedMobilityNo.Checked = true;
             this.cbRestrictedMobilityNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbRestrictedMobilityNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbRestrictedMobilityNo.Location = new System.Drawing.Point(832, 273);
+            this.cbRestrictedMobilityNo.Location = new System.Drawing.Point(830, 277);
             this.cbRestrictedMobilityNo.Name = "cbRestrictedMobilityNo";
             this.cbRestrictedMobilityNo.Size = new System.Drawing.Size(15, 14);
             this.cbRestrictedMobilityNo.TabIndex = 142;
@@ -2158,7 +2161,7 @@
             // 
             this.cbDoyouSmokeYes.AutoSize = true;
             this.cbDoyouSmokeYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbDoyouSmokeYes.Location = new System.Drawing.Point(781, 21);
+            this.cbDoyouSmokeYes.Location = new System.Drawing.Point(779, 25);
             this.cbDoyouSmokeYes.Name = "cbDoyouSmokeYes";
             this.cbDoyouSmokeYes.Size = new System.Drawing.Size(15, 14);
             this.cbDoyouSmokeYes.TabIndex = 143;
@@ -2168,7 +2171,7 @@
             // 
             this.cbSurgeriesYes.AutoSize = true;
             this.cbSurgeriesYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbSurgeriesYes.Location = new System.Drawing.Point(781, 42);
+            this.cbSurgeriesYes.Location = new System.Drawing.Point(779, 46);
             this.cbSurgeriesYes.Name = "cbSurgeriesYes";
             this.cbSurgeriesYes.Size = new System.Drawing.Size(15, 14);
             this.cbSurgeriesYes.TabIndex = 144;
@@ -2178,7 +2181,7 @@
             // 
             this.cbInfectiousYes.AutoSize = true;
             this.cbInfectiousYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbInfectiousYes.Location = new System.Drawing.Point(781, 63);
+            this.cbInfectiousYes.Location = new System.Drawing.Point(779, 67);
             this.cbInfectiousYes.Name = "cbInfectiousYes";
             this.cbInfectiousYes.Size = new System.Drawing.Size(15, 14);
             this.cbInfectiousYes.TabIndex = 145;
@@ -2188,7 +2191,7 @@
             // 
             this.cbDizzinessFaintingYes.AutoSize = true;
             this.cbDizzinessFaintingYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbDizzinessFaintingYes.Location = new System.Drawing.Point(781, 84);
+            this.cbDizzinessFaintingYes.Location = new System.Drawing.Point(779, 88);
             this.cbDizzinessFaintingYes.Name = "cbDizzinessFaintingYes";
             this.cbDizzinessFaintingYes.Size = new System.Drawing.Size(15, 14);
             this.cbDizzinessFaintingYes.TabIndex = 146;
@@ -2198,7 +2201,7 @@
             // 
             this.cbLossofconsciousnessYes.AutoSize = true;
             this.cbLossofconsciousnessYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbLossofconsciousnessYes.Location = new System.Drawing.Point(781, 105);
+            this.cbLossofconsciousnessYes.Location = new System.Drawing.Point(779, 109);
             this.cbLossofconsciousnessYes.Name = "cbLossofconsciousnessYes";
             this.cbLossofconsciousnessYes.Size = new System.Drawing.Size(15, 14);
             this.cbLossofconsciousnessYes.TabIndex = 147;
@@ -2208,7 +2211,7 @@
             // 
             this.cbPsychiatricProblemYes.AutoSize = true;
             this.cbPsychiatricProblemYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbPsychiatricProblemYes.Location = new System.Drawing.Point(781, 126);
+            this.cbPsychiatricProblemYes.Location = new System.Drawing.Point(779, 130);
             this.cbPsychiatricProblemYes.Name = "cbPsychiatricProblemYes";
             this.cbPsychiatricProblemYes.Size = new System.Drawing.Size(15, 14);
             this.cbPsychiatricProblemYes.TabIndex = 148;
@@ -2218,7 +2221,7 @@
             // 
             this.cbDepressionYes.AutoSize = true;
             this.cbDepressionYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbDepressionYes.Location = new System.Drawing.Point(781, 147);
+            this.cbDepressionYes.Location = new System.Drawing.Point(779, 151);
             this.cbDepressionYes.Name = "cbDepressionYes";
             this.cbDepressionYes.Size = new System.Drawing.Size(15, 14);
             this.cbDepressionYes.TabIndex = 149;
@@ -2228,7 +2231,7 @@
             // 
             this.cbAttemptedsuicideYes.AutoSize = true;
             this.cbAttemptedsuicideYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbAttemptedsuicideYes.Location = new System.Drawing.Point(781, 168);
+            this.cbAttemptedsuicideYes.Location = new System.Drawing.Point(779, 172);
             this.cbAttemptedsuicideYes.Name = "cbAttemptedsuicideYes";
             this.cbAttemptedsuicideYes.Size = new System.Drawing.Size(15, 14);
             this.cbAttemptedsuicideYes.TabIndex = 150;
@@ -2238,7 +2241,7 @@
             // 
             this.cbLossofmemoryYes.AutoSize = true;
             this.cbLossofmemoryYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbLossofmemoryYes.Location = new System.Drawing.Point(781, 189);
+            this.cbLossofmemoryYes.Location = new System.Drawing.Point(779, 193);
             this.cbLossofmemoryYes.Name = "cbLossofmemoryYes";
             this.cbLossofmemoryYes.Size = new System.Drawing.Size(15, 14);
             this.cbLossofmemoryYes.TabIndex = 151;
@@ -2248,7 +2251,7 @@
             // 
             this.cbBalanceProblemsYes.AutoSize = true;
             this.cbBalanceProblemsYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbBalanceProblemsYes.Location = new System.Drawing.Point(781, 210);
+            this.cbBalanceProblemsYes.Location = new System.Drawing.Point(779, 214);
             this.cbBalanceProblemsYes.Name = "cbBalanceProblemsYes";
             this.cbBalanceProblemsYes.Size = new System.Drawing.Size(15, 14);
             this.cbBalanceProblemsYes.TabIndex = 152;
@@ -2258,7 +2261,7 @@
             // 
             this.cbSevereHeadAchesYes.AutoSize = true;
             this.cbSevereHeadAchesYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbSevereHeadAchesYes.Location = new System.Drawing.Point(781, 231);
+            this.cbSevereHeadAchesYes.Location = new System.Drawing.Point(779, 235);
             this.cbSevereHeadAchesYes.Name = "cbSevereHeadAchesYes";
             this.cbSevereHeadAchesYes.Size = new System.Drawing.Size(15, 14);
             this.cbSevereHeadAchesYes.TabIndex = 153;
@@ -2268,7 +2271,7 @@
             // 
             this.cbVasculardiseaseYes.AutoSize = true;
             this.cbVasculardiseaseYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbVasculardiseaseYes.Location = new System.Drawing.Point(781, 252);
+            this.cbVasculardiseaseYes.Location = new System.Drawing.Point(779, 256);
             this.cbVasculardiseaseYes.Name = "cbVasculardiseaseYes";
             this.cbVasculardiseaseYes.Size = new System.Drawing.Size(15, 14);
             this.cbVasculardiseaseYes.TabIndex = 154;
@@ -2278,7 +2281,7 @@
             // 
             this.cbRestrictedMobilityYes.AutoSize = true;
             this.cbRestrictedMobilityYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbRestrictedMobilityYes.Location = new System.Drawing.Point(781, 273);
+            this.cbRestrictedMobilityYes.Location = new System.Drawing.Point(779, 277);
             this.cbRestrictedMobilityYes.Name = "cbRestrictedMobilityYes";
             this.cbRestrictedMobilityYes.Size = new System.Drawing.Size(15, 14);
             this.cbRestrictedMobilityYes.TabIndex = 155;
@@ -2288,7 +2291,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label1.Location = new System.Drawing.Point(447, 18);
+            this.label1.Location = new System.Drawing.Point(446, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 13);
             this.label1.TabIndex = 156;
@@ -2298,7 +2301,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label3.Location = new System.Drawing.Point(447, 39);
+            this.label3.Location = new System.Drawing.Point(446, 43);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(19, 13);
             this.label3.TabIndex = 158;
@@ -2308,7 +2311,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label5.Location = new System.Drawing.Point(447, 60);
+            this.label5.Location = new System.Drawing.Point(446, 64);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(19, 13);
             this.label5.TabIndex = 160;
@@ -2318,7 +2321,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label6.Location = new System.Drawing.Point(447, 81);
+            this.label6.Location = new System.Drawing.Point(446, 85);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(19, 13);
             this.label6.TabIndex = 161;
@@ -2328,7 +2331,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label7.Location = new System.Drawing.Point(447, 102);
+            this.label7.Location = new System.Drawing.Point(446, 106);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(19, 13);
             this.label7.TabIndex = 162;
@@ -2338,7 +2341,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label8.Location = new System.Drawing.Point(447, 123);
+            this.label8.Location = new System.Drawing.Point(446, 127);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(19, 13);
             this.label8.TabIndex = 163;
@@ -2348,7 +2351,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label9.Location = new System.Drawing.Point(447, 144);
+            this.label9.Location = new System.Drawing.Point(446, 148);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(19, 13);
             this.label9.TabIndex = 164;
@@ -2358,7 +2361,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label10.Location = new System.Drawing.Point(447, 165);
+            this.label10.Location = new System.Drawing.Point(446, 169);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(19, 13);
             this.label10.TabIndex = 165;
@@ -2368,7 +2371,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label11.Location = new System.Drawing.Point(447, 186);
+            this.label11.Location = new System.Drawing.Point(446, 190);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(19, 13);
             this.label11.TabIndex = 166;
@@ -2378,7 +2381,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label12.Location = new System.Drawing.Point(447, 207);
+            this.label12.Location = new System.Drawing.Point(446, 211);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(19, 13);
             this.label12.TabIndex = 167;
@@ -2388,7 +2391,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label13.Location = new System.Drawing.Point(447, 228);
+            this.label13.Location = new System.Drawing.Point(446, 232);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(19, 13);
             this.label13.TabIndex = 168;
@@ -2398,7 +2401,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label14.Location = new System.Drawing.Point(447, 249);
+            this.label14.Location = new System.Drawing.Point(446, 253);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(19, 13);
             this.label14.TabIndex = 169;
@@ -2408,7 +2411,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label15.Location = new System.Drawing.Point(447, 270);
+            this.label15.Location = new System.Drawing.Point(446, 274);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(19, 13);
             this.label15.TabIndex = 170;
@@ -2418,7 +2421,7 @@
             // 
             this.cbHighBloodPressureYes.AutoSize = true;
             this.cbHighBloodPressureYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbHighBloodPressureYes.Location = new System.Drawing.Point(343, 21);
+            this.cbHighBloodPressureYes.Location = new System.Drawing.Point(342, 25);
             this.cbHighBloodPressureYes.Name = "cbHighBloodPressureYes";
             this.cbHighBloodPressureYes.Size = new System.Drawing.Size(15, 14);
             this.cbHighBloodPressureYes.TabIndex = 176;
@@ -2428,7 +2431,7 @@
             // 
             this.cbEyeproblemYes.AutoSize = true;
             this.cbEyeproblemYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbEyeproblemYes.Location = new System.Drawing.Point(343, 42);
+            this.cbEyeproblemYes.Location = new System.Drawing.Point(342, 46);
             this.cbEyeproblemYes.Name = "cbEyeproblemYes";
             this.cbEyeproblemYes.Size = new System.Drawing.Size(15, 14);
             this.cbEyeproblemYes.TabIndex = 177;
@@ -2438,7 +2441,7 @@
             // 
             this.cbEarNoseThroatYes.AutoSize = true;
             this.cbEarNoseThroatYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbEarNoseThroatYes.Location = new System.Drawing.Point(343, 63);
+            this.cbEarNoseThroatYes.Location = new System.Drawing.Point(342, 67);
             this.cbEarNoseThroatYes.Name = "cbEarNoseThroatYes";
             this.cbEarNoseThroatYes.Size = new System.Drawing.Size(15, 14);
             this.cbEarNoseThroatYes.TabIndex = 178;
@@ -2448,7 +2451,7 @@
             // 
             this.cbHeartSurgeryYes.AutoSize = true;
             this.cbHeartSurgeryYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbHeartSurgeryYes.Location = new System.Drawing.Point(343, 84);
+            this.cbHeartSurgeryYes.Location = new System.Drawing.Point(342, 88);
             this.cbHeartSurgeryYes.Name = "cbHeartSurgeryYes";
             this.cbHeartSurgeryYes.Size = new System.Drawing.Size(15, 14);
             this.cbHeartSurgeryYes.TabIndex = 179;
@@ -2458,7 +2461,7 @@
             // 
             this.cbVaricoseveinsYes.AutoSize = true;
             this.cbVaricoseveinsYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbVaricoseveinsYes.Location = new System.Drawing.Point(343, 105);
+            this.cbVaricoseveinsYes.Location = new System.Drawing.Point(342, 109);
             this.cbVaricoseveinsYes.Name = "cbVaricoseveinsYes";
             this.cbVaricoseveinsYes.Size = new System.Drawing.Size(15, 14);
             this.cbVaricoseveinsYes.TabIndex = 180;
@@ -2468,7 +2471,7 @@
             // 
             this.cbAsthmaBronchitisYes.AutoSize = true;
             this.cbAsthmaBronchitisYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbAsthmaBronchitisYes.Location = new System.Drawing.Point(343, 126);
+            this.cbAsthmaBronchitisYes.Location = new System.Drawing.Point(342, 130);
             this.cbAsthmaBronchitisYes.Name = "cbAsthmaBronchitisYes";
             this.cbAsthmaBronchitisYes.Size = new System.Drawing.Size(15, 14);
             this.cbAsthmaBronchitisYes.TabIndex = 181;
@@ -2478,7 +2481,7 @@
             // 
             this.cbBloodDisorderYes.AutoSize = true;
             this.cbBloodDisorderYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbBloodDisorderYes.Location = new System.Drawing.Point(343, 147);
+            this.cbBloodDisorderYes.Location = new System.Drawing.Point(342, 151);
             this.cbBloodDisorderYes.Name = "cbBloodDisorderYes";
             this.cbBloodDisorderYes.Size = new System.Drawing.Size(15, 14);
             this.cbBloodDisorderYes.TabIndex = 182;
@@ -2488,7 +2491,7 @@
             // 
             this.cbDiabetesYes_.AutoSize = true;
             this.cbDiabetesYes_.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbDiabetesYes_.Location = new System.Drawing.Point(343, 168);
+            this.cbDiabetesYes_.Location = new System.Drawing.Point(342, 172);
             this.cbDiabetesYes_.Name = "cbDiabetesYes_";
             this.cbDiabetesYes_.Size = new System.Drawing.Size(15, 14);
             this.cbDiabetesYes_.TabIndex = 183;
@@ -2498,7 +2501,7 @@
             // 
             this.cbThyroidProblemYes.AutoSize = true;
             this.cbThyroidProblemYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbThyroidProblemYes.Location = new System.Drawing.Point(343, 189);
+            this.cbThyroidProblemYes.Location = new System.Drawing.Point(342, 193);
             this.cbThyroidProblemYes.Name = "cbThyroidProblemYes";
             this.cbThyroidProblemYes.Size = new System.Drawing.Size(15, 14);
             this.cbThyroidProblemYes.TabIndex = 184;
@@ -2508,7 +2511,7 @@
             // 
             this.cbDigestiveDisordersYes.AutoSize = true;
             this.cbDigestiveDisordersYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbDigestiveDisordersYes.Location = new System.Drawing.Point(343, 210);
+            this.cbDigestiveDisordersYes.Location = new System.Drawing.Point(342, 214);
             this.cbDigestiveDisordersYes.Name = "cbDigestiveDisordersYes";
             this.cbDigestiveDisordersYes.Size = new System.Drawing.Size(15, 14);
             this.cbDigestiveDisordersYes.TabIndex = 185;
@@ -2518,7 +2521,7 @@
             // 
             this.cbKidneyDisordersYes.AutoSize = true;
             this.cbKidneyDisordersYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbKidneyDisordersYes.Location = new System.Drawing.Point(343, 231);
+            this.cbKidneyDisordersYes.Location = new System.Drawing.Point(342, 235);
             this.cbKidneyDisordersYes.Name = "cbKidneyDisordersYes";
             this.cbKidneyDisordersYes.Size = new System.Drawing.Size(15, 14);
             this.cbKidneyDisordersYes.TabIndex = 186;
@@ -2528,7 +2531,7 @@
             // 
             this.cbSkinProblemYes.AutoSize = true;
             this.cbSkinProblemYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbSkinProblemYes.Location = new System.Drawing.Point(343, 252);
+            this.cbSkinProblemYes.Location = new System.Drawing.Point(342, 256);
             this.cbSkinProblemYes.Name = "cbSkinProblemYes";
             this.cbSkinProblemYes.Size = new System.Drawing.Size(15, 14);
             this.cbSkinProblemYes.TabIndex = 187;
@@ -2538,7 +2541,7 @@
             // 
             this.cbAllergiesYes.AutoSize = true;
             this.cbAllergiesYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbAllergiesYes.Location = new System.Drawing.Point(343, 273);
+            this.cbAllergiesYes.Location = new System.Drawing.Point(342, 277);
             this.cbAllergiesYes.Name = "cbAllergiesYes";
             this.cbAllergiesYes.Size = new System.Drawing.Size(15, 14);
             this.cbAllergiesYes.TabIndex = 188;
@@ -2548,7 +2551,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label4.Location = new System.Drawing.Point(489, 18);
+            this.label4.Location = new System.Drawing.Point(488, 22);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(182, 13);
             this.label4.TabIndex = 159;
@@ -2558,7 +2561,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label21.Location = new System.Drawing.Point(489, 39);
+            this.label21.Location = new System.Drawing.Point(488, 43);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(51, 13);
             this.label21.TabIndex = 194;
@@ -2568,7 +2571,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label22.Location = new System.Drawing.Point(489, 60);
+            this.label22.Location = new System.Drawing.Point(488, 64);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(100, 13);
             this.label22.TabIndex = 195;
@@ -2578,7 +2581,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label23.Location = new System.Drawing.Point(489, 81);
+            this.label23.Location = new System.Drawing.Point(488, 85);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(90, 13);
             this.label23.TabIndex = 196;
@@ -2588,7 +2591,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label24.Location = new System.Drawing.Point(489, 102);
+            this.label24.Location = new System.Drawing.Point(488, 106);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(114, 13);
             this.label24.TabIndex = 197;
@@ -2598,7 +2601,7 @@
             // 
             this.label30.AutoSize = true;
             this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label30.Location = new System.Drawing.Point(489, 123);
+            this.label30.Location = new System.Drawing.Point(488, 127);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(103, 13);
             this.label30.TabIndex = 198;
@@ -2608,7 +2611,7 @@
             // 
             this.label37.AutoSize = true;
             this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label37.Location = new System.Drawing.Point(489, 144);
+            this.label37.Location = new System.Drawing.Point(488, 148);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(60, 13);
             this.label37.TabIndex = 199;
@@ -2618,7 +2621,7 @@
             // 
             this.label38.AutoSize = true;
             this.label38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label38.Location = new System.Drawing.Point(489, 165);
+            this.label38.Location = new System.Drawing.Point(488, 169);
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(91, 13);
             this.label38.TabIndex = 200;
@@ -2628,7 +2631,7 @@
             // 
             this.label39.AutoSize = true;
             this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label39.Location = new System.Drawing.Point(489, 186);
+            this.label39.Location = new System.Drawing.Point(488, 190);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(80, 13);
             this.label39.TabIndex = 201;
@@ -2638,7 +2641,7 @@
             // 
             this.label40.AutoSize = true;
             this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label40.Location = new System.Drawing.Point(489, 207);
+            this.label40.Location = new System.Drawing.Point(488, 211);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(91, 13);
             this.label40.TabIndex = 202;
@@ -2648,7 +2651,7 @@
             // 
             this.label41.AutoSize = true;
             this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label41.Location = new System.Drawing.Point(489, 228);
+            this.label41.Location = new System.Drawing.Point(488, 232);
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(100, 13);
             this.label41.TabIndex = 203;
@@ -2658,7 +2661,7 @@
             // 
             this.label42.AutoSize = true;
             this.label42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label42.Location = new System.Drawing.Point(489, 249);
+            this.label42.Location = new System.Drawing.Point(488, 253);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(117, 13);
             this.label42.TabIndex = 204;
@@ -2668,7 +2671,7 @@
             // 
             this.label43.AutoSize = true;
             this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label43.Location = new System.Drawing.Point(489, 270);
+            this.label43.Location = new System.Drawing.Point(488, 274);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(92, 13);
             this.label43.TabIndex = 205;
@@ -2678,7 +2681,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label2.Location = new System.Drawing.Point(45, 18);
+            this.label2.Location = new System.Drawing.Point(45, 22);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 13);
             this.label2.TabIndex = 206;
@@ -2688,7 +2691,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label16.Location = new System.Drawing.Point(45, 39);
+            this.label16.Location = new System.Drawing.Point(45, 43);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(97, 13);
             this.label16.TabIndex = 207;
@@ -2698,7 +2701,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label17.Location = new System.Drawing.Point(45, 60);
+            this.label17.Location = new System.Drawing.Point(45, 64);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(208, 13);
             this.label17.TabIndex = 208;
@@ -2708,7 +2711,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label18.Location = new System.Drawing.Point(45, 81);
+            this.label18.Location = new System.Drawing.Point(45, 85);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(70, 13);
             this.label18.TabIndex = 209;
@@ -2718,7 +2721,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label19.Location = new System.Drawing.Point(45, 102);
+            this.label19.Location = new System.Drawing.Point(45, 106);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(135, 13);
             this.label19.TabIndex = 210;
@@ -2728,7 +2731,7 @@
             // 
             this.label20.AutoSize = true;
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label20.Location = new System.Drawing.Point(45, 123);
+            this.label20.Location = new System.Drawing.Point(45, 127);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(92, 13);
             this.label20.TabIndex = 211;
@@ -2738,7 +2741,7 @@
             // 
             this.label44.AutoSize = true;
             this.label44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label44.Location = new System.Drawing.Point(45, 144);
+            this.label44.Location = new System.Drawing.Point(45, 148);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(79, 13);
             this.label44.TabIndex = 212;
@@ -2748,7 +2751,7 @@
             // 
             this.label45.AutoSize = true;
             this.label45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label45.Location = new System.Drawing.Point(45, 165);
+            this.label45.Location = new System.Drawing.Point(45, 169);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(49, 13);
             this.label45.TabIndex = 213;
@@ -2758,7 +2761,7 @@
             // 
             this.label46.AutoSize = true;
             this.label46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label46.Location = new System.Drawing.Point(45, 186);
+            this.label46.Location = new System.Drawing.Point(45, 190);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(87, 13);
             this.label46.TabIndex = 214;
@@ -2768,7 +2771,7 @@
             // 
             this.label47.AutoSize = true;
             this.label47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label47.Location = new System.Drawing.Point(45, 207);
+            this.label47.Location = new System.Drawing.Point(45, 211);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(96, 13);
             this.label47.TabIndex = 215;
@@ -2778,7 +2781,7 @@
             // 
             this.label49.AutoSize = true;
             this.label49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label49.Location = new System.Drawing.Point(45, 228);
+            this.label49.Location = new System.Drawing.Point(45, 232);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(84, 13);
             this.label49.TabIndex = 216;
@@ -2788,7 +2791,7 @@
             // 
             this.label50.AutoSize = true;
             this.label50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label50.Location = new System.Drawing.Point(45, 249);
+            this.label50.Location = new System.Drawing.Point(45, 253);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(73, 13);
             this.label50.TabIndex = 217;
@@ -2798,7 +2801,7 @@
             // 
             this.label51.AutoSize = true;
             this.label51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label51.Location = new System.Drawing.Point(45, 270);
+            this.label51.Location = new System.Drawing.Point(45, 274);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(46, 13);
             this.label51.TabIndex = 218;
@@ -2806,6 +2809,7 @@
             // 
             // tableLayoutPanel51
             // 
+            this.tableLayoutPanel51.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel51.ColumnCount = 8;
             this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.4725F));
@@ -2813,8 +2817,8 @@
             this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 37F));
             this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.5275F));
-            this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 47F));
-            this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 39F));
+            this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 44F));
+            this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 37F));
             this.tableLayoutPanel51.Controls.Add(this.rjLabel53, 0, 0);
             this.tableLayoutPanel51.Controls.Add(this.rjLabel54, 0, 1);
             this.tableLayoutPanel51.Controls.Add(this.rjLabel55, 0, 2);
@@ -2865,7 +2869,7 @@
             this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel51.Size = new System.Drawing.Size(780, 133);
+            this.tableLayoutPanel51.Size = new System.Drawing.Size(780, 138);
             this.tableLayoutPanel51.TabIndex = 7;
             // 
             // rjLabel53
@@ -2874,7 +2878,7 @@
             this.rjLabel53.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel53.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel53.Location = new System.Drawing.Point(3, 0);
+            this.rjLabel53.Location = new System.Drawing.Point(4, 1);
             this.rjLabel53.Name = "rjLabel53";
             this.rjLabel53.Size = new System.Drawing.Size(24, 16);
             this.rjLabel53.TabIndex = 21;
@@ -2886,7 +2890,7 @@
             this.rjLabel54.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel54.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel54.Location = new System.Drawing.Point(3, 20);
+            this.rjLabel54.Location = new System.Drawing.Point(4, 22);
             this.rjLabel54.Name = "rjLabel54";
             this.rjLabel54.Size = new System.Drawing.Size(24, 16);
             this.rjLabel54.TabIndex = 22;
@@ -2898,7 +2902,7 @@
             this.rjLabel55.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel55.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel55.Location = new System.Drawing.Point(3, 52);
+            this.rjLabel55.Location = new System.Drawing.Point(4, 55);
             this.rjLabel55.Name = "rjLabel55";
             this.rjLabel55.Size = new System.Drawing.Size(24, 16);
             this.rjLabel55.TabIndex = 23;
@@ -2910,7 +2914,7 @@
             this.rjLabel56.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel56.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel56.Location = new System.Drawing.Point(3, 72);
+            this.rjLabel56.Location = new System.Drawing.Point(4, 76);
             this.rjLabel56.Name = "rjLabel56";
             this.rjLabel56.Size = new System.Drawing.Size(24, 16);
             this.rjLabel56.TabIndex = 24;
@@ -2922,7 +2926,7 @@
             this.rjLabel57.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel57.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel57.Location = new System.Drawing.Point(3, 92);
+            this.rjLabel57.Location = new System.Drawing.Point(4, 97);
             this.rjLabel57.Name = "rjLabel57";
             this.rjLabel57.Size = new System.Drawing.Size(24, 16);
             this.rjLabel57.TabIndex = 25;
@@ -2935,7 +2939,7 @@
             this.cbPregnancyNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbPregnancyNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbPregnancyNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbPregnancyNo.Location = new System.Drawing.Point(358, 95);
+            this.cbPregnancyNo.Location = new System.Drawing.Point(360, 100);
             this.cbPregnancyNo.Name = "cbPregnancyNo";
             this.cbPregnancyNo.Size = new System.Drawing.Size(15, 14);
             this.cbPregnancyNo.TabIndex = 124;
@@ -2948,7 +2952,7 @@
             this.cbGenitalDisordersNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbGenitalDisordersNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbGenitalDisordersNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbGenitalDisordersNo.Location = new System.Drawing.Point(358, 75);
+            this.cbGenitalDisordersNo.Location = new System.Drawing.Point(360, 79);
             this.cbGenitalDisordersNo.Name = "cbGenitalDisordersNo";
             this.cbGenitalDisordersNo.Size = new System.Drawing.Size(15, 14);
             this.cbGenitalDisordersNo.TabIndex = 123;
@@ -2961,7 +2965,7 @@
             this.cbHerinasNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbHerinasNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbHerinasNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbHerinasNo.Location = new System.Drawing.Point(358, 55);
+            this.cbHerinasNo.Location = new System.Drawing.Point(360, 58);
             this.cbHerinasNo.Name = "cbHerinasNo";
             this.cbHerinasNo.Size = new System.Drawing.Size(15, 14);
             this.cbHerinasNo.TabIndex = 122;
@@ -2974,7 +2978,7 @@
             this.cbSickleCellNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbSickleCellNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbSickleCellNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbSickleCellNo.Location = new System.Drawing.Point(358, 23);
+            this.cbSickleCellNo.Location = new System.Drawing.Point(360, 25);
             this.cbSickleCellNo.Name = "cbSickleCellNo";
             this.cbSickleCellNo.Size = new System.Drawing.Size(15, 14);
             this.cbSickleCellNo.TabIndex = 121;
@@ -2987,7 +2991,7 @@
             this.cbEpilipsyNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbEpilipsyNo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbEpilipsyNo.ForeColor = System.Drawing.Color.Gray;
-            this.cbEpilipsyNo.Location = new System.Drawing.Point(358, 3);
+            this.cbEpilipsyNo.Location = new System.Drawing.Point(360, 4);
             this.cbEpilipsyNo.Name = "cbEpilipsyNo";
             this.cbEpilipsyNo.Size = new System.Drawing.Size(15, 14);
             this.cbEpilipsyNo.TabIndex = 120;
@@ -2997,7 +3001,7 @@
             // 
             this.label65.AutoSize = true;
             this.label65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label65.Location = new System.Drawing.Point(395, 52);
+            this.label65.Location = new System.Drawing.Point(398, 55);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(19, 13);
             this.label65.TabIndex = 173;
@@ -3007,7 +3011,7 @@
             // 
             this.label66.AutoSize = true;
             this.label66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label66.Location = new System.Drawing.Point(395, 72);
+            this.label66.Location = new System.Drawing.Point(398, 76);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(19, 13);
             this.label66.TabIndex = 174;
@@ -3017,7 +3021,7 @@
             // 
             this.cbEpilipsyYes.AutoSize = true;
             this.cbEpilipsyYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbEpilipsyYes.Location = new System.Drawing.Point(314, 3);
+            this.cbEpilipsyYes.Location = new System.Drawing.Point(315, 4);
             this.cbEpilipsyYes.Name = "cbEpilipsyYes";
             this.cbEpilipsyYes.Size = new System.Drawing.Size(15, 14);
             this.cbEpilipsyYes.TabIndex = 189;
@@ -3027,7 +3031,7 @@
             // 
             this.cbSickleCellYes.AutoSize = true;
             this.cbSickleCellYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbSickleCellYes.Location = new System.Drawing.Point(314, 23);
+            this.cbSickleCellYes.Location = new System.Drawing.Point(315, 25);
             this.cbSickleCellYes.Name = "cbSickleCellYes";
             this.cbSickleCellYes.Size = new System.Drawing.Size(15, 14);
             this.cbSickleCellYes.TabIndex = 190;
@@ -3037,7 +3041,7 @@
             // 
             this.cbHerinasYes.AutoSize = true;
             this.cbHerinasYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbHerinasYes.Location = new System.Drawing.Point(314, 55);
+            this.cbHerinasYes.Location = new System.Drawing.Point(315, 58);
             this.cbHerinasYes.Name = "cbHerinasYes";
             this.cbHerinasYes.Size = new System.Drawing.Size(15, 14);
             this.cbHerinasYes.TabIndex = 191;
@@ -3047,7 +3051,7 @@
             // 
             this.cbGenitalDisordersYes.AutoSize = true;
             this.cbGenitalDisordersYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbGenitalDisordersYes.Location = new System.Drawing.Point(314, 75);
+            this.cbGenitalDisordersYes.Location = new System.Drawing.Point(315, 79);
             this.cbGenitalDisordersYes.Name = "cbGenitalDisordersYes";
             this.cbGenitalDisordersYes.Size = new System.Drawing.Size(15, 14);
             this.cbGenitalDisordersYes.TabIndex = 192;
@@ -3057,7 +3061,7 @@
             // 
             this.cbPregnancyYes.AutoSize = true;
             this.cbPregnancyYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbPregnancyYes.Location = new System.Drawing.Point(314, 95);
+            this.cbPregnancyYes.Location = new System.Drawing.Point(315, 100);
             this.cbPregnancyYes.Name = "cbPregnancyYes";
             this.cbPregnancyYes.Size = new System.Drawing.Size(15, 14);
             this.cbPregnancyYes.TabIndex = 193;
@@ -3067,7 +3071,7 @@
             // 
             this.label63.AutoSize = true;
             this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label63.Location = new System.Drawing.Point(3, 112);
+            this.label63.Location = new System.Drawing.Point(4, 118);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(19, 13);
             this.label63.TabIndex = 171;
@@ -3077,7 +3081,7 @@
             // 
             this.label79.AutoSize = true;
             this.label79.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label79.Location = new System.Drawing.Point(43, 112);
+            this.label79.Location = new System.Drawing.Point(45, 118);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(75, 13);
             this.label79.TabIndex = 205;
@@ -3087,7 +3091,7 @@
             // 
             this.label64.AutoSize = true;
             this.label64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label64.Location = new System.Drawing.Point(395, 20);
+            this.label64.Location = new System.Drawing.Point(398, 22);
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(19, 13);
             this.label64.TabIndex = 172;
@@ -3097,7 +3101,7 @@
             // 
             this.label48.AutoSize = true;
             this.label48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label48.Location = new System.Drawing.Point(395, 0);
+            this.label48.Location = new System.Drawing.Point(398, 1);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(19, 13);
             this.label48.TabIndex = 210;
@@ -3107,7 +3111,7 @@
             // 
             this.label80.AutoSize = true;
             this.label80.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label80.Location = new System.Drawing.Point(430, 0);
+            this.label80.Location = new System.Drawing.Point(434, 1);
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(114, 13);
             this.label80.TabIndex = 206;
@@ -3117,7 +3121,7 @@
             // 
             this.label81.AutoSize = true;
             this.label81.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label81.Location = new System.Drawing.Point(430, 20);
+            this.label81.Location = new System.Drawing.Point(434, 22);
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(60, 13);
             this.label81.TabIndex = 207;
@@ -3127,7 +3131,7 @@
             // 
             this.label82.AutoSize = true;
             this.label82.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label82.Location = new System.Drawing.Point(430, 52);
+            this.label82.Location = new System.Drawing.Point(434, 55);
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(106, 13);
             this.label82.TabIndex = 208;
@@ -3137,7 +3141,7 @@
             // 
             this.label83.AutoSize = true;
             this.label83.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label83.Location = new System.Drawing.Point(430, 72);
+            this.label83.Location = new System.Drawing.Point(434, 76);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(55, 13);
             this.label83.TabIndex = 209;
@@ -3146,7 +3150,7 @@
             // cbBackJointProblemYes
             // 
             this.cbBackJointProblemYes.AutoSize = true;
-            this.cbBackJointProblemYes.Location = new System.Drawing.Point(696, 3);
+            this.cbBackJointProblemYes.Location = new System.Drawing.Point(699, 4);
             this.cbBackJointProblemYes.Name = "cbBackJointProblemYes";
             this.cbBackJointProblemYes.Size = new System.Drawing.Size(15, 14);
             this.cbBackJointProblemYes.TabIndex = 211;
@@ -3155,7 +3159,7 @@
             // cbAmputationYes
             // 
             this.cbAmputationYes.AutoSize = true;
-            this.cbAmputationYes.Location = new System.Drawing.Point(696, 23);
+            this.cbAmputationYes.Location = new System.Drawing.Point(699, 25);
             this.cbAmputationYes.Name = "cbAmputationYes";
             this.cbAmputationYes.Size = new System.Drawing.Size(15, 14);
             this.cbAmputationYes.TabIndex = 212;
@@ -3165,7 +3169,7 @@
             // cbFracturesDislocationYes
             // 
             this.cbFracturesDislocationYes.AutoSize = true;
-            this.cbFracturesDislocationYes.Location = new System.Drawing.Point(696, 55);
+            this.cbFracturesDislocationYes.Location = new System.Drawing.Point(699, 58);
             this.cbFracturesDislocationYes.Name = "cbFracturesDislocationYes";
             this.cbFracturesDislocationYes.Size = new System.Drawing.Size(15, 14);
             this.cbFracturesDislocationYes.TabIndex = 213;
@@ -3174,7 +3178,7 @@
             // cbCovidYes
             // 
             this.cbCovidYes.AutoSize = true;
-            this.cbCovidYes.Location = new System.Drawing.Point(696, 75);
+            this.cbCovidYes.Location = new System.Drawing.Point(699, 79);
             this.cbCovidYes.Name = "cbCovidYes";
             this.cbCovidYes.Size = new System.Drawing.Size(15, 14);
             this.cbCovidYes.TabIndex = 214;
@@ -3185,7 +3189,7 @@
             this.cbBackJointProblemNo.AutoSize = true;
             this.cbBackJointProblemNo.Checked = true;
             this.cbBackJointProblemNo.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbBackJointProblemNo.Location = new System.Drawing.Point(743, 3);
+            this.cbBackJointProblemNo.Location = new System.Drawing.Point(744, 4);
             this.cbBackJointProblemNo.Name = "cbBackJointProblemNo";
             this.cbBackJointProblemNo.Size = new System.Drawing.Size(15, 14);
             this.cbBackJointProblemNo.TabIndex = 215;
@@ -3196,7 +3200,7 @@
             this.cbAmputationNo.AutoSize = true;
             this.cbAmputationNo.Checked = true;
             this.cbAmputationNo.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbAmputationNo.Location = new System.Drawing.Point(743, 23);
+            this.cbAmputationNo.Location = new System.Drawing.Point(744, 25);
             this.cbAmputationNo.Name = "cbAmputationNo";
             this.cbAmputationNo.Size = new System.Drawing.Size(15, 14);
             this.cbAmputationNo.TabIndex = 216;
@@ -3208,7 +3212,7 @@
             this.cbFracturesDislocationNo.AutoSize = true;
             this.cbFracturesDislocationNo.Checked = true;
             this.cbFracturesDislocationNo.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbFracturesDislocationNo.Location = new System.Drawing.Point(743, 55);
+            this.cbFracturesDislocationNo.Location = new System.Drawing.Point(744, 58);
             this.cbFracturesDislocationNo.Name = "cbFracturesDislocationNo";
             this.cbFracturesDislocationNo.Size = new System.Drawing.Size(15, 14);
             this.cbFracturesDislocationNo.TabIndex = 217;
@@ -3219,7 +3223,7 @@
             this.cbCovidNo.AutoSize = true;
             this.cbCovidNo.Checked = true;
             this.cbCovidNo.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbCovidNo.Location = new System.Drawing.Point(743, 75);
+            this.cbCovidNo.Location = new System.Drawing.Point(744, 79);
             this.cbCovidNo.Name = "cbCovidNo";
             this.cbCovidNo.Size = new System.Drawing.Size(15, 14);
             this.cbCovidNo.TabIndex = 218;
@@ -3229,7 +3233,7 @@
             // 
             this.cbSleepproblemYes.AutoSize = true;
             this.cbSleepproblemYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbSleepproblemYes.Location = new System.Drawing.Point(314, 115);
+            this.cbSleepproblemYes.Location = new System.Drawing.Point(315, 121);
             this.cbSleepproblemYes.Name = "cbSleepproblemYes";
             this.cbSleepproblemYes.Size = new System.Drawing.Size(15, 14);
             this.cbSleepproblemYes.TabIndex = 219;
@@ -3241,7 +3245,7 @@
             this.cbSleepproblemNo.Checked = true;
             this.cbSleepproblemNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbSleepproblemNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbSleepproblemNo.Location = new System.Drawing.Point(358, 115);
+            this.cbSleepproblemNo.Location = new System.Drawing.Point(360, 121);
             this.cbSleepproblemNo.Name = "cbSleepproblemNo";
             this.cbSleepproblemNo.Size = new System.Drawing.Size(15, 14);
             this.cbSleepproblemNo.TabIndex = 220;
@@ -3253,7 +3257,7 @@
             this.rjLabel50.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel50.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel50.Location = new System.Drawing.Point(43, 0);
+            this.rjLabel50.Location = new System.Drawing.Point(45, 1);
             this.rjLabel50.Name = "rjLabel50";
             this.rjLabel50.Size = new System.Drawing.Size(130, 16);
             this.rjLabel50.TabIndex = 221;
@@ -3265,7 +3269,7 @@
             this.rjLabel51.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel51.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel51.Location = new System.Drawing.Point(43, 20);
+            this.rjLabel51.Location = new System.Drawing.Point(45, 22);
             this.rjLabel51.Name = "rjLabel51";
             this.rjLabel51.Size = new System.Drawing.Size(253, 32);
             this.rjLabel51.TabIndex = 222;
@@ -3277,7 +3281,7 @@
             this.rjLabel52.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel52.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel52.Location = new System.Drawing.Point(43, 52);
+            this.rjLabel52.Location = new System.Drawing.Point(45, 55);
             this.rjLabel52.Name = "rjLabel52";
             this.rjLabel52.Size = new System.Drawing.Size(56, 16);
             this.rjLabel52.TabIndex = 223;
@@ -3289,7 +3293,7 @@
             this.rjLabel78.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel78.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel78.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel78.Location = new System.Drawing.Point(43, 72);
+            this.rjLabel78.Location = new System.Drawing.Point(45, 76);
             this.rjLabel78.Name = "rjLabel78";
             this.rjLabel78.Size = new System.Drawing.Size(117, 16);
             this.rjLabel78.TabIndex = 224;
@@ -3301,7 +3305,7 @@
             this.rjLabel108.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel108.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel108.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel108.Location = new System.Drawing.Point(43, 92);
+            this.rjLabel108.Location = new System.Drawing.Point(45, 97);
             this.rjLabel108.Name = "rjLabel108";
             this.rjLabel108.Size = new System.Drawing.Size(77, 16);
             this.rjLabel108.TabIndex = 225;
@@ -3329,11 +3333,12 @@
             // 
             // tableLayoutPanel3
             // 
+            this.tableLayoutPanel3.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel3.ColumnCount = 4;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 46F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel3.Controls.Add(this.label53, 1, 8);
             this.tableLayoutPanel3.Controls.Add(this.rjLabel64, 0, 7);
             this.tableLayoutPanel3.Controls.Add(this.rjLabel33, 1, 0);
@@ -3369,7 +3374,7 @@
             this.tableLayoutPanel3.Controls.Add(this.label60, 1, 5);
             this.tableLayoutPanel3.Controls.Add(this.cbConsiderDiseaseYes, 2, 5);
             this.tableLayoutPanel3.Controls.Add(this.cbConsiderDiseaseNo, 3, 5);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 345);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 342);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 9;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -3381,13 +3386,13 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(780, 184);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(780, 189);
             this.tableLayoutPanel3.TabIndex = 11;
             // 
             // label53
             // 
             this.label53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label53.Location = new System.Drawing.Point(33, 160);
+            this.label53.Location = new System.Drawing.Point(35, 169);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(612, 21);
             this.label53.TabIndex = 14;
@@ -3399,7 +3404,7 @@
             this.rjLabel64.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel64.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel64.Location = new System.Drawing.Point(3, 140);
+            this.rjLabel64.Location = new System.Drawing.Point(4, 148);
             this.rjLabel64.Name = "rjLabel64";
             this.rjLabel64.Size = new System.Drawing.Size(24, 16);
             this.rjLabel64.TabIndex = 6;
@@ -3411,7 +3416,7 @@
             this.rjLabel33.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel33.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel33.Location = new System.Drawing.Point(33, 0);
+            this.rjLabel33.Location = new System.Drawing.Point(35, 1);
             this.rjLabel33.Name = "rjLabel33";
             this.rjLabel33.Size = new System.Drawing.Size(148, 16);
             this.rjLabel33.TabIndex = 20;
@@ -3423,7 +3428,7 @@
             this.rjLabel63.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel63.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel63.Location = new System.Drawing.Point(3, 120);
+            this.rjLabel63.Location = new System.Drawing.Point(4, 127);
             this.rjLabel63.Name = "rjLabel63";
             this.rjLabel63.Size = new System.Drawing.Size(24, 16);
             this.rjLabel63.TabIndex = 5;
@@ -3435,7 +3440,7 @@
             this.rjLabel62.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel62.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel62.Location = new System.Drawing.Point(3, 100);
+            this.rjLabel62.Location = new System.Drawing.Point(4, 106);
             this.rjLabel62.Name = "rjLabel62";
             this.rjLabel62.Size = new System.Drawing.Size(24, 16);
             this.rjLabel62.TabIndex = 4;
@@ -3447,7 +3452,7 @@
             this.rjLabel61.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel61.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel61.Location = new System.Drawing.Point(3, 80);
+            this.rjLabel61.Location = new System.Drawing.Point(4, 85);
             this.rjLabel61.Name = "rjLabel61";
             this.rjLabel61.Size = new System.Drawing.Size(24, 16);
             this.rjLabel61.TabIndex = 3;
@@ -3459,7 +3464,7 @@
             this.rjLabel60.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel60.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel60.Location = new System.Drawing.Point(3, 60);
+            this.rjLabel60.Location = new System.Drawing.Point(4, 64);
             this.rjLabel60.Name = "rjLabel60";
             this.rjLabel60.Size = new System.Drawing.Size(24, 16);
             this.rjLabel60.TabIndex = 2;
@@ -3471,7 +3476,7 @@
             this.rjLabel59.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel59.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel59.Location = new System.Drawing.Point(3, 40);
+            this.rjLabel59.Location = new System.Drawing.Point(4, 43);
             this.rjLabel59.Name = "rjLabel59";
             this.rjLabel59.Size = new System.Drawing.Size(24, 16);
             this.rjLabel59.TabIndex = 1;
@@ -3483,7 +3488,7 @@
             this.rjLabel58.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel58.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel58.Location = new System.Drawing.Point(3, 20);
+            this.rjLabel58.Location = new System.Drawing.Point(4, 22);
             this.rjLabel58.Name = "rjLabel58";
             this.rjLabel58.Size = new System.Drawing.Size(24, 16);
             this.rjLabel58.TabIndex = 0;
@@ -3493,7 +3498,7 @@
             // 
             this.cbRepatriatedYes.AutoSize = true;
             this.cbRepatriatedYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbRepatriatedYes.Location = new System.Drawing.Point(695, 23);
+            this.cbRepatriatedYes.Location = new System.Drawing.Point(693, 25);
             this.cbRepatriatedYes.Name = "cbRepatriatedYes";
             this.cbRepatriatedYes.Size = new System.Drawing.Size(15, 14);
             this.cbRepatriatedYes.TabIndex = 19;
@@ -3505,7 +3510,7 @@
             this.rjLabel34.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel34.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel34.Location = new System.Drawing.Point(695, 0);
+            this.rjLabel34.Location = new System.Drawing.Point(693, 1);
             this.rjLabel34.Name = "rjLabel34";
             this.rjLabel34.Size = new System.Drawing.Size(36, 16);
             this.rjLabel34.TabIndex = 21;
@@ -3517,7 +3522,7 @@
             this.rjLabel35.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel35.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel35.Location = new System.Drawing.Point(745, 0);
+            this.rjLabel35.Location = new System.Drawing.Point(740, 1);
             this.rjLabel35.Name = "rjLabel35";
             this.rjLabel35.Size = new System.Drawing.Size(29, 16);
             this.rjLabel35.TabIndex = 22;
@@ -3529,7 +3534,7 @@
             this.cbRepatriatedNo.Checked = true;
             this.cbRepatriatedNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbRepatriatedNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbRepatriatedNo.Location = new System.Drawing.Point(745, 23);
+            this.cbRepatriatedNo.Location = new System.Drawing.Point(740, 25);
             this.cbRepatriatedNo.Name = "cbRepatriatedNo";
             this.cbRepatriatedNo.Size = new System.Drawing.Size(15, 14);
             this.cbRepatriatedNo.TabIndex = 23;
@@ -3541,7 +3546,7 @@
             this.cbHospitalizedNo.Checked = true;
             this.cbHospitalizedNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbHospitalizedNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbHospitalizedNo.Location = new System.Drawing.Point(745, 43);
+            this.cbHospitalizedNo.Location = new System.Drawing.Point(740, 46);
             this.cbHospitalizedNo.Name = "cbHospitalizedNo";
             this.cbHospitalizedNo.Size = new System.Drawing.Size(15, 14);
             this.cbHospitalizedNo.TabIndex = 24;
@@ -3551,7 +3556,7 @@
             // 
             this.cbFitToPerformDuriesNo.AutoSize = true;
             this.cbFitToPerformDuriesNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbFitToPerformDuriesNo.Location = new System.Drawing.Point(745, 123);
+            this.cbFitToPerformDuriesNo.Location = new System.Drawing.Point(740, 130);
             this.cbFitToPerformDuriesNo.Name = "cbFitToPerformDuriesNo";
             this.cbFitToPerformDuriesNo.Size = new System.Drawing.Size(15, 14);
             this.cbFitToPerformDuriesNo.TabIndex = 32;
@@ -3563,7 +3568,7 @@
             this.cbFitToPerformDuriesYes.Checked = true;
             this.cbFitToPerformDuriesYes.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbFitToPerformDuriesYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbFitToPerformDuriesYes.Location = new System.Drawing.Point(695, 123);
+            this.cbFitToPerformDuriesYes.Location = new System.Drawing.Point(693, 130);
             this.cbFitToPerformDuriesYes.Name = "cbFitToPerformDuriesYes";
             this.cbFitToPerformDuriesYes.Size = new System.Drawing.Size(15, 14);
             this.cbFitToPerformDuriesYes.TabIndex = 29;
@@ -3573,7 +3578,7 @@
             // 
             this.label59.AutoSize = true;
             this.label59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label59.Location = new System.Drawing.Point(33, 120);
+            this.label59.Location = new System.Drawing.Point(35, 127);
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(413, 13);
             this.label59.TabIndex = 44;
@@ -3586,7 +3591,7 @@
             this.cbSeaDutyNo.Checked = true;
             this.cbSeaDutyNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbSeaDutyNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbSeaDutyNo.Location = new System.Drawing.Point(745, 63);
+            this.cbSeaDutyNo.Location = new System.Drawing.Point(740, 67);
             this.cbSeaDutyNo.Name = "cbSeaDutyNo";
             this.cbSeaDutyNo.Size = new System.Drawing.Size(15, 14);
             this.cbSeaDutyNo.TabIndex = 25;
@@ -3596,7 +3601,7 @@
             // 
             this.cbHospitalizedYes.AutoSize = true;
             this.cbHospitalizedYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbHospitalizedYes.Location = new System.Drawing.Point(695, 43);
+            this.cbHospitalizedYes.Location = new System.Drawing.Point(693, 46);
             this.cbHospitalizedYes.Name = "cbHospitalizedYes";
             this.cbHospitalizedYes.Size = new System.Drawing.Size(15, 14);
             this.cbHospitalizedYes.TabIndex = 26;
@@ -3606,7 +3611,7 @@
             // 
             this.cbSeaDutyYes.AutoSize = true;
             this.cbSeaDutyYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbSeaDutyYes.Location = new System.Drawing.Point(695, 63);
+            this.cbSeaDutyYes.Location = new System.Drawing.Point(693, 67);
             this.cbSeaDutyYes.Name = "cbSeaDutyYes";
             this.cbSeaDutyYes.Size = new System.Drawing.Size(15, 14);
             this.cbSeaDutyYes.TabIndex = 27;
@@ -3617,7 +3622,7 @@
             // 
             this.cbRevokeYes.AutoSize = true;
             this.cbRevokeYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbRevokeYes.Location = new System.Drawing.Point(695, 83);
+            this.cbRevokeYes.Location = new System.Drawing.Point(693, 88);
             this.cbRevokeYes.Name = "cbRevokeYes";
             this.cbRevokeYes.Size = new System.Drawing.Size(15, 14);
             this.cbRevokeYes.TabIndex = 28;
@@ -3629,7 +3634,7 @@
             this.cbRevokeNo.Checked = true;
             this.cbRevokeNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbRevokeNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbRevokeNo.Location = new System.Drawing.Point(745, 83);
+            this.cbRevokeNo.Location = new System.Drawing.Point(740, 88);
             this.cbRevokeNo.Name = "cbRevokeNo";
             this.cbRevokeNo.Size = new System.Drawing.Size(15, 14);
             this.cbRevokeNo.TabIndex = 31;
@@ -3639,7 +3644,7 @@
             // 
             this.cbAllergicAlternativeSuplimentYes.AutoSize = true;
             this.cbAllergicAlternativeSuplimentYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbAllergicAlternativeSuplimentYes.Location = new System.Drawing.Point(695, 163);
+            this.cbAllergicAlternativeSuplimentYes.Location = new System.Drawing.Point(693, 172);
             this.cbAllergicAlternativeSuplimentYes.Name = "cbAllergicAlternativeSuplimentYes";
             this.cbAllergicAlternativeSuplimentYes.Size = new System.Drawing.Size(15, 14);
             this.cbAllergicAlternativeSuplimentYes.TabIndex = 34;
@@ -3651,7 +3656,7 @@
             this.cbAllergicAlternativeSuplimentNo.Checked = true;
             this.cbAllergicAlternativeSuplimentNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbAllergicAlternativeSuplimentNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbAllergicAlternativeSuplimentNo.Location = new System.Drawing.Point(745, 163);
+            this.cbAllergicAlternativeSuplimentNo.Location = new System.Drawing.Point(740, 172);
             this.cbAllergicAlternativeSuplimentNo.Name = "cbAllergicAlternativeSuplimentNo";
             this.cbAllergicAlternativeSuplimentNo.Size = new System.Drawing.Size(15, 14);
             this.cbAllergicAlternativeSuplimentNo.TabIndex = 35;
@@ -3663,7 +3668,7 @@
             this.rjLabel65.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel65.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel65.Location = new System.Drawing.Point(3, 160);
+            this.rjLabel65.Location = new System.Drawing.Point(4, 169);
             this.rjLabel65.Name = "rjLabel65";
             this.rjLabel65.Size = new System.Drawing.Size(24, 16);
             this.rjLabel65.TabIndex = 15;
@@ -3673,7 +3678,7 @@
             // 
             this.label52.AutoSize = true;
             this.label52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label52.Location = new System.Drawing.Point(33, 140);
+            this.label52.Location = new System.Drawing.Point(35, 148);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(176, 13);
             this.label52.TabIndex = 39;
@@ -3683,7 +3688,7 @@
             // 
             this.label55.AutoSize = true;
             this.label55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label55.Location = new System.Drawing.Point(33, 20);
+            this.label55.Location = new System.Drawing.Point(35, 22);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(288, 13);
             this.label55.TabIndex = 40;
@@ -3693,7 +3698,7 @@
             // 
             this.label56.AutoSize = true;
             this.label56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label56.Location = new System.Drawing.Point(33, 40);
+            this.label56.Location = new System.Drawing.Point(35, 43);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(168, 13);
             this.label56.TabIndex = 41;
@@ -3703,7 +3708,7 @@
             // 
             this.label57.AutoSize = true;
             this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label57.Location = new System.Drawing.Point(33, 60);
+            this.label57.Location = new System.Drawing.Point(35, 64);
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(235, 13);
             this.label57.TabIndex = 42;
@@ -3713,7 +3718,7 @@
             // 
             this.label58.AutoSize = true;
             this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label58.Location = new System.Drawing.Point(33, 80);
+            this.label58.Location = new System.Drawing.Point(35, 85);
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(294, 13);
             this.label58.TabIndex = 43;
@@ -3722,7 +3727,7 @@
             // cbAllergicToAnyMedicationYes
             // 
             this.cbAllergicToAnyMedicationYes.AutoSize = true;
-            this.cbAllergicToAnyMedicationYes.Location = new System.Drawing.Point(695, 143);
+            this.cbAllergicToAnyMedicationYes.Location = new System.Drawing.Point(693, 151);
             this.cbAllergicToAnyMedicationYes.Name = "cbAllergicToAnyMedicationYes";
             this.cbAllergicToAnyMedicationYes.Size = new System.Drawing.Size(15, 14);
             this.cbAllergicToAnyMedicationYes.TabIndex = 46;
@@ -3733,7 +3738,7 @@
             this.cbAllergicToAnyMedicationNo.AutoSize = true;
             this.cbAllergicToAnyMedicationNo.Checked = true;
             this.cbAllergicToAnyMedicationNo.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbAllergicToAnyMedicationNo.Location = new System.Drawing.Point(745, 143);
+            this.cbAllergicToAnyMedicationNo.Location = new System.Drawing.Point(740, 151);
             this.cbAllergicToAnyMedicationNo.Name = "cbAllergicToAnyMedicationNo";
             this.cbAllergicToAnyMedicationNo.Size = new System.Drawing.Size(15, 14);
             this.cbAllergicToAnyMedicationNo.TabIndex = 47;
@@ -3743,7 +3748,7 @@
             // 
             this.label60.AutoSize = true;
             this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label60.Location = new System.Drawing.Point(33, 100);
+            this.label60.Location = new System.Drawing.Point(35, 106);
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(443, 13);
             this.label60.TabIndex = 45;
@@ -3754,7 +3759,7 @@
             // 
             this.cbConsiderDiseaseYes.AutoSize = true;
             this.cbConsiderDiseaseYes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbConsiderDiseaseYes.Location = new System.Drawing.Point(695, 103);
+            this.cbConsiderDiseaseYes.Location = new System.Drawing.Point(693, 109);
             this.cbConsiderDiseaseYes.Name = "cbConsiderDiseaseYes";
             this.cbConsiderDiseaseYes.Size = new System.Drawing.Size(15, 14);
             this.cbConsiderDiseaseYes.TabIndex = 30;
@@ -3766,7 +3771,7 @@
             this.cbConsiderDiseaseNo.Checked = true;
             this.cbConsiderDiseaseNo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbConsiderDiseaseNo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbConsiderDiseaseNo.Location = new System.Drawing.Point(745, 103);
+            this.cbConsiderDiseaseNo.Location = new System.Drawing.Point(740, 109);
             this.cbConsiderDiseaseNo.Name = "cbConsiderDiseaseNo";
             this.cbConsiderDiseaseNo.Size = new System.Drawing.Size(15, 14);
             this.cbConsiderDiseaseNo.TabIndex = 33;
@@ -3844,6 +3849,7 @@
             // 
             // tableLayoutPanel4
             // 
+            this.tableLayoutPanel4.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel4.ColumnCount = 3;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -3886,9 +3892,9 @@
             this.panel18.Controls.Add(this.rjLabel209);
             this.panel18.Controls.Add(this.txtVaccineType);
             this.panel18.Controls.Add(this.rjLabel208);
-            this.panel18.Location = new System.Drawing.Point(601, 234);
+            this.panel18.Location = new System.Drawing.Point(600, 240);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(251, 100);
+            this.panel18.Size = new System.Drawing.Size(251, 94);
             this.panel18.TabIndex = 48;
             // 
             // txtBooster
@@ -3954,7 +3960,7 @@
             this.panel17.Controls.Add(this.rjLabel207);
             this.panel17.Controls.Add(this.cbVaccinationCovidYes);
             this.panel17.Controls.Add(this.cbVaccinationCovidNo);
-            this.panel17.Location = new System.Drawing.Point(601, 185);
+            this.panel17.Location = new System.Drawing.Point(600, 190);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(143, 43);
             this.panel17.TabIndex = 49;
@@ -4011,7 +4017,7 @@
             this.panel16.Controls.Add(this.rjLabel205);
             this.panel16.Controls.Add(this.cbHadFeverLast30DaysYes);
             this.panel16.Controls.Add(this.cbHadFeverLast30DaysNo);
-            this.panel16.Location = new System.Drawing.Point(601, 136);
+            this.panel16.Location = new System.Drawing.Point(600, 140);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(143, 43);
             this.panel16.TabIndex = 48;
@@ -4067,7 +4073,7 @@
             this.flowLayoutPanel8.Controls.Add(this.label73);
             this.flowLayoutPanel8.Controls.Add(this.dtCovidDateTest);
             this.flowLayoutPanel8.Controls.Add(this.checkBox106);
-            this.flowLayoutPanel8.Location = new System.Drawing.Point(601, 101);
+            this.flowLayoutPanel8.Location = new System.Drawing.Point(600, 104);
             this.flowLayoutPanel8.Name = "flowLayoutPanel8";
             this.flowLayoutPanel8.Size = new System.Drawing.Size(300, 29);
             this.flowLayoutPanel8.TabIndex = 14;
@@ -4111,7 +4117,7 @@
             this.panel8.Controls.Add(this.rjLabel185);
             this.panel8.Controls.Add(this.cbCovidTestYes);
             this.panel8.Controls.Add(this.cbCovidTestNo);
-            this.panel8.Location = new System.Drawing.Point(601, 52);
+            this.panel8.Location = new System.Drawing.Point(600, 54);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(143, 43);
             this.panel8.TabIndex = 47;
@@ -4167,7 +4173,7 @@
             this.rjLabel74.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel74.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel74.Location = new System.Drawing.Point(23, 98);
+            this.rjLabel74.Location = new System.Drawing.Point(25, 101);
             this.rjLabel74.Name = "rjLabel74";
             this.rjLabel74.Size = new System.Drawing.Size(435, 31);
             this.rjLabel74.TabIndex = 10;
@@ -4180,7 +4186,7 @@
             this.rjLabel75.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel75.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel75.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel75.Location = new System.Drawing.Point(23, 231);
+            this.rjLabel75.Location = new System.Drawing.Point(25, 237);
             this.rjLabel75.Name = "rjLabel75";
             this.rjLabel75.Size = new System.Drawing.Size(459, 48);
             this.rjLabel75.TabIndex = 11;
@@ -4194,7 +4200,7 @@
             this.rjLabel68.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel68.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel68.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel68.Location = new System.Drawing.Point(3, 0);
+            this.rjLabel68.Location = new System.Drawing.Point(4, 1);
             this.rjLabel68.Name = "rjLabel68";
             this.rjLabel68.Size = new System.Drawing.Size(14, 16);
             this.rjLabel68.TabIndex = 0;
@@ -4206,7 +4212,7 @@
             this.rjLabel69.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel69.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel69.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel69.Location = new System.Drawing.Point(3, 49);
+            this.rjLabel69.Location = new System.Drawing.Point(4, 51);
             this.rjLabel69.Name = "rjLabel69";
             this.rjLabel69.Size = new System.Drawing.Size(14, 16);
             this.rjLabel69.TabIndex = 1;
@@ -4218,7 +4224,7 @@
             this.rjLabel70.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel70.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel70.Location = new System.Drawing.Point(3, 98);
+            this.rjLabel70.Location = new System.Drawing.Point(4, 101);
             this.rjLabel70.Name = "rjLabel70";
             this.rjLabel70.Size = new System.Drawing.Size(14, 16);
             this.rjLabel70.TabIndex = 2;
@@ -4230,7 +4236,7 @@
             this.rjLabel71.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel71.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel71.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel71.Location = new System.Drawing.Point(3, 133);
+            this.rjLabel71.Location = new System.Drawing.Point(4, 137);
             this.rjLabel71.Name = "rjLabel71";
             this.rjLabel71.Size = new System.Drawing.Size(14, 16);
             this.rjLabel71.TabIndex = 3;
@@ -4242,7 +4248,7 @@
             this.rjLabel72.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel72.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel72.Location = new System.Drawing.Point(3, 182);
+            this.rjLabel72.Location = new System.Drawing.Point(4, 187);
             this.rjLabel72.Name = "rjLabel72";
             this.rjLabel72.Size = new System.Drawing.Size(14, 16);
             this.rjLabel72.TabIndex = 4;
@@ -4254,7 +4260,7 @@
             this.rjLabel36.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel36.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel36.Location = new System.Drawing.Point(23, 0);
+            this.rjLabel36.Location = new System.Drawing.Point(25, 1);
             this.rjLabel36.Name = "rjLabel36";
             this.rjLabel36.Size = new System.Drawing.Size(454, 32);
             this.rjLabel36.TabIndex = 15;
@@ -4267,7 +4273,7 @@
             this.rjLabel37.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel37.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel37.Location = new System.Drawing.Point(23, 49);
+            this.rjLabel37.Location = new System.Drawing.Point(25, 51);
             this.rjLabel37.Name = "rjLabel37";
             this.rjLabel37.Size = new System.Drawing.Size(209, 16);
             this.rjLabel37.TabIndex = 16;
@@ -4279,7 +4285,7 @@
             this.rjLabel40.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel40.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel40.Location = new System.Drawing.Point(23, 133);
+            this.rjLabel40.Location = new System.Drawing.Point(25, 137);
             this.rjLabel40.Name = "rjLabel40";
             this.rjLabel40.Size = new System.Drawing.Size(430, 32);
             this.rjLabel40.TabIndex = 17;
@@ -4292,7 +4298,7 @@
             this.rjLabel41.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel41.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel41.Location = new System.Drawing.Point(23, 182);
+            this.rjLabel41.Location = new System.Drawing.Point(25, 187);
             this.rjLabel41.Name = "rjLabel41";
             this.rjLabel41.Size = new System.Drawing.Size(306, 16);
             this.rjLabel41.TabIndex = 18;
@@ -4304,7 +4310,7 @@
             this.rjLabel73.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel73.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel73.Location = new System.Drawing.Point(3, 231);
+            this.rjLabel73.Location = new System.Drawing.Point(4, 237);
             this.rjLabel73.Name = "rjLabel73";
             this.rjLabel73.Size = new System.Drawing.Size(14, 16);
             this.rjLabel73.TabIndex = 29;
@@ -4316,7 +4322,7 @@
             this.panel7.Controls.Add(this.rjLabel178);
             this.panel7.Controls.Add(this.cbContactInCovidPositiveYes);
             this.panel7.Controls.Add(this.cbContactInCovidPositiveNo);
-            this.panel7.Location = new System.Drawing.Point(601, 3);
+            this.panel7.Location = new System.Drawing.Point(600, 4);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(143, 43);
             this.panel7.TabIndex = 46;
@@ -4381,6 +4387,7 @@
             // 
             // tableLayoutPanel52
             // 
+            this.tableLayoutPanel52.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel52.ColumnCount = 2;
             this.tableLayoutPanel52.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 476F));
             this.tableLayoutPanel52.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 451F));
@@ -4395,7 +4402,7 @@
             this.tableLayoutPanel52.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel52.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel52.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel52.Size = new System.Drawing.Size(886, 67);
+            this.tableLayoutPanel52.Size = new System.Drawing.Size(886, 56);
             this.tableLayoutPanel52.TabIndex = 17;
             // 
             // rjLabel42
@@ -4403,29 +4410,28 @@
             this.rjLabel42.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel42.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel42.Location = new System.Drawing.Point(3, 0);
+            this.rjLabel42.Location = new System.Drawing.Point(4, 1);
             this.rjLabel42.Name = "rjLabel42";
-            this.rjLabel42.Size = new System.Drawing.Size(470, 37);
+            this.rjLabel42.Size = new System.Drawing.Size(470, 26);
             this.rjLabel42.TabIndex = 0;
-            this.rjLabel42.Text = "Name and signature of person undergoing \r\nexamination:";
+            this.rjLabel42.Text = "Name and signature of person undergoing examination:";
             this.rjLabel42.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // rjLabel44
             // 
             this.rjLabel44.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.rjLabel44.Dock = System.Windows.Forms.DockStyle.Left;
             this.rjLabel44.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel44.Location = new System.Drawing.Point(3, 37);
+            this.rjLabel44.Location = new System.Drawing.Point(4, 28);
             this.rjLabel44.Name = "rjLabel44";
-            this.rjLabel44.Size = new System.Drawing.Size(275, 39);
+            this.rjLabel44.Size = new System.Drawing.Size(275, 26);
             this.rjLabel44.TabIndex = 7;
             this.rjLabel44.Text = "Date:";
             this.rjLabel44.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtPersonundergoingExamination
             // 
-            this.txtPersonundergoingExamination.Location = new System.Drawing.Point(479, 3);
+            this.txtPersonundergoingExamination.Location = new System.Drawing.Point(481, 4);
             this.txtPersonundergoingExamination.Name = "txtPersonundergoingExamination";
             this.txtPersonundergoingExamination.Size = new System.Drawing.Size(353, 20);
             this.txtPersonundergoingExamination.TabIndex = 10;
@@ -4438,7 +4444,7 @@
             this.flowLayoutPanel1.Controls.Add(this.txtStaetementMonth);
             this.flowLayoutPanel1.Controls.Add(this.rjLabel213);
             this.flowLayoutPanel1.Controls.Add(this.txtStaetementYear);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(479, 40);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(481, 31);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(320, 27);
             this.flowLayoutPanel1.TabIndex = 11;
@@ -4951,11 +4957,12 @@
             // 
             // tableLayoutPanel8
             // 
+            this.tableLayoutPanel8.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel8.ColumnCount = 4;
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.18464F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.81535F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 84F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 390F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.25571F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 73.74429F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 159F));
             this.tableLayoutPanel8.Controls.Add(this.rjPanel2, 3, 0);
             this.tableLayoutPanel8.Controls.Add(this.rjLabel100, 0, 4);
             this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel9, 1, 1);
@@ -4977,7 +4984,7 @@
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(898, 161);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(718, 161);
             this.tableLayoutPanel8.TabIndex = 24;
             // 
             // rjPanel2
@@ -4985,9 +4992,9 @@
             this.rjPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(253)))));
             this.rjPanel2.Controls.Add(this.rjLabel98);
             this.rjPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rjPanel2.Location = new System.Drawing.Point(510, 3);
+            this.rjPanel2.Location = new System.Drawing.Point(560, 4);
             this.rjPanel2.Name = "rjPanel2";
-            this.rjPanel2.Size = new System.Drawing.Size(385, 20);
+            this.rjPanel2.Size = new System.Drawing.Size(154, 20);
             this.rjPanel2.TabIndex = 1;
             // 
             // rjLabel98
@@ -5009,11 +5016,11 @@
             this.rjLabel100.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rjLabel100.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel100.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel100.Location = new System.Drawing.Point(3, 125);
+            this.rjLabel100.Location = new System.Drawing.Point(4, 130);
             this.rjLabel100.Name = "rjLabel100";
-            this.rjLabel100.Size = new System.Drawing.Size(66, 36);
+            this.rjLabel100.Size = new System.Drawing.Size(118, 36);
             this.rjLabel100.TabIndex = 3;
-            this.rjLabel100.Text = "Short \r\ndistance";
+            this.rjLabel100.Text = "Short distance";
             this.rjLabel100.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tableLayoutPanel9
@@ -5023,12 +5030,12 @@
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.72816F));
             this.tableLayoutPanel9.Controls.Add(this.rjLabel102, 0, 0);
             this.tableLayoutPanel9.Controls.Add(this.rjLabel103, 1, 0);
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(75, 29);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(129, 31);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
             this.tableLayoutPanel9.RowCount = 1;
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(345, 22);
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(343, 22);
             this.tableLayoutPanel9.TabIndex = 5;
             // 
             // rjLabel102
@@ -5052,7 +5059,7 @@
             this.rjLabel103.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
             this.rjLabel103.Location = new System.Drawing.Point(172, 0);
             this.rjLabel103.Name = "rjLabel103";
-            this.rjLabel103.Size = new System.Drawing.Size(170, 22);
+            this.rjLabel103.Size = new System.Drawing.Size(168, 22);
             this.rjLabel103.TabIndex = 1;
             this.rjLabel103.Text = "Aided";
             this.rjLabel103.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5064,7 +5071,7 @@
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 58.10811F));
             this.tableLayoutPanel10.Controls.Add(this.rjLabel104, 0, 0);
             this.tableLayoutPanel10.Controls.Add(this.rjLabel105, 1, 0);
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(510, 29);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(560, 31);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
             this.tableLayoutPanel10.RowCount = 1;
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -5113,11 +5120,11 @@
             this.tableLayoutPanel11.Controls.Add(this.label35, 4, 0);
             this.tableLayoutPanel11.Controls.Add(this.label36, 5, 0);
             this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(75, 57);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(129, 60);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 1;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(345, 31);
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(343, 31);
             this.tableLayoutPanel11.TabIndex = 7;
             // 
             // label31
@@ -5154,7 +5161,7 @@
             this.label33.ForeColor = System.Drawing.Color.Gray;
             this.label33.Location = new System.Drawing.Point(117, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(56, 31);
+            this.label33.Size = new System.Drawing.Size(55, 31);
             this.label33.TabIndex = 8;
             this.label33.Text = "Bonocular";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5165,7 +5172,7 @@
             this.label34.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.label34.ForeColor = System.Drawing.Color.Gray;
-            this.label34.Location = new System.Drawing.Point(179, 0);
+            this.label34.Location = new System.Drawing.Point(178, 0);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(49, 31);
             this.label34.TabIndex = 9;
@@ -5178,7 +5185,7 @@
             this.label35.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.label35.ForeColor = System.Drawing.Color.Gray;
-            this.label35.Location = new System.Drawing.Point(234, 0);
+            this.label35.Location = new System.Drawing.Point(233, 0);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(47, 31);
             this.label35.TabIndex = 10;
@@ -5191,9 +5198,9 @@
             this.label36.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.label36.ForeColor = System.Drawing.Color.Gray;
-            this.label36.Location = new System.Drawing.Point(287, 0);
+            this.label36.Location = new System.Drawing.Point(286, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(55, 31);
+            this.label36.Size = new System.Drawing.Size(54, 31);
             this.label36.TabIndex = 11;
             this.label36.Text = "Binacular";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5204,9 +5211,9 @@
             this.rjLabel112.Dock = System.Windows.Forms.DockStyle.Top;
             this.rjLabel112.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel112.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel112.Location = new System.Drawing.Point(426, 54);
+            this.rjLabel112.Location = new System.Drawing.Point(479, 57);
             this.rjLabel112.Name = "rjLabel112";
-            this.rjLabel112.Size = new System.Drawing.Size(78, 37);
+            this.rjLabel112.Size = new System.Drawing.Size(74, 37);
             this.rjLabel112.TabIndex = 8;
             this.rjLabel112.Text = "Right  Eye";
             this.rjLabel112.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5217,11 +5224,11 @@
             this.rjLabel113.Dock = System.Windows.Forms.DockStyle.Top;
             this.rjLabel113.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel113.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel113.Location = new System.Drawing.Point(426, 91);
+            this.rjLabel113.Location = new System.Drawing.Point(479, 95);
             this.rjLabel113.Name = "rjLabel113";
-            this.rjLabel113.Size = new System.Drawing.Size(78, 31);
+            this.rjLabel113.Size = new System.Drawing.Size(74, 31);
             this.rjLabel113.TabIndex = 9;
-            this.rjLabel113.Text = "Left\r\n Eye";
+            this.rjLabel113.Text = "Left  Eye";
             this.rjLabel113.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // rjLabel101
@@ -5229,7 +5236,7 @@
             this.rjLabel101.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel101.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel101.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel101.Location = new System.Drawing.Point(3, 91);
+            this.rjLabel101.Location = new System.Drawing.Point(4, 95);
             this.rjLabel101.Name = "rjLabel101";
             this.rjLabel101.Size = new System.Drawing.Size(66, 31);
             this.rjLabel101.TabIndex = 4;
@@ -5241,7 +5248,7 @@
             this.panel1.AutoSize = true;
             this.panel1.Controls.Add(this.txtDefectiveRightEye);
             this.panel1.Controls.Add(this.txtNormalRightEye);
-            this.panel1.Location = new System.Drawing.Point(510, 57);
+            this.panel1.Location = new System.Drawing.Point(560, 60);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(148, 26);
             this.panel1.TabIndex = 12;
@@ -5267,7 +5274,7 @@
             this.panel2.AutoSize = true;
             this.panel2.Controls.Add(this.txtDefectiveLeftEye);
             this.panel2.Controls.Add(this.txtNormalLeftEye);
-            this.panel2.Location = new System.Drawing.Point(510, 94);
+            this.panel2.Location = new System.Drawing.Point(560, 98);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(148, 27);
             this.panel2.TabIndex = 13;
@@ -5292,9 +5299,9 @@
             // 
             this.panel3.Controls.Add(this.rjLabel97);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(75, 3);
+            this.panel3.Location = new System.Drawing.Point(129, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(345, 20);
+            this.panel3.Size = new System.Drawing.Size(343, 20);
             this.panel3.TabIndex = 15;
             // 
             // rjLabel97
@@ -5306,7 +5313,7 @@
             this.rjLabel97.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
             this.rjLabel97.Location = new System.Drawing.Point(0, 0);
             this.rjLabel97.Name = "rjLabel97";
-            this.rjLabel97.Size = new System.Drawing.Size(345, 20);
+            this.rjLabel97.Size = new System.Drawing.Size(343, 20);
             this.rjLabel97.TabIndex = 0;
             this.rjLabel97.Text = "Visual acuity";
             this.rjLabel97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5326,11 +5333,11 @@
             this.tableLayoutPanel13.Controls.Add(this.txtUnAidedBonocularDistant, 2, 0);
             this.tableLayoutPanel13.Controls.Add(this.txtUnAidedLeftEyeDistant, 1, 0);
             this.tableLayoutPanel13.Controls.Add(this.txtUnaidedRightEyeDistant, 0, 0);
-            this.tableLayoutPanel13.Location = new System.Drawing.Point(75, 94);
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(129, 98);
             this.tableLayoutPanel13.Name = "tableLayoutPanel13";
             this.tableLayoutPanel13.RowCount = 1;
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel13.Size = new System.Drawing.Size(345, 28);
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(343, 28);
             this.tableLayoutPanel13.TabIndex = 16;
             // 
             // txtAidedBinocularDistant
@@ -5338,7 +5345,7 @@
             this.txtAidedBinocularDistant.Dock = System.Windows.Forms.DockStyle.Top;
             this.txtAidedBinocularDistant.Location = new System.Drawing.Point(288, 3);
             this.txtAidedBinocularDistant.Name = "txtAidedBinocularDistant";
-            this.txtAidedBinocularDistant.Size = new System.Drawing.Size(54, 20);
+            this.txtAidedBinocularDistant.Size = new System.Drawing.Size(52, 20);
             this.txtAidedBinocularDistant.TabIndex = 5;
             // 
             // txtAidedLeftEyeDistant
@@ -5396,11 +5403,11 @@
             this.tableLayoutPanel14.Controls.Add(this.txtUnAidedBonocularShort, 2, 0);
             this.tableLayoutPanel14.Controls.Add(this.txtUnAidedLeftEyeShort, 1, 0);
             this.tableLayoutPanel14.Controls.Add(this.txtUnaidedRightEyeShort, 0, 0);
-            this.tableLayoutPanel14.Location = new System.Drawing.Point(75, 128);
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(129, 133);
             this.tableLayoutPanel14.Name = "tableLayoutPanel14";
             this.tableLayoutPanel14.RowCount = 1;
             this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel14.Size = new System.Drawing.Size(345, 28);
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(343, 28);
             this.tableLayoutPanel14.TabIndex = 17;
             // 
             // txtAidedBinocularShort
@@ -5408,7 +5415,7 @@
             this.txtAidedBinocularShort.Dock = System.Windows.Forms.DockStyle.Top;
             this.txtAidedBinocularShort.Location = new System.Drawing.Point(288, 3);
             this.txtAidedBinocularShort.Name = "txtAidedBinocularShort";
-            this.txtAidedBinocularShort.Size = new System.Drawing.Size(54, 20);
+            this.txtAidedBinocularShort.Size = new System.Drawing.Size(52, 20);
             this.txtAidedBinocularShort.TabIndex = 5;
             // 
             // txtAidedLeftEyeShort
@@ -5752,6 +5759,7 @@
             // 
             // tableLayoutPanel19
             // 
+            this.tableLayoutPanel19.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel19.ColumnCount = 4;
             this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel19.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -5823,7 +5831,7 @@
             this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel19.Size = new System.Drawing.Size(720, 312);
+            this.tableLayoutPanel19.Size = new System.Drawing.Size(720, 326);
             this.tableLayoutPanel19.TabIndex = 29;
             // 
             // tableLayoutPanel50
@@ -5834,7 +5842,7 @@
             this.tableLayoutPanel50.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel50.Controls.Add(this.cbGeneralAppearance, 1, 0);
             this.tableLayoutPanel50.Controls.Add(this.cbGeneralAppearanceNo, 2, 0);
-            this.tableLayoutPanel50.Location = new System.Drawing.Point(578, 292);
+            this.tableLayoutPanel50.Location = new System.Drawing.Point(576, 305);
             this.tableLayoutPanel50.Name = "tableLayoutPanel50";
             this.tableLayoutPanel50.RowCount = 1;
             this.tableLayoutPanel50.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -5871,7 +5879,7 @@
             this.tableLayoutPanel49.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel49.Controls.Add(this.cbPsychiatric, 1, 0);
             this.tableLayoutPanel49.Controls.Add(this.cbPsychiatricNo, 2, 0);
-            this.tableLayoutPanel49.Location = new System.Drawing.Point(578, 268);
+            this.tableLayoutPanel49.Location = new System.Drawing.Point(576, 280);
             this.tableLayoutPanel49.Name = "tableLayoutPanel49";
             this.tableLayoutPanel49.RowCount = 1;
             this.tableLayoutPanel49.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -5908,7 +5916,7 @@
             this.tableLayoutPanel48.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel48.Controls.Add(this.cbNeurologic, 1, 0);
             this.tableLayoutPanel48.Controls.Add(this.cbNeurologicNo, 2, 0);
-            this.tableLayoutPanel48.Location = new System.Drawing.Point(578, 244);
+            this.tableLayoutPanel48.Location = new System.Drawing.Point(576, 255);
             this.tableLayoutPanel48.Name = "tableLayoutPanel48";
             this.tableLayoutPanel48.RowCount = 1;
             this.tableLayoutPanel48.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -5945,7 +5953,7 @@
             this.tableLayoutPanel47.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel47.Controls.Add(this.cbSpine, 1, 0);
             this.tableLayoutPanel47.Controls.Add(this.cbSpineNo, 2, 0);
-            this.tableLayoutPanel47.Location = new System.Drawing.Point(578, 211);
+            this.tableLayoutPanel47.Location = new System.Drawing.Point(576, 221);
             this.tableLayoutPanel47.Name = "tableLayoutPanel47";
             this.tableLayoutPanel47.RowCount = 1;
             this.tableLayoutPanel47.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -5982,7 +5990,7 @@
             this.tableLayoutPanel46.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel46.Controls.Add(this.cbUpper, 1, 0);
             this.tableLayoutPanel46.Controls.Add(this.cbUpperNo, 2, 0);
-            this.tableLayoutPanel46.Location = new System.Drawing.Point(578, 187);
+            this.tableLayoutPanel46.Location = new System.Drawing.Point(576, 196);
             this.tableLayoutPanel46.Name = "tableLayoutPanel46";
             this.tableLayoutPanel46.RowCount = 1;
             this.tableLayoutPanel46.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6019,7 +6027,7 @@
             this.tableLayoutPanel45.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel45.Controls.Add(this.cbGu, 1, 0);
             this.tableLayoutPanel45.Controls.Add(this.cbGuNo, 2, 0);
-            this.tableLayoutPanel45.Location = new System.Drawing.Point(578, 163);
+            this.tableLayoutPanel45.Location = new System.Drawing.Point(576, 171);
             this.tableLayoutPanel45.Name = "tableLayoutPanel45";
             this.tableLayoutPanel45.RowCount = 1;
             this.tableLayoutPanel45.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6056,7 +6064,7 @@
             this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel44.Controls.Add(this.cbAnus, 1, 0);
             this.tableLayoutPanel44.Controls.Add(this.cbAnusNo, 2, 0);
-            this.tableLayoutPanel44.Location = new System.Drawing.Point(578, 139);
+            this.tableLayoutPanel44.Location = new System.Drawing.Point(576, 146);
             this.tableLayoutPanel44.Name = "tableLayoutPanel44";
             this.tableLayoutPanel44.RowCount = 1;
             this.tableLayoutPanel44.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6093,7 +6101,7 @@
             this.tableLayoutPanel43.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel43.Controls.Add(this.cbHernias, 1, 0);
             this.tableLayoutPanel43.Controls.Add(this.cbHerniasNo, 2, 0);
-            this.tableLayoutPanel43.Location = new System.Drawing.Point(578, 115);
+            this.tableLayoutPanel43.Location = new System.Drawing.Point(576, 121);
             this.tableLayoutPanel43.Name = "tableLayoutPanel43";
             this.tableLayoutPanel43.RowCount = 1;
             this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6130,7 +6138,7 @@
             this.tableLayoutPanel42.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel42.Controls.Add(this.cbAbnomen, 1, 0);
             this.tableLayoutPanel42.Controls.Add(this.cbAbnomenNo, 2, 0);
-            this.tableLayoutPanel42.Location = new System.Drawing.Point(578, 91);
+            this.tableLayoutPanel42.Location = new System.Drawing.Point(576, 96);
             this.tableLayoutPanel42.Name = "tableLayoutPanel42";
             this.tableLayoutPanel42.RowCount = 1;
             this.tableLayoutPanel42.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6167,7 +6175,7 @@
             this.tableLayoutPanel41.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel41.Controls.Add(this.cbVascular, 1, 0);
             this.tableLayoutPanel41.Controls.Add(this.cbVascularNo, 2, 0);
-            this.tableLayoutPanel41.Location = new System.Drawing.Point(578, 67);
+            this.tableLayoutPanel41.Location = new System.Drawing.Point(576, 71);
             this.tableLayoutPanel41.Name = "tableLayoutPanel41";
             this.tableLayoutPanel41.RowCount = 1;
             this.tableLayoutPanel41.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6204,7 +6212,7 @@
             this.tableLayoutPanel40.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel40.Controls.Add(this.cbVaricoseVenis, 1, 0);
             this.tableLayoutPanel40.Controls.Add(this.cbVaricoseVenisNo, 2, 0);
-            this.tableLayoutPanel40.Location = new System.Drawing.Point(578, 43);
+            this.tableLayoutPanel40.Location = new System.Drawing.Point(576, 46);
             this.tableLayoutPanel40.Name = "tableLayoutPanel40";
             this.tableLayoutPanel40.RowCount = 1;
             this.tableLayoutPanel40.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6241,7 +6249,7 @@
             this.tableLayoutPanel38.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel38.Controls.Add(this.cbHeart, 1, 0);
             this.tableLayoutPanel38.Controls.Add(this.cbHeartNo, 2, 0);
-            this.tableLayoutPanel38.Location = new System.Drawing.Point(218, 292);
+            this.tableLayoutPanel38.Location = new System.Drawing.Point(217, 305);
             this.tableLayoutPanel38.Name = "tableLayoutPanel38";
             this.tableLayoutPanel38.RowCount = 1;
             this.tableLayoutPanel38.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6278,7 +6286,7 @@
             this.tableLayoutPanel37.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel37.Controls.Add(this.cbBreast, 1, 0);
             this.tableLayoutPanel37.Controls.Add(this.cbBreastNo, 2, 0);
-            this.tableLayoutPanel37.Location = new System.Drawing.Point(218, 268);
+            this.tableLayoutPanel37.Location = new System.Drawing.Point(217, 280);
             this.tableLayoutPanel37.Name = "tableLayoutPanel37";
             this.tableLayoutPanel37.RowCount = 1;
             this.tableLayoutPanel37.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6315,7 +6323,7 @@
             this.tableLayoutPanel36.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel36.Controls.Add(this.cbLungs, 1, 0);
             this.tableLayoutPanel36.Controls.Add(this.cbLungsNo, 2, 0);
-            this.tableLayoutPanel36.Location = new System.Drawing.Point(218, 244);
+            this.tableLayoutPanel36.Location = new System.Drawing.Point(217, 255);
             this.tableLayoutPanel36.Name = "tableLayoutPanel36";
             this.tableLayoutPanel36.RowCount = 1;
             this.tableLayoutPanel36.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6352,7 +6360,7 @@
             this.tableLayoutPanel35.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel35.Controls.Add(this.cbEyeMovement, 1, 0);
             this.tableLayoutPanel35.Controls.Add(this.cbEyeMovementNo, 2, 0);
-            this.tableLayoutPanel35.Location = new System.Drawing.Point(218, 211);
+            this.tableLayoutPanel35.Location = new System.Drawing.Point(217, 221);
             this.tableLayoutPanel35.Name = "tableLayoutPanel35";
             this.tableLayoutPanel35.RowCount = 1;
             this.tableLayoutPanel35.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6389,7 +6397,7 @@
             this.tableLayoutPanel34.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel34.Controls.Add(this.cbOfThalmoscopy, 1, 0);
             this.tableLayoutPanel34.Controls.Add(this.cbOfThalmoscopyNo, 2, 0);
-            this.tableLayoutPanel34.Location = new System.Drawing.Point(218, 187);
+            this.tableLayoutPanel34.Location = new System.Drawing.Point(217, 196);
             this.tableLayoutPanel34.Name = "tableLayoutPanel34";
             this.tableLayoutPanel34.RowCount = 1;
             this.tableLayoutPanel34.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6426,7 +6434,7 @@
             this.tableLayoutPanel33.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel33.Controls.Add(this.cbPupils, 1, 0);
             this.tableLayoutPanel33.Controls.Add(this.cbPupilsNo, 2, 0);
-            this.tableLayoutPanel33.Location = new System.Drawing.Point(218, 163);
+            this.tableLayoutPanel33.Location = new System.Drawing.Point(217, 171);
             this.tableLayoutPanel33.Name = "tableLayoutPanel33";
             this.tableLayoutPanel33.RowCount = 1;
             this.tableLayoutPanel33.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6463,7 +6471,7 @@
             this.tableLayoutPanel32.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel32.Controls.Add(this.cbEyes, 1, 0);
             this.tableLayoutPanel32.Controls.Add(this.cbEyesNo, 2, 0);
-            this.tableLayoutPanel32.Location = new System.Drawing.Point(218, 139);
+            this.tableLayoutPanel32.Location = new System.Drawing.Point(217, 146);
             this.tableLayoutPanel32.Name = "tableLayoutPanel32";
             this.tableLayoutPanel32.RowCount = 1;
             this.tableLayoutPanel32.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6500,7 +6508,7 @@
             this.tableLayoutPanel31.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel31.Controls.Add(this.cbTympanic, 1, 0);
             this.tableLayoutPanel31.Controls.Add(this.cbTympanicNo, 2, 0);
-            this.tableLayoutPanel31.Location = new System.Drawing.Point(218, 115);
+            this.tableLayoutPanel31.Location = new System.Drawing.Point(217, 121);
             this.tableLayoutPanel31.Name = "tableLayoutPanel31";
             this.tableLayoutPanel31.RowCount = 1;
             this.tableLayoutPanel31.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6537,7 +6545,7 @@
             this.tableLayoutPanel30.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel30.Controls.Add(this.cbEars, 1, 0);
             this.tableLayoutPanel30.Controls.Add(this.cbEarsNo, 2, 0);
-            this.tableLayoutPanel30.Location = new System.Drawing.Point(218, 91);
+            this.tableLayoutPanel30.Location = new System.Drawing.Point(217, 96);
             this.tableLayoutPanel30.Name = "tableLayoutPanel30";
             this.tableLayoutPanel30.RowCount = 1;
             this.tableLayoutPanel30.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6574,7 +6582,7 @@
             this.tableLayoutPanel29.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel29.Controls.Add(this.cbDental, 1, 0);
             this.tableLayoutPanel29.Controls.Add(this.cbDentalNo, 2, 0);
-            this.tableLayoutPanel29.Location = new System.Drawing.Point(218, 67);
+            this.tableLayoutPanel29.Location = new System.Drawing.Point(217, 71);
             this.tableLayoutPanel29.Name = "tableLayoutPanel29";
             this.tableLayoutPanel29.RowCount = 1;
             this.tableLayoutPanel29.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6609,7 +6617,7 @@
             this.rjLabel124.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel124.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel124.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel124.Location = new System.Drawing.Point(218, 0);
+            this.rjLabel124.Location = new System.Drawing.Point(217, 1);
             this.rjLabel124.Name = "rjLabel124";
             this.rjLabel124.Size = new System.Drawing.Size(139, 16);
             this.rjLabel124.TabIndex = 0;
@@ -6621,7 +6629,7 @@
             this.rjLabel126.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel126.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel126.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel126.Location = new System.Drawing.Point(578, 0);
+            this.rjLabel126.Location = new System.Drawing.Point(576, 1);
             this.rjLabel126.Name = "rjLabel126";
             this.rjLabel126.Size = new System.Drawing.Size(139, 16);
             this.rjLabel126.TabIndex = 2;
@@ -6632,7 +6640,7 @@
             this.rjLabel128.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel128.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel128.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel128.Location = new System.Drawing.Point(3, 16);
+            this.rjLabel128.Location = new System.Drawing.Point(4, 18);
             this.rjLabel128.Name = "rjLabel128";
             this.rjLabel128.Size = new System.Drawing.Size(41, 20);
             this.rjLabel128.TabIndex = 4;
@@ -6644,7 +6652,7 @@
             this.rjLabel129.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel129.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel129.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel129.Location = new System.Drawing.Point(3, 40);
+            this.rjLabel129.Location = new System.Drawing.Point(4, 43);
             this.rjLabel129.Name = "rjLabel129";
             this.rjLabel129.Size = new System.Drawing.Size(145, 20);
             this.rjLabel129.TabIndex = 5;
@@ -6656,7 +6664,7 @@
             this.rjLabel130.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel130.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel130.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel130.Location = new System.Drawing.Point(3, 64);
+            this.rjLabel130.Location = new System.Drawing.Point(4, 68);
             this.rjLabel130.Name = "rjLabel130";
             this.rjLabel130.Size = new System.Drawing.Size(89, 20);
             this.rjLabel130.TabIndex = 6;
@@ -6668,7 +6676,7 @@
             this.rjLabel131.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel131.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel131.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel131.Location = new System.Drawing.Point(3, 88);
+            this.rjLabel131.Location = new System.Drawing.Point(4, 93);
             this.rjLabel131.Name = "rjLabel131";
             this.rjLabel131.Size = new System.Drawing.Size(101, 20);
             this.rjLabel131.TabIndex = 7;
@@ -6680,7 +6688,7 @@
             this.rjLabel132.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel132.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel132.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel132.Location = new System.Drawing.Point(3, 112);
+            this.rjLabel132.Location = new System.Drawing.Point(4, 118);
             this.rjLabel132.Name = "rjLabel132";
             this.rjLabel132.Size = new System.Drawing.Size(142, 20);
             this.rjLabel132.TabIndex = 8;
@@ -6692,7 +6700,7 @@
             this.rjLabel133.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel133.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel133.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel133.Location = new System.Drawing.Point(3, 136);
+            this.rjLabel133.Location = new System.Drawing.Point(4, 143);
             this.rjLabel133.Name = "rjLabel133";
             this.rjLabel133.Size = new System.Drawing.Size(39, 20);
             this.rjLabel133.TabIndex = 9;
@@ -6704,7 +6712,7 @@
             this.rjLabel134.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel134.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel134.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel134.Location = new System.Drawing.Point(3, 160);
+            this.rjLabel134.Location = new System.Drawing.Point(4, 168);
             this.rjLabel134.Name = "rjLabel134";
             this.rjLabel134.Size = new System.Drawing.Size(45, 20);
             this.rjLabel134.TabIndex = 10;
@@ -6716,7 +6724,7 @@
             this.rjLabel135.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel135.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel135.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel135.Location = new System.Drawing.Point(3, 184);
+            this.rjLabel135.Location = new System.Drawing.Point(4, 193);
             this.rjLabel135.Name = "rjLabel135";
             this.rjLabel135.Size = new System.Drawing.Size(106, 20);
             this.rjLabel135.TabIndex = 11;
@@ -6728,7 +6736,7 @@
             this.rjLabel136.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel136.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel136.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel136.Location = new System.Drawing.Point(3, 208);
+            this.rjLabel136.Location = new System.Drawing.Point(4, 218);
             this.rjLabel136.Name = "rjLabel136";
             this.rjLabel136.Size = new System.Drawing.Size(110, 20);
             this.rjLabel136.TabIndex = 12;
@@ -6740,7 +6748,7 @@
             this.rjLabel137.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel137.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel137.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel137.Location = new System.Drawing.Point(3, 241);
+            this.rjLabel137.Location = new System.Drawing.Point(4, 252);
             this.rjLabel137.Name = "rjLabel137";
             this.rjLabel137.Size = new System.Drawing.Size(123, 20);
             this.rjLabel137.TabIndex = 13;
@@ -6752,7 +6760,7 @@
             this.rjLabel138.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel138.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel138.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel138.Location = new System.Drawing.Point(3, 265);
+            this.rjLabel138.Location = new System.Drawing.Point(4, 277);
             this.rjLabel138.Name = "rjLabel138";
             this.rjLabel138.Size = new System.Drawing.Size(138, 20);
             this.rjLabel138.TabIndex = 14;
@@ -6764,7 +6772,7 @@
             this.rjLabel139.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel139.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel139.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel139.Location = new System.Drawing.Point(3, 289);
+            this.rjLabel139.Location = new System.Drawing.Point(4, 302);
             this.rjLabel139.Name = "rjLabel139";
             this.rjLabel139.Size = new System.Drawing.Size(44, 20);
             this.rjLabel139.TabIndex = 15;
@@ -6776,7 +6784,7 @@
             this.rjLabel140.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel140.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel140.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel140.Location = new System.Drawing.Point(363, 16);
+            this.rjLabel140.Location = new System.Drawing.Point(363, 18);
             this.rjLabel140.Name = "rjLabel140";
             this.rjLabel140.Size = new System.Drawing.Size(35, 20);
             this.rjLabel140.TabIndex = 16;
@@ -6788,7 +6796,7 @@
             this.rjLabel141.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel141.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel141.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel141.Location = new System.Drawing.Point(363, 40);
+            this.rjLabel141.Location = new System.Drawing.Point(363, 43);
             this.rjLabel141.Name = "rjLabel141";
             this.rjLabel141.Size = new System.Drawing.Size(102, 20);
             this.rjLabel141.TabIndex = 17;
@@ -6800,9 +6808,9 @@
             this.rjLabel142.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel142.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel142.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel142.Location = new System.Drawing.Point(363, 64);
+            this.rjLabel142.Location = new System.Drawing.Point(363, 68);
             this.rjLabel142.Name = "rjLabel142";
-            this.rjLabel142.Size = new System.Drawing.Size(209, 20);
+            this.rjLabel142.Size = new System.Drawing.Size(206, 20);
             this.rjLabel142.TabIndex = 18;
             this.rjLabel142.Text = "Vascular (inc. Pedal pulses) ";
             this.rjLabel142.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -6812,7 +6820,7 @@
             this.rjLabel143.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel143.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel143.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel143.Location = new System.Drawing.Point(363, 88);
+            this.rjLabel143.Location = new System.Drawing.Point(363, 93);
             this.rjLabel143.Name = "rjLabel143";
             this.rjLabel143.Size = new System.Drawing.Size(154, 20);
             this.rjLabel143.TabIndex = 19;
@@ -6824,7 +6832,7 @@
             this.rjLabel144.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel144.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel144.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel144.Location = new System.Drawing.Point(363, 112);
+            this.rjLabel144.Location = new System.Drawing.Point(363, 118);
             this.rjLabel144.Name = "rjLabel144";
             this.rjLabel144.Size = new System.Drawing.Size(56, 20);
             this.rjLabel144.TabIndex = 20;
@@ -6836,7 +6844,7 @@
             this.rjLabel145.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel145.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel145.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel145.Location = new System.Drawing.Point(363, 136);
+            this.rjLabel145.Location = new System.Drawing.Point(363, 143);
             this.rjLabel145.Name = "rjLabel145";
             this.rjLabel145.Size = new System.Drawing.Size(166, 20);
             this.rjLabel145.TabIndex = 21;
@@ -6848,7 +6856,7 @@
             this.rjLabel146.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel146.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel146.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel146.Location = new System.Drawing.Point(363, 160);
+            this.rjLabel146.Location = new System.Drawing.Point(363, 168);
             this.rjLabel146.Name = "rjLabel146";
             this.rjLabel146.Size = new System.Drawing.Size(85, 20);
             this.rjLabel146.TabIndex = 22;
@@ -6860,9 +6868,9 @@
             this.rjLabel147.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel147.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel147.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel147.Location = new System.Drawing.Point(363, 184);
+            this.rjLabel147.Location = new System.Drawing.Point(363, 193);
             this.rjLabel147.Name = "rjLabel147";
-            this.rjLabel147.Size = new System.Drawing.Size(209, 20);
+            this.rjLabel147.Size = new System.Drawing.Size(206, 20);
             this.rjLabel147.TabIndex = 23;
             this.rjLabel147.Text = "Upper and lower extremities";
             this.rjLabel147.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -6872,7 +6880,7 @@
             this.rjLabel148.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel148.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel148.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel148.Location = new System.Drawing.Point(363, 208);
+            this.rjLabel148.Location = new System.Drawing.Point(363, 218);
             this.rjLabel148.Name = "rjLabel148";
             this.rjLabel148.Size = new System.Drawing.Size(187, 33);
             this.rjLabel148.TabIndex = 24;
@@ -6884,7 +6892,7 @@
             this.rjLabel149.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel149.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel149.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel149.Location = new System.Drawing.Point(363, 241);
+            this.rjLabel149.Location = new System.Drawing.Point(363, 252);
             this.rjLabel149.Name = "rjLabel149";
             this.rjLabel149.Size = new System.Drawing.Size(152, 20);
             this.rjLabel149.TabIndex = 25;
@@ -6896,7 +6904,7 @@
             this.rjLabel150.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel150.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel150.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel150.Location = new System.Drawing.Point(363, 265);
+            this.rjLabel150.Location = new System.Drawing.Point(363, 277);
             this.rjLabel150.Name = "rjLabel150";
             this.rjLabel150.Size = new System.Drawing.Size(80, 20);
             this.rjLabel150.TabIndex = 26;
@@ -6908,7 +6916,7 @@
             this.rjLabel151.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel151.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel151.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel151.Location = new System.Drawing.Point(363, 289);
+            this.rjLabel151.Location = new System.Drawing.Point(363, 302);
             this.rjLabel151.Name = "rjLabel151";
             this.rjLabel151.Size = new System.Drawing.Size(139, 20);
             this.rjLabel151.TabIndex = 27;
@@ -6923,7 +6931,7 @@
             this.tableLayoutPanel27.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.05846F));
             this.tableLayoutPanel27.Controls.Add(this.cbHeadYes, 1, 0);
             this.tableLayoutPanel27.Controls.Add(this.cbHeadNo, 2, 0);
-            this.tableLayoutPanel27.Location = new System.Drawing.Point(218, 19);
+            this.tableLayoutPanel27.Location = new System.Drawing.Point(217, 21);
             this.tableLayoutPanel27.Name = "tableLayoutPanel27";
             this.tableLayoutPanel27.RowCount = 1;
             this.tableLayoutPanel27.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6960,7 +6968,7 @@
             this.tableLayoutPanel28.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel28.Controls.Add(this.cbMouthYes, 1, 0);
             this.tableLayoutPanel28.Controls.Add(this.cbMouthNo, 2, 0);
-            this.tableLayoutPanel28.Location = new System.Drawing.Point(218, 43);
+            this.tableLayoutPanel28.Location = new System.Drawing.Point(217, 46);
             this.tableLayoutPanel28.Name = "tableLayoutPanel28";
             this.tableLayoutPanel28.RowCount = 1;
             this.tableLayoutPanel28.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -6997,7 +7005,7 @@
             this.tableLayoutPanel39.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.06F));
             this.tableLayoutPanel39.Controls.Add(this.cbSkin, 1, 0);
             this.tableLayoutPanel39.Controls.Add(this.cbSkinNo, 2, 0);
-            this.tableLayoutPanel39.Location = new System.Drawing.Point(578, 19);
+            this.tableLayoutPanel39.Location = new System.Drawing.Point(576, 21);
             this.tableLayoutPanel39.Name = "tableLayoutPanel39";
             this.tableLayoutPanel39.RowCount = 1;
             this.tableLayoutPanel39.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -7060,6 +7068,7 @@
             // 
             // tableLayoutPanel53
             // 
+            this.tableLayoutPanel53.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel53.ColumnCount = 1;
             this.tableLayoutPanel53.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel53.Controls.Add(this.rjLabel46, 0, 0);
@@ -7081,9 +7090,9 @@
             this.rjLabel46.Dock = System.Windows.Forms.DockStyle.Top;
             this.rjLabel46.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel46.Location = new System.Drawing.Point(3, 0);
+            this.rjLabel46.Location = new System.Drawing.Point(4, 1);
             this.rjLabel46.Name = "rjLabel46";
-            this.rjLabel46.Size = new System.Drawing.Size(720, 19);
+            this.rjLabel46.Size = new System.Drawing.Size(718, 19);
             this.rjLabel46.TabIndex = 0;
             this.rjLabel46.Text = "LABORATORY TEST";
             this.rjLabel46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -7093,17 +7102,17 @@
             this.tableLayoutPanel54.ColumnCount = 4;
             this.tableLayoutPanel54.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90.19073F));
             this.tableLayoutPanel54.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.809264F));
-            this.tableLayoutPanel54.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 173F));
-            this.tableLayoutPanel54.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 302F));
+            this.tableLayoutPanel54.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 166F));
+            this.tableLayoutPanel54.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 303F));
             this.tableLayoutPanel54.Controls.Add(this.label61, 0, 0);
             this.tableLayoutPanel54.Controls.Add(this.label62, 2, 0);
             this.tableLayoutPanel54.Controls.Add(this.label67, 3, 0);
             this.tableLayoutPanel54.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel54.Location = new System.Drawing.Point(3, 22);
+            this.tableLayoutPanel54.Location = new System.Drawing.Point(4, 24);
             this.tableLayoutPanel54.Name = "tableLayoutPanel54";
             this.tableLayoutPanel54.RowCount = 1;
             this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel54.Size = new System.Drawing.Size(720, 18);
+            this.tableLayoutPanel54.Size = new System.Drawing.Size(718, 18);
             this.tableLayoutPanel54.TabIndex = 1;
             // 
             // label61
@@ -7113,7 +7122,7 @@
             this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
             this.label61.Location = new System.Drawing.Point(3, 0);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(214, 16);
+            this.label61.Size = new System.Drawing.Size(218, 16);
             this.label61.TabIndex = 0;
             this.label61.Text = "CATEGORY";
             this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -7123,9 +7132,9 @@
             this.label62.Dock = System.Windows.Forms.DockStyle.Top;
             this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label62.Location = new System.Drawing.Point(247, 0);
+            this.label62.Location = new System.Drawing.Point(251, 0);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(167, 18);
+            this.label62.Size = new System.Drawing.Size(160, 18);
             this.label62.TabIndex = 1;
             this.label62.Text = "RESULTS";
             this.label62.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -7136,15 +7145,16 @@
             this.label67.Dock = System.Windows.Forms.DockStyle.Top;
             this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label67.Location = new System.Drawing.Point(420, 0);
+            this.label67.Location = new System.Drawing.Point(417, 0);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(297, 16);
+            this.label67.Size = new System.Drawing.Size(298, 16);
             this.label67.TabIndex = 2;
             this.label67.Text = "OBSERVATIONS";
             this.label67.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // tableLayoutPanel55
             // 
+            this.tableLayoutPanel55.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel55.ColumnCount = 5;
             this.tableLayoutPanel55.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel55.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 25F));
@@ -7159,13 +7169,13 @@
             this.tableLayoutPanel55.Controls.Add(this.txtHemogramNormal, 2, 2);
             this.tableLayoutPanel55.Controls.Add(this.cbHemogram, 1, 2);
             this.tableLayoutPanel55.Controls.Add(this.rjLabel174, 0, 2);
-            this.tableLayoutPanel55.Location = new System.Drawing.Point(3, 46);
+            this.tableLayoutPanel55.Location = new System.Drawing.Point(4, 49);
             this.tableLayoutPanel55.Name = "tableLayoutPanel55";
             this.tableLayoutPanel55.RowCount = 3;
             this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel55.Size = new System.Drawing.Size(720, 80);
+            this.tableLayoutPanel55.Size = new System.Drawing.Size(718, 80);
             this.tableLayoutPanel55.TabIndex = 2;
             this.tableLayoutPanel55.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel55_Paint);
             // 
@@ -7175,7 +7185,7 @@
             this.rjLabel79.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel79.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel79.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel79.Location = new System.Drawing.Point(3, 20);
+            this.rjLabel79.Location = new System.Drawing.Point(4, 22);
             this.rjLabel79.Name = "rjLabel79";
             this.rjLabel79.Size = new System.Drawing.Size(108, 16);
             this.rjLabel79.TabIndex = 2;
@@ -7185,7 +7195,7 @@
             // 
             this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label69.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label69.Location = new System.Drawing.Point(366, 0);
+            this.label69.Location = new System.Drawing.Point(362, 1);
             this.label69.Name = "label69";
             this.label69.Size = new System.Drawing.Size(104, 20);
             this.label69.TabIndex = 1;
@@ -7196,7 +7206,7 @@
             // 
             this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label68.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label68.Location = new System.Drawing.Point(256, 0);
+            this.label68.Location = new System.Drawing.Point(251, 1);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(104, 20);
             this.label68.TabIndex = 0;
@@ -7205,7 +7215,7 @@
             // 
             // txtHemogramOservation
             // 
-            this.txtHemogramOservation.Location = new System.Drawing.Point(476, 53);
+            this.txtHemogramOservation.Location = new System.Drawing.Point(473, 56);
             this.txtHemogramOservation.Name = "txtHemogramOservation";
             this.txtHemogramOservation.Size = new System.Drawing.Size(228, 20);
             this.txtHemogramOservation.TabIndex = 96;
@@ -7213,7 +7223,7 @@
             // 
             // txtHemogramAbNormal
             // 
-            this.txtHemogramAbNormal.Location = new System.Drawing.Point(366, 53);
+            this.txtHemogramAbNormal.Location = new System.Drawing.Point(362, 56);
             this.txtHemogramAbNormal.Name = "txtHemogramAbNormal";
             this.txtHemogramAbNormal.Size = new System.Drawing.Size(104, 20);
             this.txtHemogramAbNormal.TabIndex = 74;
@@ -7221,7 +7231,7 @@
             // 
             // txtHemogramNormal
             // 
-            this.txtHemogramNormal.Location = new System.Drawing.Point(256, 53);
+            this.txtHemogramNormal.Location = new System.Drawing.Point(251, 56);
             this.txtHemogramNormal.Name = "txtHemogramNormal";
             this.txtHemogramNormal.Size = new System.Drawing.Size(104, 20);
             this.txtHemogramNormal.TabIndex = 52;
@@ -7233,7 +7243,7 @@
             this.cbHemogram.Checked = true;
             this.cbHemogram.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbHemogram.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbHemogram.Location = new System.Drawing.Point(231, 53);
+            this.cbHemogram.Location = new System.Drawing.Point(225, 56);
             this.cbHemogram.Name = "cbHemogram";
             this.cbHemogram.Size = new System.Drawing.Size(19, 17);
             this.cbHemogram.TabIndex = 28;
@@ -7246,7 +7256,7 @@
             this.rjLabel174.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel174.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel174.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel174.Location = new System.Drawing.Point(3, 50);
+            this.rjLabel174.Location = new System.Drawing.Point(4, 53);
             this.rjLabel174.Name = "rjLabel174";
             this.rjLabel174.Size = new System.Drawing.Size(76, 16);
             this.rjLabel174.TabIndex = 97;
@@ -7263,11 +7273,12 @@
             this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel15.Size = new System.Drawing.Size(726, 503);
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(726, 517);
             this.tableLayoutPanel15.TabIndex = 33;
             // 
             // tableLayoutPanel21
             // 
+            this.tableLayoutPanel21.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel21.ColumnCount = 5;
             this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 25F));
@@ -7371,7 +7382,7 @@
             this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel21.Size = new System.Drawing.Size(720, 497);
+            this.tableLayoutPanel21.Size = new System.Drawing.Size(720, 509);
             this.tableLayoutPanel21.TabIndex = 2;
             // 
             // rjLabel170
@@ -7380,7 +7391,7 @@
             this.rjLabel170.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel170.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel170.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel170.Location = new System.Drawing.Point(3, 412);
+            this.rjLabel170.Location = new System.Drawing.Point(4, 429);
             this.rjLabel170.Name = "rjLabel170";
             this.rjLabel170.Size = new System.Drawing.Size(127, 16);
             this.rjLabel170.TabIndex = 19;
@@ -7392,7 +7403,7 @@
             this.rjLabel168.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel168.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel168.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel168.Location = new System.Drawing.Point(3, 361);
+            this.rjLabel168.Location = new System.Drawing.Point(4, 376);
             this.rjLabel168.Name = "rjLabel168";
             this.rjLabel168.Size = new System.Drawing.Size(131, 16);
             this.rjLabel168.TabIndex = 17;
@@ -7404,7 +7415,7 @@
             this.rjLabel166.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel166.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel166.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel166.Location = new System.Drawing.Point(3, 310);
+            this.rjLabel166.Location = new System.Drawing.Point(4, 323);
             this.rjLabel166.Name = "rjLabel166";
             this.rjLabel166.Size = new System.Drawing.Size(95, 16);
             this.rjLabel166.TabIndex = 15;
@@ -7416,7 +7427,7 @@
             this.rjLabel162.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel162.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel162.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel162.Location = new System.Drawing.Point(3, 207);
+            this.rjLabel162.Location = new System.Drawing.Point(4, 216);
             this.rjLabel162.Name = "rjLabel162";
             this.rjLabel162.Size = new System.Drawing.Size(85, 16);
             this.rjLabel162.TabIndex = 11;
@@ -7428,7 +7439,7 @@
             this.rjLabel153.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel153.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel153.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel153.Location = new System.Drawing.Point(3, 0);
+            this.rjLabel153.Location = new System.Drawing.Point(4, 1);
             this.rjLabel153.Name = "rjLabel153";
             this.rjLabel153.Size = new System.Drawing.Size(146, 16);
             this.rjLabel153.TabIndex = 2;
@@ -7436,7 +7447,7 @@
             // 
             // txtLipidObservation
             // 
-            this.txtLipidObservation.Location = new System.Drawing.Point(476, 28);
+            this.txtLipidObservation.Location = new System.Drawing.Point(475, 30);
             this.txtLipidObservation.Name = "txtLipidObservation";
             this.txtLipidObservation.Size = new System.Drawing.Size(234, 20);
             this.txtLipidObservation.TabIndex = 97;
@@ -7444,7 +7455,7 @@
             // 
             // txtLipidAbNormal
             // 
-            this.txtLipidAbNormal.Location = new System.Drawing.Point(366, 28);
+            this.txtLipidAbNormal.Location = new System.Drawing.Point(364, 30);
             this.txtLipidAbNormal.Name = "txtLipidAbNormal";
             this.txtLipidAbNormal.Size = new System.Drawing.Size(104, 20);
             this.txtLipidAbNormal.TabIndex = 75;
@@ -7452,7 +7463,7 @@
             // 
             // txtLipidNormal
             // 
-            this.txtLipidNormal.Location = new System.Drawing.Point(256, 28);
+            this.txtLipidNormal.Location = new System.Drawing.Point(253, 30);
             this.txtLipidNormal.Name = "txtLipidNormal";
             this.txtLipidNormal.Size = new System.Drawing.Size(104, 20);
             this.txtLipidNormal.TabIndex = 53;
@@ -7460,7 +7471,7 @@
             // 
             // txtCreatinineObservation
             // 
-            this.txtCreatinineObservation.Location = new System.Drawing.Point(476, 54);
+            this.txtCreatinineObservation.Location = new System.Drawing.Point(475, 57);
             this.txtCreatinineObservation.Name = "txtCreatinineObservation";
             this.txtCreatinineObservation.Size = new System.Drawing.Size(234, 20);
             this.txtCreatinineObservation.TabIndex = 98;
@@ -7468,7 +7479,7 @@
             // 
             // txtCreatinineAbnormal
             // 
-            this.txtCreatinineAbnormal.Location = new System.Drawing.Point(366, 54);
+            this.txtCreatinineAbnormal.Location = new System.Drawing.Point(364, 57);
             this.txtCreatinineAbnormal.Name = "txtCreatinineAbnormal";
             this.txtCreatinineAbnormal.Size = new System.Drawing.Size(104, 20);
             this.txtCreatinineAbnormal.TabIndex = 76;
@@ -7476,7 +7487,7 @@
             // 
             // txtCreatinineNormal
             // 
-            this.txtCreatinineNormal.Location = new System.Drawing.Point(256, 54);
+            this.txtCreatinineNormal.Location = new System.Drawing.Point(253, 57);
             this.txtCreatinineNormal.Name = "txtCreatinineNormal";
             this.txtCreatinineNormal.Size = new System.Drawing.Size(104, 20);
             this.txtCreatinineNormal.TabIndex = 54;
@@ -7484,7 +7495,7 @@
             // 
             // txtCholesterolObservation
             // 
-            this.txtCholesterolObservation.Location = new System.Drawing.Point(476, 80);
+            this.txtCholesterolObservation.Location = new System.Drawing.Point(475, 84);
             this.txtCholesterolObservation.Name = "txtCholesterolObservation";
             this.txtCholesterolObservation.Size = new System.Drawing.Size(234, 20);
             this.txtCholesterolObservation.TabIndex = 99;
@@ -7492,7 +7503,7 @@
             // 
             // txtCholesterolAbnormal
             // 
-            this.txtCholesterolAbnormal.Location = new System.Drawing.Point(366, 80);
+            this.txtCholesterolAbnormal.Location = new System.Drawing.Point(364, 84);
             this.txtCholesterolAbnormal.Name = "txtCholesterolAbnormal";
             this.txtCholesterolAbnormal.Size = new System.Drawing.Size(104, 20);
             this.txtCholesterolAbnormal.TabIndex = 77;
@@ -7500,7 +7511,7 @@
             // 
             // txtCholesterolNormal
             // 
-            this.txtCholesterolNormal.Location = new System.Drawing.Point(256, 80);
+            this.txtCholesterolNormal.Location = new System.Drawing.Point(253, 84);
             this.txtCholesterolNormal.Name = "txtCholesterolNormal";
             this.txtCholesterolNormal.Size = new System.Drawing.Size(104, 20);
             this.txtCholesterolNormal.TabIndex = 55;
@@ -7508,7 +7519,7 @@
             // 
             // txtTriglyceridesObservation
             // 
-            this.txtTriglyceridesObservation.Location = new System.Drawing.Point(476, 106);
+            this.txtTriglyceridesObservation.Location = new System.Drawing.Point(475, 111);
             this.txtTriglyceridesObservation.Name = "txtTriglyceridesObservation";
             this.txtTriglyceridesObservation.Size = new System.Drawing.Size(234, 20);
             this.txtTriglyceridesObservation.TabIndex = 100;
@@ -7516,7 +7527,7 @@
             // 
             // txtTriglyceridesAbnormal
             // 
-            this.txtTriglyceridesAbnormal.Location = new System.Drawing.Point(366, 106);
+            this.txtTriglyceridesAbnormal.Location = new System.Drawing.Point(364, 111);
             this.txtTriglyceridesAbnormal.Name = "txtTriglyceridesAbnormal";
             this.txtTriglyceridesAbnormal.Size = new System.Drawing.Size(104, 20);
             this.txtTriglyceridesAbnormal.TabIndex = 78;
@@ -7524,7 +7535,7 @@
             // 
             // txtTriglyceridesNormal
             // 
-            this.txtTriglyceridesNormal.Location = new System.Drawing.Point(256, 106);
+            this.txtTriglyceridesNormal.Location = new System.Drawing.Point(253, 111);
             this.txtTriglyceridesNormal.Name = "txtTriglyceridesNormal";
             this.txtTriglyceridesNormal.Size = new System.Drawing.Size(104, 20);
             this.txtTriglyceridesNormal.TabIndex = 56;
@@ -7532,7 +7543,7 @@
             // 
             // txtGlucoseObservation
             // 
-            this.txtGlucoseObservation.Location = new System.Drawing.Point(476, 132);
+            this.txtGlucoseObservation.Location = new System.Drawing.Point(475, 138);
             this.txtGlucoseObservation.Name = "txtGlucoseObservation";
             this.txtGlucoseObservation.Size = new System.Drawing.Size(234, 20);
             this.txtGlucoseObservation.TabIndex = 101;
@@ -7540,7 +7551,7 @@
             // 
             // txtGlucoseAbNormal
             // 
-            this.txtGlucoseAbNormal.Location = new System.Drawing.Point(366, 132);
+            this.txtGlucoseAbNormal.Location = new System.Drawing.Point(364, 138);
             this.txtGlucoseAbNormal.Name = "txtGlucoseAbNormal";
             this.txtGlucoseAbNormal.Size = new System.Drawing.Size(104, 20);
             this.txtGlucoseAbNormal.TabIndex = 79;
@@ -7548,7 +7559,7 @@
             // 
             // txtGlucoseNormal
             // 
-            this.txtGlucoseNormal.Location = new System.Drawing.Point(256, 132);
+            this.txtGlucoseNormal.Location = new System.Drawing.Point(253, 138);
             this.txtGlucoseNormal.Name = "txtGlucoseNormal";
             this.txtGlucoseNormal.Size = new System.Drawing.Size(104, 20);
             this.txtGlucoseNormal.TabIndex = 57;
@@ -7556,7 +7567,7 @@
             // 
             // txtNitrogenObservation
             // 
-            this.txtNitrogenObservation.Location = new System.Drawing.Point(476, 158);
+            this.txtNitrogenObservation.Location = new System.Drawing.Point(475, 165);
             this.txtNitrogenObservation.Name = "txtNitrogenObservation";
             this.txtNitrogenObservation.Size = new System.Drawing.Size(234, 20);
             this.txtNitrogenObservation.TabIndex = 103;
@@ -7564,7 +7575,7 @@
             // 
             // txtNitrogenAbnormal
             // 
-            this.txtNitrogenAbnormal.Location = new System.Drawing.Point(366, 158);
+            this.txtNitrogenAbnormal.Location = new System.Drawing.Point(364, 165);
             this.txtNitrogenAbnormal.Name = "txtNitrogenAbnormal";
             this.txtNitrogenAbnormal.Size = new System.Drawing.Size(104, 20);
             this.txtNitrogenAbnormal.TabIndex = 80;
@@ -7572,7 +7583,7 @@
             // 
             // txtNitrogenNormal
             // 
-            this.txtNitrogenNormal.Location = new System.Drawing.Point(256, 158);
+            this.txtNitrogenNormal.Location = new System.Drawing.Point(253, 165);
             this.txtNitrogenNormal.Name = "txtNitrogenNormal";
             this.txtNitrogenNormal.Size = new System.Drawing.Size(104, 20);
             this.txtNitrogenNormal.TabIndex = 58;
@@ -7580,7 +7591,7 @@
             // 
             // txtRhTypingObservation
             // 
-            this.txtRhTypingObservation.Location = new System.Drawing.Point(476, 184);
+            this.txtRhTypingObservation.Location = new System.Drawing.Point(475, 192);
             this.txtRhTypingObservation.Name = "txtRhTypingObservation";
             this.txtRhTypingObservation.Size = new System.Drawing.Size(234, 20);
             this.txtRhTypingObservation.TabIndex = 104;
@@ -7588,7 +7599,7 @@
             // 
             // txtRhTypingAbnormal
             // 
-            this.txtRhTypingAbnormal.Location = new System.Drawing.Point(366, 184);
+            this.txtRhTypingAbnormal.Location = new System.Drawing.Point(364, 192);
             this.txtRhTypingAbnormal.Name = "txtRhTypingAbnormal";
             this.txtRhTypingAbnormal.Size = new System.Drawing.Size(104, 20);
             this.txtRhTypingAbnormal.TabIndex = 81;
@@ -7596,7 +7607,7 @@
             // 
             // txtRhTypingNormal
             // 
-            this.txtRhTypingNormal.Location = new System.Drawing.Point(256, 184);
+            this.txtRhTypingNormal.Location = new System.Drawing.Point(253, 192);
             this.txtRhTypingNormal.Name = "txtRhTypingNormal";
             this.txtRhTypingNormal.Size = new System.Drawing.Size(104, 20);
             this.txtRhTypingNormal.TabIndex = 59;
@@ -7605,7 +7616,7 @@
             // 
             // txtHivObservation
             // 
-            this.txtHivObservation.Location = new System.Drawing.Point(476, 235);
+            this.txtHivObservation.Location = new System.Drawing.Point(475, 245);
             this.txtHivObservation.Name = "txtHivObservation";
             this.txtHivObservation.Size = new System.Drawing.Size(234, 20);
             this.txtHivObservation.TabIndex = 105;
@@ -7613,7 +7624,7 @@
             // 
             // txtHivAbnormal
             // 
-            this.txtHivAbnormal.Location = new System.Drawing.Point(366, 235);
+            this.txtHivAbnormal.Location = new System.Drawing.Point(364, 245);
             this.txtHivAbnormal.Name = "txtHivAbnormal";
             this.txtHivAbnormal.Size = new System.Drawing.Size(104, 20);
             this.txtHivAbnormal.TabIndex = 83;
@@ -7621,7 +7632,7 @@
             // 
             // txtHivNormal
             // 
-            this.txtHivNormal.Location = new System.Drawing.Point(256, 235);
+            this.txtHivNormal.Location = new System.Drawing.Point(253, 245);
             this.txtHivNormal.Name = "txtHivNormal";
             this.txtHivNormal.Size = new System.Drawing.Size(104, 20);
             this.txtHivNormal.TabIndex = 61;
@@ -7629,7 +7640,7 @@
             // 
             // txtVdrlObservation
             // 
-            this.txtVdrlObservation.Location = new System.Drawing.Point(476, 261);
+            this.txtVdrlObservation.Location = new System.Drawing.Point(475, 272);
             this.txtVdrlObservation.Name = "txtVdrlObservation";
             this.txtVdrlObservation.Size = new System.Drawing.Size(234, 20);
             this.txtVdrlObservation.TabIndex = 106;
@@ -7637,7 +7648,7 @@
             // 
             // txtVdrlAbnormal
             // 
-            this.txtVdrlAbnormal.Location = new System.Drawing.Point(366, 261);
+            this.txtVdrlAbnormal.Location = new System.Drawing.Point(364, 272);
             this.txtVdrlAbnormal.Name = "txtVdrlAbnormal";
             this.txtVdrlAbnormal.Size = new System.Drawing.Size(104, 20);
             this.txtVdrlAbnormal.TabIndex = 84;
@@ -7645,7 +7656,7 @@
             // 
             // txtVdrlNormal
             // 
-            this.txtVdrlNormal.Location = new System.Drawing.Point(256, 261);
+            this.txtVdrlNormal.Location = new System.Drawing.Point(253, 272);
             this.txtVdrlNormal.Name = "txtVdrlNormal";
             this.txtVdrlNormal.Size = new System.Drawing.Size(104, 20);
             this.txtVdrlNormal.TabIndex = 62;
@@ -7653,7 +7664,7 @@
             // 
             // txtGchObservation
             // 
-            this.txtGchObservation.Location = new System.Drawing.Point(476, 287);
+            this.txtGchObservation.Location = new System.Drawing.Point(475, 299);
             this.txtGchObservation.Name = "txtGchObservation";
             this.txtGchObservation.Size = new System.Drawing.Size(234, 20);
             this.txtGchObservation.TabIndex = 107;
@@ -7661,7 +7672,7 @@
             // 
             // txtGchAbnormal
             // 
-            this.txtGchAbnormal.Location = new System.Drawing.Point(366, 287);
+            this.txtGchAbnormal.Location = new System.Drawing.Point(364, 299);
             this.txtGchAbnormal.Name = "txtGchAbnormal";
             this.txtGchAbnormal.Size = new System.Drawing.Size(104, 20);
             this.txtGchAbnormal.TabIndex = 85;
@@ -7669,7 +7680,7 @@
             // 
             // txtGchNormal
             // 
-            this.txtGchNormal.Location = new System.Drawing.Point(256, 287);
+            this.txtGchNormal.Location = new System.Drawing.Point(253, 299);
             this.txtGchNormal.Name = "txtGchNormal";
             this.txtGchNormal.Size = new System.Drawing.Size(104, 20);
             this.txtGchNormal.TabIndex = 63;
@@ -7678,7 +7689,7 @@
             // 
             // txtGeneralUrineObservation
             // 
-            this.txtGeneralUrineObservation.Location = new System.Drawing.Point(476, 338);
+            this.txtGeneralUrineObservation.Location = new System.Drawing.Point(475, 352);
             this.txtGeneralUrineObservation.Name = "txtGeneralUrineObservation";
             this.txtGeneralUrineObservation.Size = new System.Drawing.Size(234, 20);
             this.txtGeneralUrineObservation.TabIndex = 109;
@@ -7686,7 +7697,7 @@
             // 
             // txtGeneralUrineAbNormal
             // 
-            this.txtGeneralUrineAbNormal.Location = new System.Drawing.Point(366, 338);
+            this.txtGeneralUrineAbNormal.Location = new System.Drawing.Point(364, 352);
             this.txtGeneralUrineAbNormal.Name = "txtGeneralUrineAbNormal";
             this.txtGeneralUrineAbNormal.Size = new System.Drawing.Size(104, 20);
             this.txtGeneralUrineAbNormal.TabIndex = 87;
@@ -7694,7 +7705,7 @@
             // 
             // txtGeneralUrineNormal
             // 
-            this.txtGeneralUrineNormal.Location = new System.Drawing.Point(256, 338);
+            this.txtGeneralUrineNormal.Location = new System.Drawing.Point(253, 352);
             this.txtGeneralUrineNormal.Name = "txtGeneralUrineNormal";
             this.txtGeneralUrineNormal.Size = new System.Drawing.Size(104, 20);
             this.txtGeneralUrineNormal.TabIndex = 65;
@@ -7702,7 +7713,7 @@
             // 
             // txtStoolObservation
             // 
-            this.txtStoolObservation.Location = new System.Drawing.Point(476, 389);
+            this.txtStoolObservation.Location = new System.Drawing.Point(475, 405);
             this.txtStoolObservation.Name = "txtStoolObservation";
             this.txtStoolObservation.Size = new System.Drawing.Size(234, 20);
             this.txtStoolObservation.TabIndex = 111;
@@ -7710,7 +7721,7 @@
             // 
             // txtStoolAbNormal
             // 
-            this.txtStoolAbNormal.Location = new System.Drawing.Point(366, 389);
+            this.txtStoolAbNormal.Location = new System.Drawing.Point(364, 405);
             this.txtStoolAbNormal.Name = "txtStoolAbNormal";
             this.txtStoolAbNormal.Size = new System.Drawing.Size(104, 20);
             this.txtStoolAbNormal.TabIndex = 89;
@@ -7718,7 +7729,7 @@
             // 
             // txtStoolNormal
             // 
-            this.txtStoolNormal.Location = new System.Drawing.Point(256, 389);
+            this.txtStoolNormal.Location = new System.Drawing.Point(253, 405);
             this.txtStoolNormal.Name = "txtStoolNormal";
             this.txtStoolNormal.Size = new System.Drawing.Size(104, 20);
             this.txtStoolNormal.TabIndex = 67;
@@ -7726,7 +7737,7 @@
             // 
             // txtDrugTestObservation
             // 
-            this.txtDrugTestObservation.Location = new System.Drawing.Point(476, 440);
+            this.txtDrugTestObservation.Location = new System.Drawing.Point(475, 458);
             this.txtDrugTestObservation.Name = "txtDrugTestObservation";
             this.txtDrugTestObservation.Size = new System.Drawing.Size(234, 20);
             this.txtDrugTestObservation.TabIndex = 113;
@@ -7734,7 +7745,7 @@
             // 
             // txtDrugTestAbNormal
             // 
-            this.txtDrugTestAbNormal.Location = new System.Drawing.Point(366, 440);
+            this.txtDrugTestAbNormal.Location = new System.Drawing.Point(364, 458);
             this.txtDrugTestAbNormal.Name = "txtDrugTestAbNormal";
             this.txtDrugTestAbNormal.Size = new System.Drawing.Size(104, 20);
             this.txtDrugTestAbNormal.TabIndex = 91;
@@ -7742,7 +7753,7 @@
             // 
             // txtDrugTestNormal
             // 
-            this.txtDrugTestNormal.Location = new System.Drawing.Point(256, 440);
+            this.txtDrugTestNormal.Location = new System.Drawing.Point(253, 458);
             this.txtDrugTestNormal.Name = "txtDrugTestNormal";
             this.txtDrugTestNormal.Size = new System.Drawing.Size(104, 20);
             this.txtDrugTestNormal.TabIndex = 69;
@@ -7750,7 +7761,7 @@
             // 
             // txtAlcoholObservation
             // 
-            this.txtAlcoholObservation.Location = new System.Drawing.Point(476, 466);
+            this.txtAlcoholObservation.Location = new System.Drawing.Point(475, 485);
             this.txtAlcoholObservation.Name = "txtAlcoholObservation";
             this.txtAlcoholObservation.Size = new System.Drawing.Size(234, 20);
             this.txtAlcoholObservation.TabIndex = 114;
@@ -7758,7 +7769,7 @@
             // 
             // txtAlcoholAbNormal
             // 
-            this.txtAlcoholAbNormal.Location = new System.Drawing.Point(366, 466);
+            this.txtAlcoholAbNormal.Location = new System.Drawing.Point(364, 485);
             this.txtAlcoholAbNormal.Name = "txtAlcoholAbNormal";
             this.txtAlcoholAbNormal.Size = new System.Drawing.Size(104, 20);
             this.txtAlcoholAbNormal.TabIndex = 92;
@@ -7766,7 +7777,7 @@
             // 
             // txtAlcoholNormal
             // 
-            this.txtAlcoholNormal.Location = new System.Drawing.Point(256, 466);
+            this.txtAlcoholNormal.Location = new System.Drawing.Point(253, 485);
             this.txtAlcoholNormal.Name = "txtAlcoholNormal";
             this.txtAlcoholNormal.Size = new System.Drawing.Size(104, 20);
             this.txtAlcoholNormal.TabIndex = 70;
@@ -7778,7 +7789,7 @@
             this.cbLipid.Checked = true;
             this.cbLipid.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbLipid.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbLipid.Location = new System.Drawing.Point(231, 28);
+            this.cbLipid.Location = new System.Drawing.Point(227, 30);
             this.cbLipid.Name = "cbLipid";
             this.cbLipid.Size = new System.Drawing.Size(19, 17);
             this.cbLipid.TabIndex = 29;
@@ -7791,7 +7802,7 @@
             this.cbCreatinine.Checked = true;
             this.cbCreatinine.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbCreatinine.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbCreatinine.Location = new System.Drawing.Point(231, 54);
+            this.cbCreatinine.Location = new System.Drawing.Point(227, 57);
             this.cbCreatinine.Name = "cbCreatinine";
             this.cbCreatinine.Size = new System.Drawing.Size(19, 17);
             this.cbCreatinine.TabIndex = 30;
@@ -7804,7 +7815,7 @@
             this.cbCholesterol.Checked = true;
             this.cbCholesterol.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbCholesterol.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbCholesterol.Location = new System.Drawing.Point(231, 80);
+            this.cbCholesterol.Location = new System.Drawing.Point(227, 84);
             this.cbCholesterol.Name = "cbCholesterol";
             this.cbCholesterol.Size = new System.Drawing.Size(19, 17);
             this.cbCholesterol.TabIndex = 31;
@@ -7817,7 +7828,7 @@
             this.cbTriglycerides.Checked = true;
             this.cbTriglycerides.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbTriglycerides.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbTriglycerides.Location = new System.Drawing.Point(231, 106);
+            this.cbTriglycerides.Location = new System.Drawing.Point(227, 111);
             this.cbTriglycerides.Name = "cbTriglycerides";
             this.cbTriglycerides.Size = new System.Drawing.Size(19, 17);
             this.cbTriglycerides.TabIndex = 32;
@@ -7830,7 +7841,7 @@
             this.cbGlucose.Checked = true;
             this.cbGlucose.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbGlucose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbGlucose.Location = new System.Drawing.Point(231, 132);
+            this.cbGlucose.Location = new System.Drawing.Point(227, 138);
             this.cbGlucose.Name = "cbGlucose";
             this.cbGlucose.Size = new System.Drawing.Size(19, 17);
             this.cbGlucose.TabIndex = 33;
@@ -7843,7 +7854,7 @@
             this.cbNitrogen.Checked = true;
             this.cbNitrogen.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbNitrogen.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbNitrogen.Location = new System.Drawing.Point(231, 158);
+            this.cbNitrogen.Location = new System.Drawing.Point(227, 165);
             this.cbNitrogen.Name = "cbNitrogen";
             this.cbNitrogen.Size = new System.Drawing.Size(19, 17);
             this.cbNitrogen.TabIndex = 34;
@@ -7854,7 +7865,7 @@
             // 
             this.cbRhTyping.AutoSize = true;
             this.cbRhTyping.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbRhTyping.Location = new System.Drawing.Point(231, 184);
+            this.cbRhTyping.Location = new System.Drawing.Point(227, 192);
             this.cbRhTyping.Name = "cbRhTyping";
             this.cbRhTyping.Size = new System.Drawing.Size(19, 17);
             this.cbRhTyping.TabIndex = 35;
@@ -7867,7 +7878,7 @@
             this.cbHiv.Checked = true;
             this.cbHiv.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbHiv.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbHiv.Location = new System.Drawing.Point(231, 235);
+            this.cbHiv.Location = new System.Drawing.Point(227, 245);
             this.cbHiv.Name = "cbHiv";
             this.cbHiv.Size = new System.Drawing.Size(19, 17);
             this.cbHiv.TabIndex = 36;
@@ -7880,7 +7891,7 @@
             this.cbVdrl.Checked = true;
             this.cbVdrl.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbVdrl.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbVdrl.Location = new System.Drawing.Point(231, 261);
+            this.cbVdrl.Location = new System.Drawing.Point(227, 272);
             this.cbVdrl.Name = "cbVdrl";
             this.cbVdrl.Size = new System.Drawing.Size(19, 17);
             this.cbVdrl.TabIndex = 37;
@@ -7891,7 +7902,7 @@
             // 
             this.cbGch.AutoSize = true;
             this.cbGch.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbGch.Location = new System.Drawing.Point(231, 287);
+            this.cbGch.Location = new System.Drawing.Point(227, 299);
             this.cbGch.Name = "cbGch";
             this.cbGch.Size = new System.Drawing.Size(19, 17);
             this.cbGch.TabIndex = 38;
@@ -7904,7 +7915,7 @@
             this.cbGeneralUrien.Checked = true;
             this.cbGeneralUrien.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbGeneralUrien.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbGeneralUrien.Location = new System.Drawing.Point(231, 338);
+            this.cbGeneralUrien.Location = new System.Drawing.Point(227, 352);
             this.cbGeneralUrien.Name = "cbGeneralUrien";
             this.cbGeneralUrien.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
             this.cbGeneralUrien.Size = new System.Drawing.Size(19, 20);
@@ -7918,7 +7929,7 @@
             this.cbStool.Checked = true;
             this.cbStool.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbStool.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbStool.Location = new System.Drawing.Point(231, 389);
+            this.cbStool.Location = new System.Drawing.Point(227, 405);
             this.cbStool.Name = "cbStool";
             this.cbStool.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
             this.cbStool.Size = new System.Drawing.Size(19, 20);
@@ -7932,7 +7943,7 @@
             this.cbDrugtest.Checked = true;
             this.cbDrugtest.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbDrugtest.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbDrugtest.Location = new System.Drawing.Point(231, 440);
+            this.cbDrugtest.Location = new System.Drawing.Point(227, 458);
             this.cbDrugtest.Name = "cbDrugtest";
             this.cbDrugtest.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
             this.cbDrugtest.Size = new System.Drawing.Size(19, 20);
@@ -7946,7 +7957,7 @@
             this.cbAlcohol.Checked = true;
             this.cbAlcohol.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbAlcohol.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbAlcohol.Location = new System.Drawing.Point(231, 466);
+            this.cbAlcohol.Location = new System.Drawing.Point(227, 485);
             this.cbAlcohol.Name = "cbAlcohol";
             this.cbAlcohol.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
             this.cbAlcohol.Size = new System.Drawing.Size(19, 20);
@@ -7960,7 +7971,7 @@
             this.rjLabel109.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel109.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel109.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel109.Location = new System.Drawing.Point(3, 25);
+            this.rjLabel109.Location = new System.Drawing.Point(4, 27);
             this.rjLabel109.Name = "rjLabel109";
             this.rjLabel109.Size = new System.Drawing.Size(82, 16);
             this.rjLabel109.TabIndex = 122;
@@ -7972,7 +7983,7 @@
             this.rjLabel110.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel110.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel110.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel110.Location = new System.Drawing.Point(3, 51);
+            this.rjLabel110.Location = new System.Drawing.Point(4, 54);
             this.rjLabel110.Name = "rjLabel110";
             this.rjLabel110.Size = new System.Drawing.Size(74, 16);
             this.rjLabel110.TabIndex = 123;
@@ -7984,7 +7995,7 @@
             this.rjLabel111.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel111.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel111.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel111.Location = new System.Drawing.Point(3, 77);
+            this.rjLabel111.Location = new System.Drawing.Point(4, 81);
             this.rjLabel111.Name = "rjLabel111";
             this.rjLabel111.Size = new System.Drawing.Size(81, 16);
             this.rjLabel111.TabIndex = 124;
@@ -7996,7 +8007,7 @@
             this.rjLabel152.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel152.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel152.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel152.Location = new System.Drawing.Point(3, 103);
+            this.rjLabel152.Location = new System.Drawing.Point(4, 108);
             this.rjLabel152.Name = "rjLabel152";
             this.rjLabel152.Size = new System.Drawing.Size(90, 16);
             this.rjLabel152.TabIndex = 125;
@@ -8008,7 +8019,7 @@
             this.rjLabel154.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel154.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel154.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel154.Location = new System.Drawing.Point(3, 129);
+            this.rjLabel154.Location = new System.Drawing.Point(4, 135);
             this.rjLabel154.Name = "rjLabel154";
             this.rjLabel154.Size = new System.Drawing.Size(135, 16);
             this.rjLabel154.TabIndex = 126;
@@ -8020,7 +8031,7 @@
             this.rjLabel155.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel155.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel155.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel155.Location = new System.Drawing.Point(3, 155);
+            this.rjLabel155.Location = new System.Drawing.Point(4, 162);
             this.rjLabel155.Name = "rjLabel155";
             this.rjLabel155.Size = new System.Drawing.Size(98, 16);
             this.rjLabel155.TabIndex = 127;
@@ -8032,7 +8043,7 @@
             this.rjLabel156.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel156.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel156.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel156.Location = new System.Drawing.Point(3, 181);
+            this.rjLabel156.Location = new System.Drawing.Point(4, 189);
             this.rjLabel156.Name = "rjLabel156";
             this.rjLabel156.Size = new System.Drawing.Size(78, 16);
             this.rjLabel156.TabIndex = 128;
@@ -8044,7 +8055,7 @@
             this.rjLabel157.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel157.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel157.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel157.Location = new System.Drawing.Point(3, 232);
+            this.rjLabel157.Location = new System.Drawing.Point(4, 242);
             this.rjLabel157.Name = "rjLabel157";
             this.rjLabel157.Size = new System.Drawing.Size(31, 16);
             this.rjLabel157.TabIndex = 129;
@@ -8056,7 +8067,7 @@
             this.rjLabel158.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel158.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel158.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel158.Location = new System.Drawing.Point(3, 258);
+            this.rjLabel158.Location = new System.Drawing.Point(4, 269);
             this.rjLabel158.Name = "rjLabel158";
             this.rjLabel158.Size = new System.Drawing.Size(41, 16);
             this.rjLabel158.TabIndex = 130;
@@ -8068,7 +8079,7 @@
             this.rjLabel159.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel159.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel159.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel159.Location = new System.Drawing.Point(3, 284);
+            this.rjLabel159.Location = new System.Drawing.Point(4, 296);
             this.rjLabel159.Name = "rjLabel159";
             this.rjLabel159.Size = new System.Drawing.Size(111, 16);
             this.rjLabel159.TabIndex = 131;
@@ -8080,7 +8091,7 @@
             this.rjLabel167.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel167.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel167.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel167.Location = new System.Drawing.Point(3, 335);
+            this.rjLabel167.Location = new System.Drawing.Point(4, 349);
             this.rjLabel167.Name = "rjLabel167";
             this.rjLabel167.Size = new System.Drawing.Size(103, 16);
             this.rjLabel167.TabIndex = 137;
@@ -8092,7 +8103,7 @@
             this.rjLabel169.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel169.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel169.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel169.Location = new System.Drawing.Point(3, 437);
+            this.rjLabel169.Location = new System.Drawing.Point(4, 455);
             this.rjLabel169.Name = "rjLabel169";
             this.rjLabel169.Size = new System.Drawing.Size(79, 16);
             this.rjLabel169.TabIndex = 138;
@@ -8104,7 +8115,7 @@
             this.rjLabel171.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel171.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel171.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel171.Location = new System.Drawing.Point(3, 463);
+            this.rjLabel171.Location = new System.Drawing.Point(4, 482);
             this.rjLabel171.Name = "rjLabel171";
             this.rjLabel171.Size = new System.Drawing.Size(64, 16);
             this.rjLabel171.TabIndex = 139;
@@ -8116,7 +8127,7 @@
             this.rjLabel172.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel172.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel172.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel172.Location = new System.Drawing.Point(3, 386);
+            this.rjLabel172.Location = new System.Drawing.Point(4, 402);
             this.rjLabel172.Name = "rjLabel172";
             this.rjLabel172.Size = new System.Drawing.Size(162, 16);
             this.rjLabel172.TabIndex = 140;
@@ -8188,7 +8199,7 @@
             // 
             // txtBreastExaminationObservation
             // 
-            this.txtBreastExaminationObservation.Location = new System.Drawing.Point(476, 23);
+            this.txtBreastExaminationObservation.Location = new System.Drawing.Point(473, 25);
             this.txtBreastExaminationObservation.Name = "txtBreastExaminationObservation";
             this.txtBreastExaminationObservation.Size = new System.Drawing.Size(234, 20);
             this.txtBreastExaminationObservation.TabIndex = 115;
@@ -8196,7 +8207,7 @@
             // 
             // txtBreastExaminationAbNormal
             // 
-            this.txtBreastExaminationAbNormal.Location = new System.Drawing.Point(366, 23);
+            this.txtBreastExaminationAbNormal.Location = new System.Drawing.Point(362, 25);
             this.txtBreastExaminationAbNormal.Name = "txtBreastExaminationAbNormal";
             this.txtBreastExaminationAbNormal.Size = new System.Drawing.Size(104, 20);
             this.txtBreastExaminationAbNormal.TabIndex = 93;
@@ -8204,7 +8215,7 @@
             // 
             // txtBreastExaminationNormal
             // 
-            this.txtBreastExaminationNormal.Location = new System.Drawing.Point(256, 23);
+            this.txtBreastExaminationNormal.Location = new System.Drawing.Point(251, 25);
             this.txtBreastExaminationNormal.Name = "txtBreastExaminationNormal";
             this.txtBreastExaminationNormal.Size = new System.Drawing.Size(104, 20);
             this.txtBreastExaminationNormal.TabIndex = 71;
@@ -8213,7 +8224,7 @@
             // 
             // txtPapObservation
             // 
-            this.txtPapObservation.Location = new System.Drawing.Point(476, 49);
+            this.txtPapObservation.Location = new System.Drawing.Point(473, 52);
             this.txtPapObservation.Name = "txtPapObservation";
             this.txtPapObservation.Size = new System.Drawing.Size(234, 20);
             this.txtPapObservation.TabIndex = 116;
@@ -8221,7 +8232,7 @@
             // 
             // txtPapAbnormal
             // 
-            this.txtPapAbnormal.Location = new System.Drawing.Point(366, 49);
+            this.txtPapAbnormal.Location = new System.Drawing.Point(362, 52);
             this.txtPapAbnormal.Name = "txtPapAbnormal";
             this.txtPapAbnormal.Size = new System.Drawing.Size(104, 20);
             this.txtPapAbnormal.TabIndex = 94;
@@ -8229,7 +8240,7 @@
             // 
             // txtPaptestJNormal
             // 
-            this.txtPaptestJNormal.Location = new System.Drawing.Point(256, 49);
+            this.txtPaptestJNormal.Location = new System.Drawing.Point(251, 52);
             this.txtPaptestJNormal.Name = "txtPaptestJNormal";
             this.txtPaptestJNormal.Size = new System.Drawing.Size(104, 20);
             this.txtPaptestJNormal.TabIndex = 72;
@@ -8238,7 +8249,7 @@
             // 
             // txtPsaObservation
             // 
-            this.txtPsaObservation.Location = new System.Drawing.Point(476, 75);
+            this.txtPsaObservation.Location = new System.Drawing.Point(473, 79);
             this.txtPsaObservation.Name = "txtPsaObservation";
             this.txtPsaObservation.Size = new System.Drawing.Size(234, 20);
             this.txtPsaObservation.TabIndex = 117;
@@ -8246,7 +8257,7 @@
             // 
             // txtPsaAbNormal
             // 
-            this.txtPsaAbNormal.Location = new System.Drawing.Point(366, 75);
+            this.txtPsaAbNormal.Location = new System.Drawing.Point(362, 79);
             this.txtPsaAbNormal.Name = "txtPsaAbNormal";
             this.txtPsaAbNormal.Size = new System.Drawing.Size(104, 20);
             this.txtPsaAbNormal.TabIndex = 95;
@@ -8254,7 +8265,7 @@
             // 
             // txtPsaNormal
             // 
-            this.txtPsaNormal.Location = new System.Drawing.Point(256, 75);
+            this.txtPsaNormal.Location = new System.Drawing.Point(251, 79);
             this.txtPsaNormal.Name = "txtPsaNormal";
             this.txtPsaNormal.Size = new System.Drawing.Size(104, 20);
             this.txtPsaNormal.TabIndex = 73;
@@ -8267,7 +8278,7 @@
             this.cbBreastExamination.Checked = true;
             this.cbBreastExamination.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbBreastExamination.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbBreastExamination.Location = new System.Drawing.Point(231, 23);
+            this.cbBreastExamination.Location = new System.Drawing.Point(225, 25);
             this.cbBreastExamination.Name = "cbBreastExamination";
             this.cbBreastExamination.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
             this.cbBreastExamination.Size = new System.Drawing.Size(19, 19);
@@ -8279,7 +8290,7 @@
             // 
             this.cbPapTest.AutoSize = true;
             this.cbPapTest.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbPapTest.Location = new System.Drawing.Point(231, 49);
+            this.cbPapTest.Location = new System.Drawing.Point(225, 52);
             this.cbPapTest.Name = "cbPapTest";
             this.cbPapTest.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
             this.cbPapTest.Size = new System.Drawing.Size(19, 19);
@@ -8291,7 +8302,7 @@
             // 
             this.cbPsa.AutoSize = true;
             this.cbPsa.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbPsa.Location = new System.Drawing.Point(231, 75);
+            this.cbPsa.Location = new System.Drawing.Point(225, 79);
             this.cbPsa.Name = "cbPsa";
             this.cbPsa.Padding = new System.Windows.Forms.Padding(0, 2, 0, 0);
             this.cbPsa.Size = new System.Drawing.Size(19, 19);
@@ -8305,7 +8316,7 @@
             this.cbXray.Checked = true;
             this.cbXray.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbXray.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbXray.Location = new System.Drawing.Point(231, 104);
+            this.cbXray.Location = new System.Drawing.Point(225, 109);
             this.cbXray.Name = "cbXray";
             this.cbXray.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
             this.cbXray.Size = new System.Drawing.Size(19, 20);
@@ -8319,7 +8330,7 @@
             this.cbEkg.Checked = true;
             this.cbEkg.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbEkg.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cbEkg.Location = new System.Drawing.Point(231, 157);
+            this.cbEkg.Location = new System.Drawing.Point(225, 163);
             this.cbEkg.Name = "cbEkg";
             this.cbEkg.Padding = new System.Windows.Forms.Padding(0, 3, 0, 0);
             this.cbEkg.Size = new System.Drawing.Size(19, 20);
@@ -8333,7 +8344,7 @@
             this.rjLabel160.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel160.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel160.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel160.Location = new System.Drawing.Point(3, 20);
+            this.rjLabel160.Location = new System.Drawing.Point(4, 22);
             this.rjLabel160.Name = "rjLabel160";
             this.rjLabel160.Size = new System.Drawing.Size(186, 16);
             this.rjLabel160.TabIndex = 132;
@@ -8345,7 +8356,7 @@
             this.rjLabel161.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel161.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel161.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel161.Location = new System.Drawing.Point(3, 46);
+            this.rjLabel161.Location = new System.Drawing.Point(4, 49);
             this.rjLabel161.Name = "rjLabel161";
             this.rjLabel161.Size = new System.Drawing.Size(67, 16);
             this.rjLabel161.TabIndex = 133;
@@ -8357,7 +8368,7 @@
             this.rjLabel163.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel163.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel163.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel163.Location = new System.Drawing.Point(3, 72);
+            this.rjLabel163.Location = new System.Drawing.Point(4, 76);
             this.rjLabel163.Name = "rjLabel163";
             this.rjLabel163.Size = new System.Drawing.Size(174, 16);
             this.rjLabel163.TabIndex = 134;
@@ -8369,7 +8380,7 @@
             this.rjLabel164.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel164.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel164.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel164.Location = new System.Drawing.Point(3, 101);
+            this.rjLabel164.Location = new System.Drawing.Point(4, 106);
             this.rjLabel164.Name = "rjLabel164";
             this.rjLabel164.Size = new System.Drawing.Size(92, 16);
             this.rjLabel164.TabIndex = 135;
@@ -8381,7 +8392,7 @@
             this.rjLabel165.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel165.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel165.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel165.Location = new System.Drawing.Point(3, 154);
+            this.rjLabel165.Location = new System.Drawing.Point(4, 160);
             this.rjLabel165.Name = "rjLabel165";
             this.rjLabel165.Size = new System.Drawing.Size(146, 16);
             this.rjLabel165.TabIndex = 136;
@@ -8389,7 +8400,7 @@
             // 
             // txtXrayObservation
             // 
-            this.txtXrayObservation.Location = new System.Drawing.Point(476, 104);
+            this.txtXrayObservation.Location = new System.Drawing.Point(473, 109);
             this.txtXrayObservation.Name = "txtXrayObservation";
             this.txtXrayObservation.Size = new System.Drawing.Size(234, 20);
             this.txtXrayObservation.TabIndex = 118;
@@ -8398,7 +8409,7 @@
             // 
             // txtEkgObservation
             // 
-            this.txtEkgObservation.Location = new System.Drawing.Point(476, 157);
+            this.txtEkgObservation.Location = new System.Drawing.Point(473, 163);
             this.txtEkgObservation.Name = "txtEkgObservation";
             this.txtEkgObservation.Size = new System.Drawing.Size(234, 20);
             this.txtEkgObservation.TabIndex = 119;
@@ -8407,6 +8418,7 @@
             // 
             // tableLayoutPanel22
             // 
+            this.tableLayoutPanel22.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel22.ColumnCount = 2;
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.72222F));
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.27778F));
@@ -8431,9 +8443,9 @@
             this.rjLabel181.Dock = System.Windows.Forms.DockStyle.Top;
             this.rjLabel181.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel181.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel181.Location = new System.Drawing.Point(3, 0);
+            this.rjLabel181.Location = new System.Drawing.Point(4, 1);
             this.rjLabel181.Name = "rjLabel181";
-            this.rjLabel181.Size = new System.Drawing.Size(416, 23);
+            this.rjLabel181.Size = new System.Drawing.Size(414, 23);
             this.rjLabel181.TabIndex = 0;
             this.rjLabel181.Text = "Covid-19 Diagnostic test";
             this.rjLabel181.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -8444,9 +8456,9 @@
             this.rjLabel182.Dock = System.Windows.Forms.DockStyle.Top;
             this.rjLabel182.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel182.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel182.Location = new System.Drawing.Point(425, 0);
+            this.rjLabel182.Location = new System.Drawing.Point(425, 1);
             this.rjLabel182.Name = "rjLabel182";
-            this.rjLabel182.Size = new System.Drawing.Size(279, 23);
+            this.rjLabel182.Size = new System.Drawing.Size(278, 23);
             this.rjLabel182.TabIndex = 1;
             this.rjLabel182.Text = "OBSERVATIONS";
             this.rjLabel182.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -8458,7 +8470,7 @@
             this.rjLabel183.Dock = System.Windows.Forms.DockStyle.Left;
             this.rjLabel183.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel183.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel183.Location = new System.Drawing.Point(3, 30);
+            this.rjLabel183.Location = new System.Drawing.Point(4, 32);
             this.rjLabel183.Name = "rjLabel183";
             this.rjLabel183.Size = new System.Drawing.Size(289, 32);
             this.rjLabel183.TabIndex = 2;
@@ -8472,26 +8484,26 @@
             this.rjLabel184.Dock = System.Windows.Forms.DockStyle.Left;
             this.rjLabel184.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel184.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel184.Location = new System.Drawing.Point(3, 62);
+            this.rjLabel184.Location = new System.Drawing.Point(4, 65);
             this.rjLabel184.Name = "rjLabel184";
-            this.rjLabel184.Size = new System.Drawing.Size(294, 47);
+            this.rjLabel184.Size = new System.Drawing.Size(294, 43);
             this.rjLabel184.TabIndex = 3;
             this.rjLabel184.Text = "** Nasopharingeal swab by SARS-COVID-2\r\n (COVID-19 by Antigens)";
             this.rjLabel184.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtSarsCovidByPcr
             // 
-            this.txtSarsCovidByPcr.Location = new System.Drawing.Point(425, 33);
+            this.txtSarsCovidByPcr.Location = new System.Drawing.Point(425, 35);
             this.txtSarsCovidByPcr.Name = "txtSarsCovidByPcr";
-            this.txtSarsCovidByPcr.Size = new System.Drawing.Size(279, 20);
+            this.txtSarsCovidByPcr.Size = new System.Drawing.Size(278, 20);
             this.txtSarsCovidByPcr.TabIndex = 4;
             this.txtSarsCovidByPcr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtSarsCovidByAntigens
             // 
-            this.txtSarsCovidByAntigens.Location = new System.Drawing.Point(425, 65);
+            this.txtSarsCovidByAntigens.Location = new System.Drawing.Point(425, 68);
             this.txtSarsCovidByAntigens.Name = "txtSarsCovidByAntigens";
-            this.txtSarsCovidByAntigens.Size = new System.Drawing.Size(279, 20);
+            this.txtSarsCovidByAntigens.Size = new System.Drawing.Size(278, 20);
             this.txtSarsCovidByAntigens.TabIndex = 5;
             this.txtSarsCovidByAntigens.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -8627,6 +8639,7 @@
             // 
             // tableLayoutPanel26
             // 
+            this.tableLayoutPanel26.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel26.ColumnCount = 5;
             this.tableLayoutPanel26.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel26.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -8647,13 +8660,13 @@
             this.tableLayoutPanel26.Controls.Add(this.cbCateringUnFit, 3, 2);
             this.tableLayoutPanel26.Controls.Add(this.cbOtherServiceFit, 4, 1);
             this.tableLayoutPanel26.Controls.Add(this.cbOtherUnFit, 4, 2);
-            this.tableLayoutPanel26.Location = new System.Drawing.Point(14, 500);
+            this.tableLayoutPanel26.Location = new System.Drawing.Point(14, 496);
             this.tableLayoutPanel26.Name = "tableLayoutPanel26";
             this.tableLayoutPanel26.RowCount = 3;
+            this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel26.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel26.Size = new System.Drawing.Size(717, 58);
+            this.tableLayoutPanel26.Size = new System.Drawing.Size(717, 66);
             this.tableLayoutPanel26.TabIndex = 42;
             // 
             // rjLabel192
@@ -8662,7 +8675,7 @@
             this.rjLabel192.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel192.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel192.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel192.Location = new System.Drawing.Point(146, 0);
+            this.rjLabel192.Location = new System.Drawing.Point(147, 1);
             this.rjLabel192.Name = "rjLabel192";
             this.rjLabel192.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.rjLabel192.Size = new System.Drawing.Size(117, 16);
@@ -8675,7 +8688,7 @@
             this.rjLabel193.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel193.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel193.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel193.Location = new System.Drawing.Point(289, 0);
+            this.rjLabel193.Location = new System.Drawing.Point(290, 1);
             this.rjLabel193.Name = "rjLabel193";
             this.rjLabel193.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.rjLabel193.Size = new System.Drawing.Size(113, 16);
@@ -8688,7 +8701,7 @@
             this.rjLabel194.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel194.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel194.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel194.Location = new System.Drawing.Point(432, 0);
+            this.rjLabel194.Location = new System.Drawing.Point(433, 1);
             this.rjLabel194.Name = "rjLabel194";
             this.rjLabel194.Size = new System.Drawing.Size(115, 16);
             this.rjLabel194.TabIndex = 2;
@@ -8700,7 +8713,7 @@
             this.rjLabel195.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel195.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel195.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel195.Location = new System.Drawing.Point(575, 0);
+            this.rjLabel195.Location = new System.Drawing.Point(576, 1);
             this.rjLabel195.Name = "rjLabel195";
             this.rjLabel195.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.rjLabel195.Size = new System.Drawing.Size(107, 16);
@@ -8713,7 +8726,7 @@
             this.rjLabel196.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel196.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel196.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel196.Location = new System.Drawing.Point(3, 16);
+            this.rjLabel196.Location = new System.Drawing.Point(4, 22);
             this.rjLabel196.Name = "rjLabel196";
             this.rjLabel196.Size = new System.Drawing.Size(25, 16);
             this.rjLabel196.TabIndex = 4;
@@ -8725,7 +8738,7 @@
             this.rjLabel197.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel197.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel197.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel197.Location = new System.Drawing.Point(3, 37);
+            this.rjLabel197.Location = new System.Drawing.Point(4, 44);
             this.rjLabel197.Name = "rjLabel197";
             this.rjLabel197.Size = new System.Drawing.Size(39, 16);
             this.rjLabel197.TabIndex = 5;
@@ -8738,7 +8751,7 @@
             this.cbDeckServiceFit.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbDeckServiceFit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbDeckServiceFit.ForeColor = System.Drawing.Color.Gray;
-            this.cbDeckServiceFit.Location = new System.Drawing.Point(146, 19);
+            this.cbDeckServiceFit.Location = new System.Drawing.Point(147, 25);
             this.cbDeckServiceFit.Name = "cbDeckServiceFit";
             this.cbDeckServiceFit.Padding = new System.Windows.Forms.Padding(50, 1, 0, 0);
             this.cbDeckServiceFit.Size = new System.Drawing.Size(65, 15);
@@ -8750,7 +8763,7 @@
             this.cbDeckServiceUnFit.AutoSize = true;
             this.cbDeckServiceUnFit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbDeckServiceUnFit.ForeColor = System.Drawing.Color.Gray;
-            this.cbDeckServiceUnFit.Location = new System.Drawing.Point(146, 40);
+            this.cbDeckServiceUnFit.Location = new System.Drawing.Point(147, 47);
             this.cbDeckServiceUnFit.Name = "cbDeckServiceUnFit";
             this.cbDeckServiceUnFit.Padding = new System.Windows.Forms.Padding(50, 1, 0, 0);
             this.cbDeckServiceUnFit.Size = new System.Drawing.Size(65, 15);
@@ -8762,7 +8775,7 @@
             this.cbEngineFit.AutoSize = true;
             this.cbEngineFit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbEngineFit.ForeColor = System.Drawing.Color.Gray;
-            this.cbEngineFit.Location = new System.Drawing.Point(289, 19);
+            this.cbEngineFit.Location = new System.Drawing.Point(290, 25);
             this.cbEngineFit.Name = "cbEngineFit";
             this.cbEngineFit.Padding = new System.Windows.Forms.Padding(50, 1, 0, 0);
             this.cbEngineFit.Size = new System.Drawing.Size(65, 15);
@@ -8774,7 +8787,7 @@
             this.cbEngineUnFit.AutoSize = true;
             this.cbEngineUnFit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbEngineUnFit.ForeColor = System.Drawing.Color.Gray;
-            this.cbEngineUnFit.Location = new System.Drawing.Point(289, 40);
+            this.cbEngineUnFit.Location = new System.Drawing.Point(290, 47);
             this.cbEngineUnFit.Name = "cbEngineUnFit";
             this.cbEngineUnFit.Padding = new System.Windows.Forms.Padding(50, 1, 0, 0);
             this.cbEngineUnFit.Size = new System.Drawing.Size(65, 15);
@@ -8786,7 +8799,7 @@
             this.cbCateringFit.AutoSize = true;
             this.cbCateringFit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbCateringFit.ForeColor = System.Drawing.Color.Gray;
-            this.cbCateringFit.Location = new System.Drawing.Point(432, 19);
+            this.cbCateringFit.Location = new System.Drawing.Point(433, 25);
             this.cbCateringFit.Name = "cbCateringFit";
             this.cbCateringFit.Padding = new System.Windows.Forms.Padding(50, 1, 0, 0);
             this.cbCateringFit.Size = new System.Drawing.Size(65, 15);
@@ -8798,7 +8811,7 @@
             this.cbCateringUnFit.AutoSize = true;
             this.cbCateringUnFit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbCateringUnFit.ForeColor = System.Drawing.Color.Gray;
-            this.cbCateringUnFit.Location = new System.Drawing.Point(432, 40);
+            this.cbCateringUnFit.Location = new System.Drawing.Point(433, 47);
             this.cbCateringUnFit.Name = "cbCateringUnFit";
             this.cbCateringUnFit.Padding = new System.Windows.Forms.Padding(50, 1, 0, 0);
             this.cbCateringUnFit.Size = new System.Drawing.Size(65, 15);
@@ -8810,7 +8823,7 @@
             this.cbOtherServiceFit.AutoSize = true;
             this.cbOtherServiceFit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbOtherServiceFit.ForeColor = System.Drawing.Color.Gray;
-            this.cbOtherServiceFit.Location = new System.Drawing.Point(575, 19);
+            this.cbOtherServiceFit.Location = new System.Drawing.Point(576, 25);
             this.cbOtherServiceFit.Name = "cbOtherServiceFit";
             this.cbOtherServiceFit.Padding = new System.Windows.Forms.Padding(50, 1, 0, 0);
             this.cbOtherServiceFit.Size = new System.Drawing.Size(65, 15);
@@ -8822,7 +8835,7 @@
             this.cbOtherUnFit.AutoSize = true;
             this.cbOtherUnFit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbOtherUnFit.ForeColor = System.Drawing.Color.Gray;
-            this.cbOtherUnFit.Location = new System.Drawing.Point(575, 40);
+            this.cbOtherUnFit.Location = new System.Drawing.Point(576, 47);
             this.cbOtherUnFit.Name = "cbOtherUnFit";
             this.cbOtherUnFit.Padding = new System.Windows.Forms.Padding(50, 1, 0, 0);
             this.cbOtherUnFit.Size = new System.Drawing.Size(65, 15);
@@ -8915,6 +8928,7 @@
             // 
             // tableLayoutPanel24
             // 
+            this.tableLayoutPanel24.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel24.ColumnCount = 2;
             this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -8948,7 +8962,7 @@
             this.flowLayoutPanel7.Controls.Add(this.issuedMonth);
             this.flowLayoutPanel7.Controls.Add(this.rjLabel222);
             this.flowLayoutPanel7.Controls.Add(this.issuedYear);
-            this.flowLayoutPanel7.Location = new System.Drawing.Point(363, 36);
+            this.flowLayoutPanel7.Location = new System.Drawing.Point(363, 38);
             this.flowLayoutPanel7.Name = "flowLayoutPanel7";
             this.flowLayoutPanel7.Size = new System.Drawing.Size(320, 27);
             this.flowLayoutPanel7.TabIndex = 56;
@@ -9020,7 +9034,7 @@
             this.rjLabel200.Dock = System.Windows.Forms.DockStyle.Left;
             this.rjLabel200.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel200.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel200.Location = new System.Drawing.Point(3, 0);
+            this.rjLabel200.Location = new System.Drawing.Point(4, 1);
             this.rjLabel200.Name = "rjLabel200";
             this.rjLabel200.Size = new System.Drawing.Size(351, 33);
             this.rjLabel200.TabIndex = 0;
@@ -9035,7 +9049,7 @@
             this.flowLayoutPanel6.Controls.Add(this.expirateMonth);
             this.flowLayoutPanel6.Controls.Add(this.rjLabel219);
             this.flowLayoutPanel6.Controls.Add(this.expirateYear);
-            this.flowLayoutPanel6.Location = new System.Drawing.Point(363, 3);
+            this.flowLayoutPanel6.Location = new System.Drawing.Point(363, 4);
             this.flowLayoutPanel6.Name = "flowLayoutPanel6";
             this.flowLayoutPanel6.Size = new System.Drawing.Size(320, 27);
             this.flowLayoutPanel6.TabIndex = 55;
@@ -9107,7 +9121,7 @@
             this.rjLabel201.Dock = System.Windows.Forms.DockStyle.Left;
             this.rjLabel201.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel201.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel201.Location = new System.Drawing.Point(3, 33);
+            this.rjLabel201.Location = new System.Drawing.Point(4, 35);
             this.rjLabel201.Name = "rjLabel201";
             this.rjLabel201.Size = new System.Drawing.Size(319, 33);
             this.rjLabel201.TabIndex = 1;
@@ -9116,7 +9130,7 @@
             // 
             // txtNumberOfMedicalCertificate
             // 
-            this.txtNumberOfMedicalCertificate.Location = new System.Drawing.Point(363, 137);
+            this.txtNumberOfMedicalCertificate.Location = new System.Drawing.Point(363, 142);
             this.txtNumberOfMedicalCertificate.Name = "txtNumberOfMedicalCertificate";
             this.txtNumberOfMedicalCertificate.Size = new System.Drawing.Size(353, 20);
             this.txtNumberOfMedicalCertificate.TabIndex = 7;
@@ -9128,7 +9142,7 @@
             this.rjLabel203.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel203.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel203.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel203.Location = new System.Drawing.Point(3, 134);
+            this.rjLabel203.Location = new System.Drawing.Point(4, 139);
             this.rjLabel203.Name = "rjLabel203";
             this.rjLabel203.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
             this.rjLabel203.Size = new System.Drawing.Size(304, 26);
@@ -9142,7 +9156,7 @@
             this.rjLabel202.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel202.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel202.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel202.Location = new System.Drawing.Point(3, 92);
+            this.rjLabel202.Location = new System.Drawing.Point(4, 96);
             this.rjLabel202.Name = "rjLabel202";
             this.rjLabel202.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
             this.rjLabel202.Size = new System.Drawing.Size(295, 42);
@@ -9155,7 +9169,7 @@
             this.label76.AutoSize = true;
             this.label76.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.label76.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label76.Location = new System.Drawing.Point(3, 66);
+            this.label76.Location = new System.Drawing.Point(4, 69);
             this.label76.Name = "label76";
             this.label76.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
             this.label76.Size = new System.Drawing.Size(224, 21);
@@ -9164,14 +9178,14 @@
             // 
             // txtSpecimenNo
             // 
-            this.txtSpecimenNo.Location = new System.Drawing.Point(363, 69);
+            this.txtSpecimenNo.Location = new System.Drawing.Point(363, 72);
             this.txtSpecimenNo.Name = "txtSpecimenNo";
             this.txtSpecimenNo.Size = new System.Drawing.Size(353, 20);
             this.txtSpecimenNo.TabIndex = 58;
             // 
             // txtPhysicianName
             // 
-            this.txtPhysicianName.Location = new System.Drawing.Point(363, 95);
+            this.txtPhysicianName.Location = new System.Drawing.Point(363, 99);
             this.txtPhysicianName.Name = "txtPhysicianName";
             this.txtPhysicianName.Size = new System.Drawing.Size(353, 20);
             this.txtPhysicianName.TabIndex = 8;
@@ -9234,6 +9248,10 @@
             // panel13
             // 
             this.panel13.AutoScroll = true;
+            this.panel13.Controls.Add(this.label84);
+            this.panel13.Controls.Add(this.label85);
+            this.panel13.Controls.Add(this.label77);
+            this.panel13.Controls.Add(this.label78);
             this.panel13.Controls.Add(this.txtAlternativeComment6);
             this.panel13.Controls.Add(this.rjLabel20);
             this.panel13.Controls.Add(this.txtAlternativeComment5);
@@ -9579,6 +9597,7 @@
             // panel10
             // 
             this.panel10.AutoScroll = true;
+            this.panel10.Controls.Add(this.flowLayoutPanel13);
             this.panel10.Controls.Add(this.txtPhysicalExploration4);
             this.panel10.Controls.Add(this.txtPhysicalExploration3);
             this.panel10.Controls.Add(this.txtPhysicalExploration2);
@@ -9684,17 +9703,18 @@
             // 
             // tableLayoutPanel5
             // 
+            this.tableLayoutPanel5.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel5.ColumnCount = 1;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel12, 0, 1);
             this.tableLayoutPanel5.Controls.Add(this.tableLayoutPanel20, 0, 2);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(9, 576);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(9, 573);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 3;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(726, 240);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(726, 241);
             this.tableLayoutPanel5.TabIndex = 35;
             // 
             // tableLayoutPanel12
@@ -9703,16 +9723,16 @@
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90.19073F));
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.809264F));
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 173F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 302F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 303F));
             this.tableLayoutPanel12.Controls.Add(this.label25, 0, 0);
             this.tableLayoutPanel12.Controls.Add(this.label26, 2, 0);
             this.tableLayoutPanel12.Controls.Add(this.label27, 3, 0);
             this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(4, 5);
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
             this.tableLayoutPanel12.RowCount = 1;
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(720, 18);
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(718, 18);
             this.tableLayoutPanel12.TabIndex = 1;
             // 
             // label25
@@ -9722,7 +9742,7 @@
             this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
             this.label25.Location = new System.Drawing.Point(3, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(214, 16);
+            this.label25.Size = new System.Drawing.Size(212, 16);
             this.label25.TabIndex = 0;
             this.label25.Text = "Other test:";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -9732,7 +9752,7 @@
             this.label26.Dock = System.Windows.Forms.DockStyle.Top;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label26.Location = new System.Drawing.Point(247, 0);
+            this.label26.Location = new System.Drawing.Point(244, 0);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(167, 18);
             this.label26.TabIndex = 1;
@@ -9745,15 +9765,16 @@
             this.label27.Dock = System.Windows.Forms.DockStyle.Top;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label27.Location = new System.Drawing.Point(420, 0);
+            this.label27.Location = new System.Drawing.Point(417, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(297, 16);
+            this.label27.Size = new System.Drawing.Size(298, 16);
             this.label27.TabIndex = 2;
             this.label27.Text = "OBSERVATIONS";
             this.label27.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // tableLayoutPanel20
             // 
+            this.tableLayoutPanel20.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel20.ColumnCount = 5;
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 25F));
@@ -9783,7 +9804,7 @@
             this.tableLayoutPanel20.Controls.Add(this.txtPsaObservation, 4, 3);
             this.tableLayoutPanel20.Controls.Add(this.txtEkgObservation, 4, 5);
             this.tableLayoutPanel20.Controls.Add(this.txtXrayObservation, 4, 4);
-            this.tableLayoutPanel20.Location = new System.Drawing.Point(3, 27);
+            this.tableLayoutPanel20.Location = new System.Drawing.Point(4, 30);
             this.tableLayoutPanel20.Name = "tableLayoutPanel20";
             this.tableLayoutPanel20.RowCount = 6;
             this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -9792,14 +9813,14 @@
             this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 53F));
             this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 13F));
-            this.tableLayoutPanel20.Size = new System.Drawing.Size(720, 207);
+            this.tableLayoutPanel20.Size = new System.Drawing.Size(718, 207);
             this.tableLayoutPanel20.TabIndex = 2;
             // 
             // label28
             // 
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label28.Location = new System.Drawing.Point(366, 0);
+            this.label28.Location = new System.Drawing.Point(362, 1);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(104, 20);
             this.label28.TabIndex = 1;
@@ -9810,7 +9831,7 @@
             // 
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.label29.Location = new System.Drawing.Point(256, 0);
+            this.label29.Location = new System.Drawing.Point(251, 1);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(104, 20);
             this.label29.TabIndex = 0;
@@ -10008,6 +10029,84 @@
             this.txtAssessmentComment5.Size = new System.Drawing.Size(685, 23);
             this.txtAssessmentComment5.TabIndex = 46;
             // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label77.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
+            this.label77.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
+            this.label77.Location = new System.Drawing.Point(703, 17);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(36, 16);
+            this.label77.TabIndex = 41;
+            this.label77.Text = "YES";
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label78.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
+            this.label78.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
+            this.label78.Location = new System.Drawing.Point(748, 17);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(29, 16);
+            this.label78.TabIndex = 42;
+            this.label78.Text = "NO";
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label84.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
+            this.label84.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
+            this.label84.Location = new System.Drawing.Point(317, 17);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(36, 16);
+            this.label84.TabIndex = 43;
+            this.label84.Text = "YES";
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label85.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
+            this.label85.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
+            this.label85.Location = new System.Drawing.Point(362, 17);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(29, 16);
+            this.label85.TabIndex = 44;
+            this.label85.Text = "NO";
+            // 
+            // flowLayoutPanel13
+            // 
+            this.flowLayoutPanel13.Controls.Add(this.radioButton1);
+            this.flowLayoutPanel13.Controls.Add(this.radioButton2);
+            this.flowLayoutPanel13.Location = new System.Drawing.Point(584, 52);
+            this.flowLayoutPanel13.Name = "flowLayoutPanel13";
+            this.flowLayoutPanel13.Size = new System.Drawing.Size(68, 19);
+            this.flowLayoutPanel13.TabIndex = 38;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(3, 3);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(14, 13);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(23, 3);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.radioButton2.Size = new System.Drawing.Size(34, 13);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
             // FrmPanama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -10202,6 +10301,8 @@
             this.tabPage8.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.flowLayoutPanel13.ResumeLayout(false);
+            this.flowLayoutPanel13.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -10970,5 +11071,12 @@
         private System.Windows.Forms.TextBox txtSpecimenNo;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel10;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel9;
+        private System.Windows.Forms.Label label84;
+        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.Label label77;
+        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel13;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }
