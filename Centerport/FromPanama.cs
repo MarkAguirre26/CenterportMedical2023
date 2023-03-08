@@ -171,47 +171,47 @@ namespace MedicalManagementSoftware
             rbWorldWide.Checked = true;
             cbNormalColorVision.Checked = true;
 
-            setCheckBoxValue(cbHighBloodPressureYes, cbHighBloodPressureNo, "No");
-            setCheckBoxValue(cbEyeproblemYes, cbEyeproblemNo, "No");
-            setCheckBoxValue(cbEarNoseThroatYes, cbEarNoseThroatNo, "No");
-            setCheckBoxValue(cbHeartSurgeryYes, cbHeartSurgeryNo, "No");
-            setCheckBoxValue(cbVaricoseveinsYes, cbVaricoseveinsNo, "No");
-            setCheckBoxValue(cbAsthmaBronchitisYes, cbAsthmaBronchitisNo, "No");
-            setCheckBoxValue(cbBloodDisorderYes, cbBloodDisorderNo, "No");
-            setCheckBoxValue(cbDiabetesYes_, cbDiabetesNo, "No");
-            setCheckBoxValue(cbThyroidProblemYes, cbThyroidProblemNo, "No");
-            setCheckBoxValue(cbDigestiveDisordersYes, cbDigestiveDisordersNo, "No");
-            setCheckBoxValue(cbKidneyDisordersYes, cbKidneyDisordersNo_, "No");
-            setCheckBoxValue(cbSkinProblemYes, cbSkinProblemNo, "No");
-            setCheckBoxValue(cbAllergiesYes, cbAllergiesNo, "No");
-            setCheckBoxValue(cbEpilipsyYes, cbEpilipsyNo, "No");
-            setCheckBoxValue(cbSickleCellYes, cbSickleCellNo, "No");
-            setCheckBoxValue(cbHerinasYes, cbHerinasNo, "No");
-            setCheckBoxValue(cbGenitalDisordersYes, cbGenitalDisordersNo, "No");
-            setCheckBoxValue(cbPregnancyYes, cbPregnancyNo, "No");
+            setRadioButtonValue(cbHighBloodPressureYes, cbHighBloodPressureNo, "No");
+            setRadioButtonValue(cbEyeproblemYes, cbEyeproblemNo, "No");
+            setRadioButtonValue(cbEarNoseThroatYes, cbEarNoseThroatNo, "No");
+            setRadioButtonValue(cbHeartSurgeryYes, cbHeartSurgeryNo, "No");
+            setRadioButtonValue(cbVaricoseveinsYes, cbVaricoseveinsNo, "No");
+            setRadioButtonValue(cbAsthmaBronchitisYes, cbAsthmaBronchitisNo, "No");
+            setRadioButtonValue(cbBloodDisorderYes, cbBloodDisorderNo, "No");
+            setRadioButtonValue(cbDiabetesYes_, cbDiabetesNo, "No");
+            setRadioButtonValue(cbThyroidProblemYes, cbThyroidProblemNo, "No");
+            setRadioButtonValue(cbDigestiveDisordersYes, cbDigestiveDisordersNo, "No");
+            setRadioButtonValue(cbKidneyDisordersYes, cbKidneyDisordersNo_, "No");
+            setRadioButtonValue(cbSkinProblemYes, cbSkinProblemNo, "No");
+            setRadioButtonValue(cbAllergiesYes, cbAllergiesNo, "No");
+            setRadioButtonValue(cbEpilipsyYes, cbEpilipsyNo, "No");
+            setRadioButtonValue(cbSickleCellYes, cbSickleCellNo, "No");
+            setRadioButtonValue(cbHerinasYes, cbHerinasNo, "No");
+            setRadioButtonValue(cbGenitalDisordersYes, cbGenitalDisordersNo, "No");
+            setRadioButtonValue(cbPregnancyYes, cbPregnancyNo, "No");
 
-            setCheckBoxValue(cbSleepproblemYes, cbSleepproblemNo, "No");
-            setCheckBoxValue(cbDoyouSmokeYes, cbDoyouSmokeNo, "No");
-            setCheckBoxValue(cbSurgeriesYes, cbSurgeriesNo, "No");
-            setCheckBoxValue(cbInfectiousYes, cbInfectiousNo, "No");
-            setCheckBoxValue(cbDigestiveDisordersYes, cbDigestiveDisordersNo, "No");
-            setCheckBoxValue(cbLossofconsciousnessYes, cbLossofconsciousnessNo, "No");
-            setCheckBoxValue(cbPsychiatricProblemYes, cbPsychiatricProblemNo, "No");
-            setCheckBoxValue(cbDepressionYes, cbDepressionNo, "No");
-            setCheckBoxValue(cbAttemptedsuicideYes, cbAttemptedsuicideNo, "No");
-            setCheckBoxValue(cbLossofmemoryYes, cbLossofmemoryNo, "No");
-            setCheckBoxValue(cbBalanceProblemsYes, cbBalanceProblemsNo, "No");
-            setCheckBoxValue(cbSevereHeadAchesYes, cbSevereHeadAchesNo, "No");
+            setRadioButtonValue(cbSleepproblemYes, cbSleepproblemNo, "No");
+            setRadioButtonValue(cbDoyouSmokeYes, cbDoyouSmokeNo, "No");
+            setRadioButtonValue(cbSurgeriesYes, cbSurgeriesNo, "No");
+            setRadioButtonValue(cbInfectiousYes, cbInfectiousNo, "No");
+            setRadioButtonValue(cbDigestiveDisordersYes, cbDigestiveDisordersNo, "No");
+            setRadioButtonValue(cbLossofconsciousnessYes, cbLossofconsciousnessNo, "No");
+            setRadioButtonValue(cbPsychiatricProblemYes, cbPsychiatricProblemNo, "No");
+            setRadioButtonValue(cbDepressionYes, cbDepressionNo, "No");
+            setRadioButtonValue(cbAttemptedsuicideYes, cbAttemptedsuicideNo, "No");
+            setRadioButtonValue(cbLossofmemoryYes, cbLossofmemoryNo, "No");
+            setRadioButtonValue(cbBalanceProblemsYes, cbBalanceProblemsNo, "No");
+            setRadioButtonValue(cbSevereHeadAchesYes, cbSevereHeadAchesNo, "No");
 
 
 
-            setCheckBoxValue(cbRestrictedMobilityYes, cbRestrictedMobilityNo, "No");
-            setCheckBoxValue(cbBackJointProblemYes, cbBackJointProblemNo, "No");
-            setCheckBoxValue(cbAmputationYes, cbAmputationNo, "No");
-            setCheckBoxValue(cbFracturesDislocationYes, cbFracturesDislocationNo, "No");
-            setCheckBoxValue(cbCovidYes, cbCovidNo, "No");
-            setCheckBoxValue(cbRepatriatedYes, cbRepatriatedNo, "No");
-            setCheckBoxValue(cbHospitalizedYes, cbHospitalizedNo, "No");
+            setRadioButtonValue(cbRestrictedMobilityYes, cbRestrictedMobilityNo, "No");
+            setRadioButtonValue(cbBackJointProblemYes, cbBackJointProblemNo, "No");
+            setRadioButtonValue(cbAmputationYes, cbAmputationNo, "No");
+            setRadioButtonValue(cbFracturesDislocationYes, cbFracturesDislocationNo, "No");
+            setRadioButtonValue(cbCovidYes, cbCovidNo, "No");
+            setRadioButtonValue(cbRepatriatedYes, cbRepatriatedNo, "No");
+            setRadioButtonValue(cbHospitalizedYes, cbHospitalizedNo, "No");
             //setCheckBoxValue(cbSeaDutyYes, cbSeaDutyNo, "No");
             //setCheckBoxValue(cbRevokeYes, cbRevokeNo, "No");
             //setCheckBoxValue(cbConsiderDiseaseYes, cbConsiderDiseaseNo, "No");
@@ -224,30 +224,30 @@ namespace MedicalManagementSoftware
             //PHYSICAL EXPLORATION
 
 
-            setCheckBoxValue(cbHeadYes, cbHeadNo, "Yes");
-            setCheckBoxValue(cbMouthYes, cbMouthNo, "Yes");
-            setCheckBoxValue(cbDental, cbDentalNo, "Yes");
-            setCheckBoxValue(cbEars, cbEarsNo, "Yes");
-            setCheckBoxValue(cbTympanic, cbTympanicNo, "Yes");
-            setCheckBoxValue(cbEyes, cbEyesNo, "Yes");
-            setCheckBoxValue(cbPupils, cbPupilsNo, "Yes");
-            setCheckBoxValue(cbOfThalmoscopy, cbOfThalmoscopyNo, "Yes");
-            setCheckBoxValue(cbEyeMovement, cbEyeMovementNo, "Yes");
-            setCheckBoxValue(cbLungs, cbLungsNo, "Yes");
-            setCheckBoxValue(cbBreast, cbBreastNo, "Yes");
-            setCheckBoxValue(cbHeart, cbHeartNo, "Yes");
-            setCheckBoxValue(cbSkin, cbSkinNo, "Yes");
-            setCheckBoxValue(cbVaricoseVenis, cbVaricoseVenisNo, "Yes");
-            setCheckBoxValue(cbVascular, cbVascularNo, "Yes");
-            setCheckBoxValue(cbAbnomen, cbAbnomenNo, "Yes");
-            setCheckBoxValue(cbHernias, cbHerniasNo, "Yes");
-            setCheckBoxValue(cbAnus, cbAnusNo, "Yes");
-            setCheckBoxValue(cbGu, cbGuNo, "Yes");
-            setCheckBoxValue(cbUpper, cbUpperNo, "Yes");
-            setCheckBoxValue(cbSpine, cbSpineNo, "Yes");
-            setCheckBoxValue(cbNeurologic, cbNeurologicNo, "Yes");
-            setCheckBoxValue(cbPsychiatric, cbPsychiatricNo, "Yes");
-            setCheckBoxValue(cbGeneralAppearance, cbGeneralAppearanceNo, "Yes");
+            setRadioButtonValue(cbHeadYes, cbHeadNo, "Yes");
+            setRadioButtonValue(cbMouthYes, cbMouthNo, "Yes");
+            setRadioButtonValue(cbDental, cbDentalNo, "Yes");
+            setRadioButtonValue(cbEars, cbEarsNo, "Yes");
+            setRadioButtonValue(cbTympanic, cbTympanicNo, "Yes");
+            setRadioButtonValue(cbEyes, cbEyesNo, "Yes");
+            setRadioButtonValue(cbPupils, cbPupilsNo, "Yes");
+            setRadioButtonValue(cbOfThalmoscopy, cbOfThalmoscopyNo, "Yes");
+            setRadioButtonValue(cbEyeMovement, cbEyeMovementNo, "Yes");
+            setRadioButtonValue(cbLungs, cbLungsNo, "Yes");
+            setRadioButtonValue(cbBreast, cbBreastNo, "Yes");
+            setRadioButtonValue(cbHeart, cbHeartNo, "Yes");
+            setRadioButtonValue(cbSkin, cbSkinNo, "Yes");
+            setRadioButtonValue(cbVaricoseVenis, cbVaricoseVenisNo, "Yes");
+            setRadioButtonValue(cbVascular, cbVascularNo, "Yes");
+            setRadioButtonValue(cbAbnomen, cbAbnomenNo, "Yes");
+            setRadioButtonValue(cbHernias, cbHerniasNo, "Yes");
+            setRadioButtonValue(cbAnus, cbAnusNo, "Yes");
+            setRadioButtonValue(cbGu, cbGuNo, "Yes");
+            setRadioButtonValue(cbUpper, cbUpperNo, "Yes");
+            setRadioButtonValue(cbSpine, cbSpineNo, "Yes");
+            setRadioButtonValue(cbNeurologic, cbNeurologicNo, "Yes");
+            setRadioButtonValue(cbPsychiatric, cbPsychiatricNo, "Yes");
+            setRadioButtonValue(cbGeneralAppearance, cbGeneralAppearanceNo, "Yes");
 
 
             //DIAGNOSTIC TEST AND RESULTS 
@@ -295,8 +295,8 @@ namespace MedicalManagementSoftware
 
             setCheckBoxValue(cbAlcohol, cbHidden, "Yes");
             txtAlcoholNormal.Text = "X";
-
-            setCheckBoxValue(cbBreast, cbHidden, "No");
+            cbBreast.Checked = false;
+            //setRadioButtonValue(cbBreast, cbHidden, "No");
             txtBreastExaminationNormal.Text = "N/A";
 
             setCheckBoxValue(cbPapTest, cbHidden, "NO");
@@ -341,7 +341,7 @@ namespace MedicalManagementSoftware
             txtp4Month.Text = "";
             txtp4Year.Text = "";
 
-            setRadioButtonValue(rbFitForLookOut, "Yes");
+            rbFitForLookOut.Checked = true;
 
         }
 
@@ -1176,7 +1176,7 @@ namespace MedicalManagementSoftware
 
 
 
-        private void setCheckBoxValue(RadioButton cbYes, RadioButton cbNo, string val)
+        private void setRadioButtonValue(RadioButton cbYes, RadioButton cbNo, string val)
         {
             if (val == "Yes")
             {
@@ -1192,6 +1192,21 @@ namespace MedicalManagementSoftware
 
         }
 
+        private void setCheckBoxValue(CheckBox cbYes, CheckBox cbNo, string val)
+        {
+            if (val == "Yes")
+            {
+                cbYes.Checked = true;
+                cbNo.Checked = false;
+
+            }
+            else
+            {
+                cbYes.Checked = false;
+                cbNo.Checked = true;
+            }
+
+        }
 
         private void validateDate(string dt, DateTimePicker dtp, CheckBox cb)
         {
@@ -1422,6 +1437,11 @@ namespace MedicalManagementSoftware
         }
 
         private void cbLipid_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel7_Paint(object sender, PaintEventArgs e)
         {
 
         }
