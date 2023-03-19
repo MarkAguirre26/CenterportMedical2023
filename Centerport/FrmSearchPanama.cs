@@ -135,6 +135,11 @@ namespace MedicalManagementSoftware
 
 
         }
+
+        private void dg_result_DoubleClick(object sender, EventArgs e)
+        {
+            SelectItem();
+        }
      
 
     }

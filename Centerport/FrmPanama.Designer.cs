@@ -1006,12 +1006,13 @@
             // 
             this.txtPapin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
             this.txtPapin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPapin.Location = new System.Drawing.Point(673, 12);
+            this.txtPapin.Location = new System.Drawing.Point(699, 12);
             this.txtPapin.Name = "txtPapin";
             this.txtPapin.ReadOnly = true;
             this.txtPapin.Size = new System.Drawing.Size(150, 20);
             this.txtPapin.TabIndex = 5;
             this.txtPapin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPapin.TextChanged += new System.EventHandler(this.txtPapin_TextChanged);
             // 
             // tableLayoutPanel1
             // 
@@ -1041,7 +1042,7 @@
             this.tableLayoutPanel1.Controls.Add(this.txtPassportNumber, 1, 4);
             this.tableLayoutPanel1.Controls.Add(this.panel15, 1, 6);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel14, 1, 2);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(5, 40);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(31, 40);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 11;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -1521,7 +1522,7 @@
             this.rjLabel14.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel14.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel14.Location = new System.Drawing.Point(7, 456);
+            this.rjLabel14.Location = new System.Drawing.Point(33, 456);
             this.rjLabel14.Name = "rjLabel14";
             this.rjLabel14.Size = new System.Drawing.Size(348, 16);
             this.rjLabel14.TabIndex = 5;
@@ -1623,7 +1624,7 @@
             this.tableLayoutPanel2.Controls.Add(this.label49, 1, 11);
             this.tableLayoutPanel2.Controls.Add(this.label50, 1, 12);
             this.tableLayoutPanel2.Controls.Add(this.label51, 1, 13);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(5, 475);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(31, 475);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 14;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
@@ -3149,7 +3150,7 @@
             this.tableLayoutPanel51.Controls.Add(this.flowLayoutPanel26, 5, 1);
             this.tableLayoutPanel51.Controls.Add(this.flowLayoutPanel27, 5, 2);
             this.tableLayoutPanel51.Controls.Add(this.flowLayoutPanel28, 5, 3);
-            this.tableLayoutPanel51.Location = new System.Drawing.Point(5, 49);
+            this.tableLayoutPanel51.Location = new System.Drawing.Point(18, 49);
             this.tableLayoutPanel51.Name = "tableLayoutPanel51";
             this.tableLayoutPanel51.RowCount = 6;
             this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -3716,7 +3717,7 @@
             this.rjLabel18.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel18.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.rjLabel18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel18.Location = new System.Drawing.Point(8, 217);
+            this.rjLabel18.Location = new System.Drawing.Point(15, 218);
             this.rjLabel18.Name = "rjLabel18";
             this.rjLabel18.Size = new System.Drawing.Size(487, 16);
             this.rjLabel18.TabIndex = 7;
@@ -3725,9 +3726,9 @@
             // txtExamineeComment1
             // 
             this.txtExamineeComment1.Font = new System.Drawing.Font("Verdana", 9.5F);
-            this.txtExamineeComment1.Location = new System.Drawing.Point(11, 244);
+            this.txtExamineeComment1.Location = new System.Drawing.Point(18, 244);
             this.txtExamineeComment1.Name = "txtExamineeComment1";
-            this.txtExamineeComment1.Size = new System.Drawing.Size(774, 23);
+            this.txtExamineeComment1.Size = new System.Drawing.Size(780, 23);
             this.txtExamineeComment1.TabIndex = 8;
             // 
             // tableLayoutPanel3
@@ -3763,7 +3764,7 @@
             this.tableLayoutPanel3.Controls.Add(this.label57, 1, 3);
             this.tableLayoutPanel3.Controls.Add(this.label58, 1, 4);
             this.tableLayoutPanel3.Controls.Add(this.label60, 1, 5);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(5, 380);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(18, 380);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 9;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -4266,9 +4267,9 @@
             // txtAlternativeComment1
             // 
             this.txtAlternativeComment1.Font = new System.Drawing.Font("Verdana", 9.5F);
-            this.txtAlternativeComment1.Location = new System.Drawing.Point(11, 604);
+            this.txtAlternativeComment1.Location = new System.Drawing.Point(18, 604);
             this.txtAlternativeComment1.Name = "txtAlternativeComment1";
-            this.txtAlternativeComment1.Size = new System.Drawing.Size(774, 23);
+            this.txtAlternativeComment1.Size = new System.Drawing.Size(780, 23);
             this.txtAlternativeComment1.TabIndex = 13;
             // 
             // label54
@@ -9585,7 +9586,7 @@
             this.tabControl1.Location = new System.Drawing.Point(1, 1);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(849, 872);
+            this.tabControl1.Size = new System.Drawing.Size(914, 872);
             this.tabControl1.TabIndex = 53;
             // 
             // tabPage1
@@ -9594,7 +9595,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(841, 846);
+            this.tabPage1.Size = new System.Drawing.Size(906, 846);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Page 1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -9612,7 +9613,7 @@
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel14.Location = new System.Drawing.Point(3, 3);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(835, 840);
+            this.panel14.Size = new System.Drawing.Size(900, 840);
             this.panel14.TabIndex = 0;
             // 
             // tabPage2
@@ -9621,7 +9622,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(841, 846);
+            this.tabPage2.Size = new System.Drawing.Size(906, 846);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Page 2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -9649,7 +9650,7 @@
             this.panel13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel13.Location = new System.Drawing.Point(3, 3);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(835, 840);
+            this.panel13.Size = new System.Drawing.Size(900, 840);
             this.panel13.TabIndex = 0;
             // 
             // flowLayoutPanel35
@@ -9688,9 +9689,9 @@
             // txtAlternativeComment6
             // 
             this.txtAlternativeComment6.Font = new System.Drawing.Font("Verdana", 9.5F);
-            this.txtAlternativeComment6.Location = new System.Drawing.Point(11, 729);
+            this.txtAlternativeComment6.Location = new System.Drawing.Point(18, 729);
             this.txtAlternativeComment6.Name = "txtAlternativeComment6";
-            this.txtAlternativeComment6.Size = new System.Drawing.Size(774, 23);
+            this.txtAlternativeComment6.Size = new System.Drawing.Size(780, 23);
             this.txtAlternativeComment6.TabIndex = 22;
             // 
             // rjLabel20
@@ -9699,7 +9700,7 @@
             this.rjLabel20.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.rjLabel20.Font = new System.Drawing.Font("Verdana", 9.5F, System.Drawing.FontStyle.Bold);
             this.rjLabel20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(129)))), ((int)(((byte)(132)))));
-            this.rjLabel20.Location = new System.Drawing.Point(8, 581);
+            this.rjLabel20.Location = new System.Drawing.Point(15, 581);
             this.rjLabel20.Name = "rjLabel20";
             this.rjLabel20.Size = new System.Drawing.Size(92, 16);
             this.rjLabel20.TabIndex = 21;
@@ -9708,33 +9709,33 @@
             // txtAlternativeComment5
             // 
             this.txtAlternativeComment5.Font = new System.Drawing.Font("Verdana", 9.5F);
-            this.txtAlternativeComment5.Location = new System.Drawing.Point(11, 704);
+            this.txtAlternativeComment5.Location = new System.Drawing.Point(18, 704);
             this.txtAlternativeComment5.Name = "txtAlternativeComment5";
-            this.txtAlternativeComment5.Size = new System.Drawing.Size(774, 23);
+            this.txtAlternativeComment5.Size = new System.Drawing.Size(780, 23);
             this.txtAlternativeComment5.TabIndex = 19;
             // 
             // txtAlternativeComment4
             // 
             this.txtAlternativeComment4.Font = new System.Drawing.Font("Verdana", 9.5F);
-            this.txtAlternativeComment4.Location = new System.Drawing.Point(11, 679);
+            this.txtAlternativeComment4.Location = new System.Drawing.Point(18, 679);
             this.txtAlternativeComment4.Name = "txtAlternativeComment4";
-            this.txtAlternativeComment4.Size = new System.Drawing.Size(774, 23);
+            this.txtAlternativeComment4.Size = new System.Drawing.Size(780, 23);
             this.txtAlternativeComment4.TabIndex = 18;
             // 
             // txtAlternativeComment3
             // 
             this.txtAlternativeComment3.Font = new System.Drawing.Font("Verdana", 9.5F);
-            this.txtAlternativeComment3.Location = new System.Drawing.Point(11, 654);
+            this.txtAlternativeComment3.Location = new System.Drawing.Point(18, 654);
             this.txtAlternativeComment3.Name = "txtAlternativeComment3";
-            this.txtAlternativeComment3.Size = new System.Drawing.Size(774, 23);
+            this.txtAlternativeComment3.Size = new System.Drawing.Size(780, 23);
             this.txtAlternativeComment3.TabIndex = 17;
             // 
             // txtAlternativeComment2
             // 
             this.txtAlternativeComment2.Font = new System.Drawing.Font("Verdana", 9.5F);
-            this.txtAlternativeComment2.Location = new System.Drawing.Point(11, 629);
+            this.txtAlternativeComment2.Location = new System.Drawing.Point(18, 629);
             this.txtAlternativeComment2.Name = "txtAlternativeComment2";
-            this.txtAlternativeComment2.Size = new System.Drawing.Size(774, 23);
+            this.txtAlternativeComment2.Size = new System.Drawing.Size(780, 23);
             this.txtAlternativeComment2.TabIndex = 16;
             // 
             // flowLayoutPanel24
@@ -9773,33 +9774,33 @@
             // txtExamineeComment5
             // 
             this.txtExamineeComment5.Font = new System.Drawing.Font("Verdana", 9.5F);
-            this.txtExamineeComment5.Location = new System.Drawing.Point(11, 344);
+            this.txtExamineeComment5.Location = new System.Drawing.Point(18, 344);
             this.txtExamineeComment5.Name = "txtExamineeComment5";
-            this.txtExamineeComment5.Size = new System.Drawing.Size(774, 23);
+            this.txtExamineeComment5.Size = new System.Drawing.Size(780, 23);
             this.txtExamineeComment5.TabIndex = 15;
             // 
             // txtExamineeComment4
             // 
             this.txtExamineeComment4.Font = new System.Drawing.Font("Verdana", 9.5F);
-            this.txtExamineeComment4.Location = new System.Drawing.Point(11, 319);
+            this.txtExamineeComment4.Location = new System.Drawing.Point(18, 319);
             this.txtExamineeComment4.Name = "txtExamineeComment4";
-            this.txtExamineeComment4.Size = new System.Drawing.Size(774, 23);
+            this.txtExamineeComment4.Size = new System.Drawing.Size(780, 23);
             this.txtExamineeComment4.TabIndex = 14;
             // 
             // txtExamineeComment3
             // 
             this.txtExamineeComment3.Font = new System.Drawing.Font("Verdana", 9.5F);
-            this.txtExamineeComment3.Location = new System.Drawing.Point(11, 294);
+            this.txtExamineeComment3.Location = new System.Drawing.Point(18, 294);
             this.txtExamineeComment3.Name = "txtExamineeComment3";
-            this.txtExamineeComment3.Size = new System.Drawing.Size(774, 23);
+            this.txtExamineeComment3.Size = new System.Drawing.Size(780, 23);
             this.txtExamineeComment3.TabIndex = 13;
             // 
             // txtExamineeComment2
             // 
             this.txtExamineeComment2.Font = new System.Drawing.Font("Verdana", 9.5F);
-            this.txtExamineeComment2.Location = new System.Drawing.Point(11, 269);
+            this.txtExamineeComment2.Location = new System.Drawing.Point(18, 269);
             this.txtExamineeComment2.Name = "txtExamineeComment2";
-            this.txtExamineeComment2.Size = new System.Drawing.Size(774, 23);
+            this.txtExamineeComment2.Size = new System.Drawing.Size(780, 23);
             this.txtExamineeComment2.TabIndex = 12;
             // 
             // tabPage3
@@ -9808,7 +9809,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(841, 846);
+            this.tabPage3.Size = new System.Drawing.Size(906, 846);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Page 3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -9837,7 +9838,7 @@
             this.panel12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel12.Location = new System.Drawing.Point(3, 3);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(835, 840);
+            this.panel12.Size = new System.Drawing.Size(900, 840);
             this.panel12.TabIndex = 0;
             // 
             // txtmedicationsComment6
@@ -10487,7 +10488,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(245)))), ((int)(((byte)(249)))));
-            this.ClientSize = new System.Drawing.Size(851, 874);
+            this.ClientSize = new System.Drawing.Size(916, 874);
             this.Controls.Add(this.tabControl1);
             this.KeyPreview = true;
             this.Location = new System.Drawing.Point(1, 41);

@@ -256,14 +256,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Medical Management Software.exe" size="92657152">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Medical Management Software.exe" size="92841984">
       <assemblyIdentity name="Medical Management Software" version="2018.2.22.15" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6RV30IP4vQCF97S6V0YsuQZtbkcFMccNqCFZK6DYjL4=</dsig:DigestValue>
+        <dsig:DigestValue>bfmti88u/cfhYSpK6uo3O+JXD7R6H/HVA+QGOOgftmk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -417,13 +417,13 @@
       <dsig:DigestValue>ouKMLMIUHlh9kNMqwrbxopwKgRDHV/8duVF2SgZ9Pmg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Medical Management Software.exe.config" size="8998">
+  <file name="Medical Management Software.exe.config" size="9644">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>sNpZXHJlU6NbsILBQ/USx1pdIVqsuxO/Pn4ABIiD3uM=</dsig:DigestValue>
+      <dsig:DigestValue>6XUKv8lbUKxQjgzw0voNeWMFs0WA/qNRwC/izVz8aD8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="rsz_centerport_logo_resize.ico" size="15086">

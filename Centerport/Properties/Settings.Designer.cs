@@ -23,17 +23,6 @@ namespace MedicalManagementSoftware.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MARK-PC\\SQLEXPRESS;Initial Catalog=cmsi;Persist Security Info=True;Us" +
-            "er ID=sa;Password=sommerson")]
-        public string cmsiConnectionString {
-            get {
-                return ((string)(this["cmsiConnectionString"]));
-            }
-        }
-        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Centerport Medical Software")]
@@ -43,17 +32,6 @@ namespace MedicalManagementSoftware.Properties {
             }
             set {
                 this["SystemName"] = value;
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MARK-PC\\sqlexpress;Initial Catalog=cmsi;Persist Security Info=True;Us" +
-            "er ID=sa;Password=sommerson")]
-        public string cmsiConnectionString1 {
-            get {
-                return ((string)(this["cmsiConnectionString1"]));
             }
         }
         
@@ -117,6 +95,40 @@ namespace MedicalManagementSoftware.Properties {
             }
         }
         
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string InstanceName {
+            get {
+                return ((string)(this["InstanceName"]));
+            }
+            set {
+                this["InstanceName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MARK-PC\\SQLEXPRESS;Initial Catalog=cmsi;Persist Security Info=True;Us" +
+            "er ID=sa;Password=sommerson")]
+        public string cmsiConnectionString {
+            get {
+                return ((string)(this["cmsiConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MARK-PC\\sqlexpress;Initial Catalog=cmsi;Persist Security Info=True;Us" +
+            "er ID=sa;Password=sommerson")]
+        public string cmsiConnectionString1 {
+            get {
+                return ((string)(this["cmsiConnectionString1"]));
+            }
+        }
+        
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
@@ -147,18 +159,6 @@ namespace MedicalManagementSoftware.Properties {
         public string Centerport_MedicalConnectionString1 {
             get {
                 return ((string)(this["Centerport_MedicalConnectionString1"]));
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string InstanceName {
-            get {
-                return ((string)(this["InstanceName"]));
-            }
-            set {
-                this["InstanceName"] = value;
             }
         }
         
@@ -225,6 +225,17 @@ namespace MedicalManagementSoftware.Properties {
         public string Centerport_MedicalConnectionString5 {
             get {
                 return ((string)(this["Centerport_MedicalConnectionString5"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-KIIKPT8\\SQLEXPRESS;Initial Catalog=Centerport_Medical;Persist" +
+            " Security Info=True;User ID=sa")]
+        public string Centerport_MedicalConnectionString6 {
+            get {
+                return ((string)(this["Centerport_MedicalConnectionString6"]));
             }
         }
     }

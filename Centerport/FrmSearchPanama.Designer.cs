@@ -2074,6 +2074,7 @@
             this.dg_result.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dg_result.Size = new System.Drawing.Size(602, 196);
             this.dg_result.TabIndex = 63;
+            this.dg_result.DoubleClick += new System.EventHandler(this.dg_result_DoubleClick);
             // 
             // FrmSearchPanama
             // 
