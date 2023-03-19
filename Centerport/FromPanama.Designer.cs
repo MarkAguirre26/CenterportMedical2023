@@ -10211,7 +10211,7 @@
             this.txtAssessmentComment4.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.txtAssessmentComment4.Location = new System.Drawing.Point(21, 30);
             this.txtAssessmentComment4.Name = "txtAssessmentComment4";
-            this.txtAssessmentComment4.Size = new System.Drawing.Size(685, 23);
+            this.txtAssessmentComment4.Size = new System.Drawing.Size(720, 23);
             this.txtAssessmentComment4.TabIndex = 54;
             // 
             // txtAssessmentComment5
@@ -10219,7 +10219,7 @@
             this.txtAssessmentComment5.Font = new System.Drawing.Font("Verdana", 9.5F);
             this.txtAssessmentComment5.Location = new System.Drawing.Point(21, 55);
             this.txtAssessmentComment5.Name = "txtAssessmentComment5";
-            this.txtAssessmentComment5.Size = new System.Drawing.Size(685, 23);
+            this.txtAssessmentComment5.Size = new System.Drawing.Size(720, 23);
             this.txtAssessmentComment5.TabIndex = 46;
             // 
             // FrmPanama
