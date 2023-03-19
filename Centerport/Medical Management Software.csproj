@@ -213,17 +213,23 @@
     <Compile Include="Dataset\ds_report1.cs">
       <DependentUpon>ds_report1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FrmSearchPanama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearchPanama.Designer.cs">
+      <DependentUpon>FrmSearchPanama.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Immunology.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_Immunology.Designer.cs">
       <DependentUpon>Frm_Immunology.cs</DependentUpon>
     </Compile>
-    <Compile Include="FromPanama.cs">
+    <Compile Include="FrmPanama.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FromPanama.Designer.cs">
-      <DependentUpon>FromPanama.cs</DependentUpon>
+    <Compile Include="FrmPanama.Designer.cs">
+      <DependentUpon>FrmPanama.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\DataClasses1.designer.cs">
       <AutoGen>True</AutoGen>
@@ -850,6 +856,9 @@
     <EmbeddedResource Include="CustomControl\PanamaView.resx">
       <DependentUpon>PanamaView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearchPanama.resx">
+      <DependentUpon>FrmSearchPanama.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Immunology.resx">
       <DependentUpon>Frm_Immunology.cs</DependentUpon>
     </EmbeddedResource>
@@ -886,8 +895,8 @@
     <EmbeddedResource Include="frm_krpan.resx">
       <DependentUpon>frm_krpan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FromPanama.resx">
-      <DependentUpon>FromPanama.cs</DependentUpon>
+    <EmbeddedResource Include="FrmPanama.resx">
+      <DependentUpon>FrmPanama.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RDLC\frm_LabPrintChoices.resx">
       <DependentUpon>frm_LabPrintChoices.cs</DependentUpon>

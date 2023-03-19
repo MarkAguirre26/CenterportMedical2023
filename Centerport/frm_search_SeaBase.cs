@@ -62,53 +62,16 @@ namespace MedicalManagementSoftware
                 (Application.OpenForms["frm_seafarer_MEC"] as frm_seafarer_MEC).search_Ancillary();
                 (Application.OpenForms["frm_seafarer_MEC"] as frm_seafarer_MEC).search_RecomendationFromSearch();
                
-               // fmain.ts_add_sea.Enabled = true; fmain.ts_edit_sea.Enabled = true; fmain.ts_delete_sea.Enabled = false; fmain.ts_save_sea.Enabled = false; fmain.ts_search_sea.Enabled = true; fmain.ts_print_sea.Enabled = true; fmain.ts_cancel_sea.Enabled = false;
+             
                 fmain.ts_add_sea.Enabled = true; fmain.ts_edit_sea.Enabled = true; fmain.ts_delete_sea.Enabled = false; fmain.ts_save_sea.Enabled = false; fmain.ts_search_sea.Enabled = true; fmain.ts_print_sea.Enabled = true; fmain.ts_cancel_sea.Enabled = false;
                 Cursor.Current = Cursors.Default;
-               // frm_land.ts_add_land.Enabled = true; frm_land.ts_edit_land.Enabled = true; frm_land.ts_delete_land.Enabled = false; frm_land.ts_save_land.Enabled = false; frm_land.ts_cancel_land.Enabled = false; frm_land.ts_search_land.Enabled = true; frm_land.ts_print_land.Enabled = true;
-               // this.Close();
+       
 
             }
 
 
         }
-        //void Search(string ID)
-        //{
-        //    try
-        //    {
-               
-        //        ClassSql a = new ClassSql(); DataTable dt;
-        //        //
-        //       // dt = a.Table("SELECT t_result_main.cn, t_result_main.resultid, t_result_main.resulttype,t_result_main.status, t_result_main.papin, m_patient.lastname, m_patient.firstname, m_patient.middlename, t_result_main.result_date, t_result_main.remarks FROM t_result_main Inner Join m_patient ON t_result_main.papin = m_patient.papin WHERE t_result_main.resulttype =  'SEA' AND " + FilterBy.ToString() + "     LIKE   '" + Tool.ReplaceString(txt_search.Text) + "%'  ORDER BY " + FilterBy.ToString() + " ASC LIMIT 50");
-        //        dt = a.Mytable_Proc("Seabase_search", "@ID", ID);
-        //        this.dg_result.Rows.Clear();
-        //        Cursor.Current = Cursors.WaitCursor;
-        //        foreach (DataRow dr in dt.Rows)
-        //        {
-        //            //DateTime Date = Convert.ToDateTime(dr["result_date"].ToString());
-        //            string name =  dr["lastname"].ToString() + ", " + dr["firstname"].ToString() + " " + dr["middlename"].ToString();
-        //            string[] rows = new string[] { dr["cn"].ToString(), dr["papin"].ToString(), dr["resultid"].ToString(), name.ToString(), dr["result_date"].ToString(), dr["recommendation"].ToString() };
-        //            dg_result.Rows.Add(rows);
-
-
-        //        }
-               
-
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //         MessageBox.Show(this, string.Format("An error occured {0}", ex.Message), Properties.Settings.Default.SystemName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Exclamation); return;
-
-        //    }
-        //    finally
-        //    {
-        //        //if (ClassSql.cnn != null) { ClassSql.DbClose(); }
-        //        if (ClassSql.dr != null) { ClassSql.dr.Close(); }
-        //        Cursor.Current = Cursors.Default;
-        //    }
-
-
-        //}
+     
 
         private void dg_result_DoubleClick(object sender, EventArgs e)
         {
@@ -257,19 +220,19 @@ namespace MedicalManagementSoftware
 
             try
             {
-              //  dt_SeaMEC = Tool.GetDataSourceFromFile(TableListPath.SEASECCSearchList);
+             
                 Seabase_SearchList_model = (Application.OpenForms["frm_seafarer_MEC"] as frm_seafarer_MEC).Seabase_SearchList_Model;
                 var list = (from m in Seabase_SearchList_model select m).ToList();
                   
 
                 if (cbo_filter.Text == "Result ID")
                 {
-                    //dt_SeaMEC.DefaultView.RowFilter = string.Format("[{0}] LIKE '{1}%'", dt_SeaMEC.Columns[2], txt_search.Text);
+                   
                     list = (from m in Seabase_SearchList_model where m.resultID.StartsWith(txt_search.Text) select m).ToList();
                 }
                 else if (cbo_filter.Text == "Patient Name")
                 {
-                   // dt_SeaMEC.DefaultView.RowFilter = string.Format("[{0}] LIKE '{1}%'", dt_SeaMEC.Columns[3], txt_search.Text);
+                   
                     list = (from m in Seabase_SearchList_model where m.patientName.StartsWith(txt_search.Text) select m).ToList();
                 }
                 dg_result.DataSource = list;

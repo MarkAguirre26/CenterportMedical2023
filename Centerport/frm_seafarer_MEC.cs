@@ -1182,11 +1182,7 @@ namespace MedicalManagementSoftware
             Tool.ClearFields(panel62);
             Tool.ClearFields(panel33);
             Tool.ClearFields(panel64);
-            Tool.ClearFields(panel36);
-            //Tool.ClearFields(panel29);
-            //Tool.ClearFields(panel30);
-            //Tool.ClearFields(panel31);
-            //  Tool.ClearFields(panel32);
+            Tool.ClearFields(panel36);           
             Tool.ClearFields(panel34);
             Tool.ClearFields(panel63);
             Tool.ClearFields(panel26);
@@ -1247,8 +1243,7 @@ namespace MedicalManagementSoftware
             Tool.ClearFields(panel5);
             Tool.ClearFields(panel72);
             Tool.ClearFields(panel60);
-            //Tool.ClearFields(rb_ladTest_passs);
-            //Tool.ClearFields(PanelFlagh);
+           
 
 
         }
@@ -2362,16 +2357,9 @@ namespace MedicalManagementSoftware
             try
             {
 
-                //using (StreamWriter s = File.CreateText(TableListPath.SEASECCSearchList))
-                //{ s.Close(); }
-
-                //TextWriter sw = new StreamWriter(TableListPath.SEASECCSearchList);
-                //ClassSql a = new ClassSql(); DataTable dt;
-                //dt = a.Mytable_Proc("Seabase_search", "@ID", "%");
+                
                 var list = db.sp_Seabase_SearchList("%");
-                Cursor.Current = Cursors.WaitCursor;
-                // int rowcount = dt.Rows.Count;
-                // sw.WriteLine("a \t b \t c \t d \t e \t f");
+                Cursor.Current = Cursors.WaitCursor;                
                 foreach (var i in list)
                 {
                     Seabase_SearchList_Model.Add(new Seabase_SearchList_Model
@@ -2385,12 +2373,10 @@ namespace MedicalManagementSoftware
 
                     });
 
-                    // string name = dr["lastname"].ToString() + ", " + dr["firstname"].ToString() + " " + dr["middlename"].ToString();
-
-                    //  sw.WriteLine(dr["cn"].ToString() + "\t" + dr["papin"].ToString() + "\t" + dr["resultid"].ToString() + "\t" + name.ToString() + "\t" + dr["result_date"].ToString() + "\t" + dr["recommendation"].ToString());
+                   
 
                 }
-                // sw.Close();
+             
 
             }
             catch (Exception ex)
@@ -2398,12 +2384,7 @@ namespace MedicalManagementSoftware
                 MessageBox.Show(this, string.Format("An error occured {0}", ex.Message), Properties.Settings.Default.SystemName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Exclamation); return;
 
             }
-            //finally
-            //{
-
-            //    if (ClassSql.dr != null) { ClassSql.dr.Close(); }
-
-            //}
+           
         }
 
         private void backgroundWorker2_DoWork(object sender, DoWorkEventArgs e)
@@ -2463,7 +2444,7 @@ namespace MedicalManagementSoftware
 
 
 
-            //(Application.OpenForms["frm_search_SeaBase"] as frm_search_SeaBase).lbl_notification.Visible = false;
+           
 
         }
 

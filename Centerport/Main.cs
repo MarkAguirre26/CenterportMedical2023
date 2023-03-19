@@ -1290,11 +1290,19 @@ namespace MedicalManagementSoftware
         public void Search_landbase()
         {
 
-            Cursor.Current = Cursors.WaitCursor;
-            // ((MyInter)this.ActiveMdiChild).Search();
+            Cursor.Current = Cursors.WaitCursor;           
             frm_Landbase.newLandbase = false;
             frm_search_Land frm_land = new frm_search_Land(this);
             frm_land.ShowDialog();
+        }
+
+        public void SearchPanama()
+        {
+
+            Cursor.Current = Cursors.WaitCursor;
+            //FrmSearchPanama.newLandbase = false;
+            FrmSearchPanama frm = new FrmSearchPanama(this);
+            frm.ShowDialog();
         }
         private void ts_search_land_Click(object sender, EventArgs e)
         {
@@ -2711,6 +2719,82 @@ namespace MedicalManagementSoftware
         private void toolStripButton9_Click_2(object sender, EventArgs e)
         {
             (Application.OpenForms["FrmPanama"] as FrmPanama).Close();
+        }
+
+        private void toolStripButton1_Click_2(object sender, EventArgs e)
+        {
+            if (this.ActiveMdiChild is FrmPanama)
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                ((MyInter)this.ActiveMdiChild).New();
+
+
+            }
+        }
+
+        private void tsPanamaEdit_Click(object sender, EventArgs e)
+        {
+            if (this.ActiveMdiChild is FrmPanama)
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                ((MyInter)this.ActiveMdiChild).Edit();
+
+
+            }
+        }
+
+        private void tsPanamaDelete_Click(object sender, EventArgs e)
+        {
+            if (this.ActiveMdiChild is FrmPanama)
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                ((MyInter)this.ActiveMdiChild).Delete();
+
+
+            }
+        }
+
+        private void tsPanamaSave_Click(object sender, EventArgs e)
+        {
+            if (this.ActiveMdiChild is FrmPanama)
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                ((MyInter)this.ActiveMdiChild).Save();
+
+
+            }
+        }
+
+        private void tsPanamaSearch_Click(object sender, EventArgs e)
+        {
+            if (this.ActiveMdiChild is FrmPanama)
+            {
+
+                SearchPanama();
+
+            }
+        }
+
+        private void tsPanamaPrint_Click(object sender, EventArgs e)
+        {
+            if (this.ActiveMdiChild is FrmPanama)
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                ((MyInter)this.ActiveMdiChild).Print();
+
+
+            }
+        }
+
+        private void tsPanamaCancel_Click(object sender, EventArgs e)
+        {
+            if (this.ActiveMdiChild is FrmPanama)
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                ((MyInter)this.ActiveMdiChild).Cancel();
+
+
+            }
         }
 
 
