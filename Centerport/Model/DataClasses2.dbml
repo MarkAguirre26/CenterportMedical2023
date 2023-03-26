@@ -631,6 +631,7 @@
       <Column Name="TypeOfShip" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
       <Column Name="TradeArea" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
       <Column Name="specimen_no" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="resultid" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
     </ElementType>
   </Function>
 </Database>

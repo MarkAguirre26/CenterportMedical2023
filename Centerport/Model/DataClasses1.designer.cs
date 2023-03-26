@@ -39,7 +39,7 @@ namespace MedicalManagementSoftware.Model
     #endregion
 		
 		public DataClasses1DataContext() : 
-				base(global::MedicalManagementSoftware.Properties.Settings.Default.Centerport_MedicalConnectionString4, mappingSource)
+				base(global::MedicalManagementSoftware.Properties.Settings.Default.Centerport_MedicalConnectionString6, mappingSource)
 		{
 			OnCreated();
 		}
@@ -891,6 +891,20 @@ namespace MedicalManagementSoftware.Model
 		{
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), iD);
 			return ((ISingleResult<sp_loadRepeatChemistryDataResult>)(result.ReturnValue));
+		}
+		
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.Panama_DataRelatedCovid")]
+		public ISingleResult<Panama_DataRelatedCovidResult> Panama_DataRelatedCovid([global::System.Data.Linq.Mapping.ParameterAttribute(Name="ResultID", DbType="VarChar(100)")] string resultID)
+		{
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), resultID);
+			return ((ISingleResult<Panama_DataRelatedCovidResult>)(result.ReturnValue));
+		}
+		
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.PanamaPEPD")]
+		public ISingleResult<PanamaPEPDResult> PanamaPEPD([global::System.Data.Linq.Mapping.ParameterAttribute(Name="ResultID", DbType="VarChar(100)")] string resultID)
+		{
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), resultID);
+			return ((ISingleResult<PanamaPEPDResult>)(result.ReturnValue));
 		}
 	}
 	
@@ -43211,6 +43225,1336 @@ namespace MedicalManagementSoftware.Model
 				if ((this._hbA1c_H != value))
 				{
 					this._hbA1c_H = value;
+				}
+			}
+		}
+	}
+	
+	public partial class Panama_DataRelatedCovidResult
+	{
+		
+		private int _RecId;
+		
+		private string _ResultMainUID;
+		
+		private string _ContactInCovidPositive;
+		
+		private string _CovidTest;
+		
+		private string _CovidDateTest;
+		
+		private string _HadFeverLast30Days;
+		
+		private string _VaccinationCovid;
+		
+		private string _VaccineType;
+		
+		private string _NumberofDoses;
+		
+		private string _Booster;
+		
+		public Panama_DataRelatedCovidResult()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_RecId", DbType="Int NOT NULL")]
+		public int RecId
+		{
+			get
+			{
+				return this._RecId;
+			}
+			set
+			{
+				if ((this._RecId != value))
+				{
+					this._RecId = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ResultMainUID", DbType="VarChar(100) NOT NULL", CanBeNull=false)]
+		public string ResultMainUID
+		{
+			get
+			{
+				return this._ResultMainUID;
+			}
+			set
+			{
+				if ((this._ResultMainUID != value))
+				{
+					this._ResultMainUID = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ContactInCovidPositive", DbType="VarChar(100)")]
+		public string ContactInCovidPositive
+		{
+			get
+			{
+				return this._ContactInCovidPositive;
+			}
+			set
+			{
+				if ((this._ContactInCovidPositive != value))
+				{
+					this._ContactInCovidPositive = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CovidTest", DbType="VarChar(100)")]
+		public string CovidTest
+		{
+			get
+			{
+				return this._CovidTest;
+			}
+			set
+			{
+				if ((this._CovidTest != value))
+				{
+					this._CovidTest = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_CovidDateTest", DbType="VarChar(100)")]
+		public string CovidDateTest
+		{
+			get
+			{
+				return this._CovidDateTest;
+			}
+			set
+			{
+				if ((this._CovidDateTest != value))
+				{
+					this._CovidDateTest = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_HadFeverLast30Days", DbType="VarChar(100)")]
+		public string HadFeverLast30Days
+		{
+			get
+			{
+				return this._HadFeverLast30Days;
+			}
+			set
+			{
+				if ((this._HadFeverLast30Days != value))
+				{
+					this._HadFeverLast30Days = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_VaccinationCovid", DbType="VarChar(100)")]
+		public string VaccinationCovid
+		{
+			get
+			{
+				return this._VaccinationCovid;
+			}
+			set
+			{
+				if ((this._VaccinationCovid != value))
+				{
+					this._VaccinationCovid = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_VaccineType", DbType="VarChar(100)")]
+		public string VaccineType
+		{
+			get
+			{
+				return this._VaccineType;
+			}
+			set
+			{
+				if ((this._VaccineType != value))
+				{
+					this._VaccineType = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_NumberofDoses", DbType="VarChar(100)")]
+		public string NumberofDoses
+		{
+			get
+			{
+				return this._NumberofDoses;
+			}
+			set
+			{
+				if ((this._NumberofDoses != value))
+				{
+					this._NumberofDoses = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Booster", DbType="VarChar(100)")]
+		public string Booster
+		{
+			get
+			{
+				return this._Booster;
+			}
+			set
+			{
+				if ((this._Booster != value))
+				{
+					this._Booster = value;
+				}
+			}
+		}
+	}
+	
+	public partial class PanamaPEPDResult
+	{
+		
+		private int _RecId;
+		
+		private string _HighBloodPressure;
+		
+		private string _Eyeproblem;
+		
+		private string _EarNoseThroat;
+		
+		private string _HeartSurgery;
+		
+		private string _Varicoseveins;
+		
+		private string _AsthmaBronchitis;
+		
+		private string _BloodDisorder;
+		
+		private string _Diabetes;
+		
+		private string _ThyroidProblem;
+		
+		private string _DigestiveDisorders;
+		
+		private string _KidneyDisorders;
+		
+		private string _SkinProblem;
+		
+		private string _Allergies;
+		
+		private string _Epilipsy;
+		
+		private string _SickleCell;
+		
+		private string _Herinas;
+		
+		private string _GenitalDisorders;
+		
+		private string _Pregnancy;
+		
+		private string _Sleepproblem;
+		
+		private string _DoyouSmoke;
+		
+		private string _Surgeries;
+		
+		private string _Infectious;
+		
+		private string _DizzinessFainting;
+		
+		private string _Lossofconsciousness;
+		
+		private string _PsychiatricProblem;
+		
+		private string _Depression;
+		
+		private string _Attemptedsuicide;
+		
+		private string _Lossofmemory;
+		
+		private string _BalanceProblems;
+		
+		private string _SevereHeadAches;
+		
+		private string _Vasculardisease;
+		
+		private string _RestrictedMobility;
+		
+		private string _BackJointProblem;
+		
+		private string _Amputation;
+		
+		private string _FracturesDislocation;
+		
+		private string _Covid19;
+		
+		private string _Repatriated;
+		
+		private string _Hospitalized;
+		
+		private string _SeaDuty;
+		
+		private string _Revoke;
+		
+		private string _ConsiderDisease;
+		
+		private string _FitToPerformDuries;
+		
+		private string _AllergicToAnyMedication;
+		
+		private string _AlternativeSupliment;
+		
+		private string _AlternativeSuplimentComment1;
+		
+		private string _TakenMedications;
+		
+		private string _TakenMedicationsComment1;
+		
+		private string _Comment1;
+		
+		private string _resultid;
+		
+		private string _Comment2;
+		
+		private string _Comment3;
+		
+		private string _Comment4;
+		
+		private string _Comment5;
+		
+		private string _AlternativeSuplimentComment2;
+		
+		private string _AlternativeSuplimentComment3;
+		
+		private string _AlternativeSuplimentComment4;
+		
+		private string _AlternativeSuplimentComment5;
+		
+		private string _TakenMedicationsComment2;
+		
+		private string _TakenMedicationsComment3;
+		
+		private string _TakenMedicationsComment4;
+		
+		private string _TakenMedicationsComment5;
+		
+		private string _AlternativeSuplimentComment6;
+		
+		public PanamaPEPDResult()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_RecId", DbType="Int NOT NULL")]
+		public int RecId
+		{
+			get
+			{
+				return this._RecId;
+			}
+			set
+			{
+				if ((this._RecId != value))
+				{
+					this._RecId = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_HighBloodPressure", DbType="VarChar(100)")]
+		public string HighBloodPressure
+		{
+			get
+			{
+				return this._HighBloodPressure;
+			}
+			set
+			{
+				if ((this._HighBloodPressure != value))
+				{
+					this._HighBloodPressure = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Eyeproblem", DbType="VarChar(100)")]
+		public string Eyeproblem
+		{
+			get
+			{
+				return this._Eyeproblem;
+			}
+			set
+			{
+				if ((this._Eyeproblem != value))
+				{
+					this._Eyeproblem = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_EarNoseThroat", DbType="VarChar(100)")]
+		public string EarNoseThroat
+		{
+			get
+			{
+				return this._EarNoseThroat;
+			}
+			set
+			{
+				if ((this._EarNoseThroat != value))
+				{
+					this._EarNoseThroat = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_HeartSurgery", DbType="VarChar(100)")]
+		public string HeartSurgery
+		{
+			get
+			{
+				return this._HeartSurgery;
+			}
+			set
+			{
+				if ((this._HeartSurgery != value))
+				{
+					this._HeartSurgery = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Varicoseveins", DbType="VarChar(100)")]
+		public string Varicoseveins
+		{
+			get
+			{
+				return this._Varicoseveins;
+			}
+			set
+			{
+				if ((this._Varicoseveins != value))
+				{
+					this._Varicoseveins = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_AsthmaBronchitis", DbType="VarChar(100)")]
+		public string AsthmaBronchitis
+		{
+			get
+			{
+				return this._AsthmaBronchitis;
+			}
+			set
+			{
+				if ((this._AsthmaBronchitis != value))
+				{
+					this._AsthmaBronchitis = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_BloodDisorder", DbType="VarChar(100)")]
+		public string BloodDisorder
+		{
+			get
+			{
+				return this._BloodDisorder;
+			}
+			set
+			{
+				if ((this._BloodDisorder != value))
+				{
+					this._BloodDisorder = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Diabetes", DbType="VarChar(100)")]
+		public string Diabetes
+		{
+			get
+			{
+				return this._Diabetes;
+			}
+			set
+			{
+				if ((this._Diabetes != value))
+				{
+					this._Diabetes = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ThyroidProblem", DbType="VarChar(100)")]
+		public string ThyroidProblem
+		{
+			get
+			{
+				return this._ThyroidProblem;
+			}
+			set
+			{
+				if ((this._ThyroidProblem != value))
+				{
+					this._ThyroidProblem = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DigestiveDisorders", DbType="VarChar(100)")]
+		public string DigestiveDisorders
+		{
+			get
+			{
+				return this._DigestiveDisorders;
+			}
+			set
+			{
+				if ((this._DigestiveDisorders != value))
+				{
+					this._DigestiveDisorders = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_KidneyDisorders", DbType="VarChar(100)")]
+		public string KidneyDisorders
+		{
+			get
+			{
+				return this._KidneyDisorders;
+			}
+			set
+			{
+				if ((this._KidneyDisorders != value))
+				{
+					this._KidneyDisorders = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SkinProblem", DbType="VarChar(100)")]
+		public string SkinProblem
+		{
+			get
+			{
+				return this._SkinProblem;
+			}
+			set
+			{
+				if ((this._SkinProblem != value))
+				{
+					this._SkinProblem = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Allergies", DbType="VarChar(100)")]
+		public string Allergies
+		{
+			get
+			{
+				return this._Allergies;
+			}
+			set
+			{
+				if ((this._Allergies != value))
+				{
+					this._Allergies = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Epilipsy", DbType="VarChar(100)")]
+		public string Epilipsy
+		{
+			get
+			{
+				return this._Epilipsy;
+			}
+			set
+			{
+				if ((this._Epilipsy != value))
+				{
+					this._Epilipsy = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SickleCell", DbType="VarChar(100)")]
+		public string SickleCell
+		{
+			get
+			{
+				return this._SickleCell;
+			}
+			set
+			{
+				if ((this._SickleCell != value))
+				{
+					this._SickleCell = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Herinas", DbType="VarChar(100)")]
+		public string Herinas
+		{
+			get
+			{
+				return this._Herinas;
+			}
+			set
+			{
+				if ((this._Herinas != value))
+				{
+					this._Herinas = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_GenitalDisorders", DbType="VarChar(100)")]
+		public string GenitalDisorders
+		{
+			get
+			{
+				return this._GenitalDisorders;
+			}
+			set
+			{
+				if ((this._GenitalDisorders != value))
+				{
+					this._GenitalDisorders = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Pregnancy", DbType="VarChar(100)")]
+		public string Pregnancy
+		{
+			get
+			{
+				return this._Pregnancy;
+			}
+			set
+			{
+				if ((this._Pregnancy != value))
+				{
+					this._Pregnancy = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Sleepproblem", DbType="VarChar(100)")]
+		public string Sleepproblem
+		{
+			get
+			{
+				return this._Sleepproblem;
+			}
+			set
+			{
+				if ((this._Sleepproblem != value))
+				{
+					this._Sleepproblem = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DoyouSmoke", DbType="VarChar(100)")]
+		public string DoyouSmoke
+		{
+			get
+			{
+				return this._DoyouSmoke;
+			}
+			set
+			{
+				if ((this._DoyouSmoke != value))
+				{
+					this._DoyouSmoke = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Surgeries", DbType="VarChar(100)")]
+		public string Surgeries
+		{
+			get
+			{
+				return this._Surgeries;
+			}
+			set
+			{
+				if ((this._Surgeries != value))
+				{
+					this._Surgeries = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Infectious", DbType="VarChar(100)")]
+		public string Infectious
+		{
+			get
+			{
+				return this._Infectious;
+			}
+			set
+			{
+				if ((this._Infectious != value))
+				{
+					this._Infectious = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DizzinessFainting", DbType="VarChar(100)")]
+		public string DizzinessFainting
+		{
+			get
+			{
+				return this._DizzinessFainting;
+			}
+			set
+			{
+				if ((this._DizzinessFainting != value))
+				{
+					this._DizzinessFainting = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Lossofconsciousness", DbType="VarChar(100)")]
+		public string Lossofconsciousness
+		{
+			get
+			{
+				return this._Lossofconsciousness;
+			}
+			set
+			{
+				if ((this._Lossofconsciousness != value))
+				{
+					this._Lossofconsciousness = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_PsychiatricProblem", DbType="VarChar(100)")]
+		public string PsychiatricProblem
+		{
+			get
+			{
+				return this._PsychiatricProblem;
+			}
+			set
+			{
+				if ((this._PsychiatricProblem != value))
+				{
+					this._PsychiatricProblem = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Depression", DbType="VarChar(100)")]
+		public string Depression
+		{
+			get
+			{
+				return this._Depression;
+			}
+			set
+			{
+				if ((this._Depression != value))
+				{
+					this._Depression = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Attemptedsuicide", DbType="VarChar(100)")]
+		public string Attemptedsuicide
+		{
+			get
+			{
+				return this._Attemptedsuicide;
+			}
+			set
+			{
+				if ((this._Attemptedsuicide != value))
+				{
+					this._Attemptedsuicide = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Lossofmemory", DbType="VarChar(100)")]
+		public string Lossofmemory
+		{
+			get
+			{
+				return this._Lossofmemory;
+			}
+			set
+			{
+				if ((this._Lossofmemory != value))
+				{
+					this._Lossofmemory = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_BalanceProblems", DbType="VarChar(100)")]
+		public string BalanceProblems
+		{
+			get
+			{
+				return this._BalanceProblems;
+			}
+			set
+			{
+				if ((this._BalanceProblems != value))
+				{
+					this._BalanceProblems = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SevereHeadAches", DbType="VarChar(100)")]
+		public string SevereHeadAches
+		{
+			get
+			{
+				return this._SevereHeadAches;
+			}
+			set
+			{
+				if ((this._SevereHeadAches != value))
+				{
+					this._SevereHeadAches = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Vasculardisease", DbType="VarChar(100)")]
+		public string Vasculardisease
+		{
+			get
+			{
+				return this._Vasculardisease;
+			}
+			set
+			{
+				if ((this._Vasculardisease != value))
+				{
+					this._Vasculardisease = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_RestrictedMobility", DbType="VarChar(100)")]
+		public string RestrictedMobility
+		{
+			get
+			{
+				return this._RestrictedMobility;
+			}
+			set
+			{
+				if ((this._RestrictedMobility != value))
+				{
+					this._RestrictedMobility = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_BackJointProblem", DbType="VarChar(100)")]
+		public string BackJointProblem
+		{
+			get
+			{
+				return this._BackJointProblem;
+			}
+			set
+			{
+				if ((this._BackJointProblem != value))
+				{
+					this._BackJointProblem = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Amputation", DbType="VarChar(100)")]
+		public string Amputation
+		{
+			get
+			{
+				return this._Amputation;
+			}
+			set
+			{
+				if ((this._Amputation != value))
+				{
+					this._Amputation = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FracturesDislocation", DbType="VarChar(100)")]
+		public string FracturesDislocation
+		{
+			get
+			{
+				return this._FracturesDislocation;
+			}
+			set
+			{
+				if ((this._FracturesDislocation != value))
+				{
+					this._FracturesDislocation = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Covid19", DbType="VarChar(100)")]
+		public string Covid19
+		{
+			get
+			{
+				return this._Covid19;
+			}
+			set
+			{
+				if ((this._Covid19 != value))
+				{
+					this._Covid19 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Repatriated", DbType="VarChar(100)")]
+		public string Repatriated
+		{
+			get
+			{
+				return this._Repatriated;
+			}
+			set
+			{
+				if ((this._Repatriated != value))
+				{
+					this._Repatriated = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Hospitalized", DbType="VarChar(100)")]
+		public string Hospitalized
+		{
+			get
+			{
+				return this._Hospitalized;
+			}
+			set
+			{
+				if ((this._Hospitalized != value))
+				{
+					this._Hospitalized = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SeaDuty", DbType="VarChar(100)")]
+		public string SeaDuty
+		{
+			get
+			{
+				return this._SeaDuty;
+			}
+			set
+			{
+				if ((this._SeaDuty != value))
+				{
+					this._SeaDuty = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Name="[Revoke]", Storage="_Revoke", DbType="VarChar(100)")]
+		public string Revoke
+		{
+			get
+			{
+				return this._Revoke;
+			}
+			set
+			{
+				if ((this._Revoke != value))
+				{
+					this._Revoke = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ConsiderDisease", DbType="VarChar(100)")]
+		public string ConsiderDisease
+		{
+			get
+			{
+				return this._ConsiderDisease;
+			}
+			set
+			{
+				if ((this._ConsiderDisease != value))
+				{
+					this._ConsiderDisease = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_FitToPerformDuries", DbType="VarChar(100)")]
+		public string FitToPerformDuries
+		{
+			get
+			{
+				return this._FitToPerformDuries;
+			}
+			set
+			{
+				if ((this._FitToPerformDuries != value))
+				{
+					this._FitToPerformDuries = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_AllergicToAnyMedication", DbType="VarChar(100)")]
+		public string AllergicToAnyMedication
+		{
+			get
+			{
+				return this._AllergicToAnyMedication;
+			}
+			set
+			{
+				if ((this._AllergicToAnyMedication != value))
+				{
+					this._AllergicToAnyMedication = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_AlternativeSupliment", DbType="VarChar(100)")]
+		public string AlternativeSupliment
+		{
+			get
+			{
+				return this._AlternativeSupliment;
+			}
+			set
+			{
+				if ((this._AlternativeSupliment != value))
+				{
+					this._AlternativeSupliment = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_AlternativeSuplimentComment1", DbType="VarChar(254)")]
+		public string AlternativeSuplimentComment1
+		{
+			get
+			{
+				return this._AlternativeSuplimentComment1;
+			}
+			set
+			{
+				if ((this._AlternativeSuplimentComment1 != value))
+				{
+					this._AlternativeSuplimentComment1 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TakenMedications", DbType="VarChar(100)")]
+		public string TakenMedications
+		{
+			get
+			{
+				return this._TakenMedications;
+			}
+			set
+			{
+				if ((this._TakenMedications != value))
+				{
+					this._TakenMedications = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TakenMedicationsComment1", DbType="VarChar(254)")]
+		public string TakenMedicationsComment1
+		{
+			get
+			{
+				return this._TakenMedicationsComment1;
+			}
+			set
+			{
+				if ((this._TakenMedicationsComment1 != value))
+				{
+					this._TakenMedicationsComment1 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Comment1", DbType="VarChar(254)")]
+		public string Comment1
+		{
+			get
+			{
+				return this._Comment1;
+			}
+			set
+			{
+				if ((this._Comment1 != value))
+				{
+					this._Comment1 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_resultid", DbType="VarChar(254)")]
+		public string resultid
+		{
+			get
+			{
+				return this._resultid;
+			}
+			set
+			{
+				if ((this._resultid != value))
+				{
+					this._resultid = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Comment2", DbType="VarChar(254)")]
+		public string Comment2
+		{
+			get
+			{
+				return this._Comment2;
+			}
+			set
+			{
+				if ((this._Comment2 != value))
+				{
+					this._Comment2 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Comment3", DbType="VarChar(254)")]
+		public string Comment3
+		{
+			get
+			{
+				return this._Comment3;
+			}
+			set
+			{
+				if ((this._Comment3 != value))
+				{
+					this._Comment3 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Comment4", DbType="VarChar(254)")]
+		public string Comment4
+		{
+			get
+			{
+				return this._Comment4;
+			}
+			set
+			{
+				if ((this._Comment4 != value))
+				{
+					this._Comment4 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Comment5", DbType="VarChar(254)")]
+		public string Comment5
+		{
+			get
+			{
+				return this._Comment5;
+			}
+			set
+			{
+				if ((this._Comment5 != value))
+				{
+					this._Comment5 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_AlternativeSuplimentComment2", DbType="VarChar(254)")]
+		public string AlternativeSuplimentComment2
+		{
+			get
+			{
+				return this._AlternativeSuplimentComment2;
+			}
+			set
+			{
+				if ((this._AlternativeSuplimentComment2 != value))
+				{
+					this._AlternativeSuplimentComment2 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_AlternativeSuplimentComment3", DbType="VarChar(254)")]
+		public string AlternativeSuplimentComment3
+		{
+			get
+			{
+				return this._AlternativeSuplimentComment3;
+			}
+			set
+			{
+				if ((this._AlternativeSuplimentComment3 != value))
+				{
+					this._AlternativeSuplimentComment3 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_AlternativeSuplimentComment4", DbType="VarChar(254)")]
+		public string AlternativeSuplimentComment4
+		{
+			get
+			{
+				return this._AlternativeSuplimentComment4;
+			}
+			set
+			{
+				if ((this._AlternativeSuplimentComment4 != value))
+				{
+					this._AlternativeSuplimentComment4 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_AlternativeSuplimentComment5", DbType="VarChar(254)")]
+		public string AlternativeSuplimentComment5
+		{
+			get
+			{
+				return this._AlternativeSuplimentComment5;
+			}
+			set
+			{
+				if ((this._AlternativeSuplimentComment5 != value))
+				{
+					this._AlternativeSuplimentComment5 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TakenMedicationsComment2", DbType="VarChar(254)")]
+		public string TakenMedicationsComment2
+		{
+			get
+			{
+				return this._TakenMedicationsComment2;
+			}
+			set
+			{
+				if ((this._TakenMedicationsComment2 != value))
+				{
+					this._TakenMedicationsComment2 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TakenMedicationsComment3", DbType="VarChar(254)")]
+		public string TakenMedicationsComment3
+		{
+			get
+			{
+				return this._TakenMedicationsComment3;
+			}
+			set
+			{
+				if ((this._TakenMedicationsComment3 != value))
+				{
+					this._TakenMedicationsComment3 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TakenMedicationsComment4", DbType="VarChar(254)")]
+		public string TakenMedicationsComment4
+		{
+			get
+			{
+				return this._TakenMedicationsComment4;
+			}
+			set
+			{
+				if ((this._TakenMedicationsComment4 != value))
+				{
+					this._TakenMedicationsComment4 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TakenMedicationsComment5", DbType="VarChar(254)")]
+		public string TakenMedicationsComment5
+		{
+			get
+			{
+				return this._TakenMedicationsComment5;
+			}
+			set
+			{
+				if ((this._TakenMedicationsComment5 != value))
+				{
+					this._TakenMedicationsComment5 = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_AlternativeSuplimentComment6", DbType="VarChar(1)")]
+		public string AlternativeSuplimentComment6
+		{
+			get
+			{
+				return this._AlternativeSuplimentComment6;
+			}
+			set
+			{
+				if ((this._AlternativeSuplimentComment6 != value))
+				{
+					this._AlternativeSuplimentComment6 = value;
 				}
 			}
 		}

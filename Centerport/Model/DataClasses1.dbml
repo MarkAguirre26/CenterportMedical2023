@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Centerport_Medical" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-EOC2ABE\SQLEXPRESS;Initial Catalog=Centerport_Medical;Persist Security Info=True;User ID=sa" SettingsObjectName="MedicalManagementSoftware.Properties.Settings" SettingsPropertyName="Centerport_MedicalConnectionString4" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-KIIKPT8\SQLEXPRESS;Initial Catalog=Centerport_Medical;Persist Security Info=True;User ID=sa" SettingsObjectName="MedicalManagementSoftware.Properties.Settings" SettingsPropertyName="Centerport_MedicalConnectionString6" Provider="System.Data.SqlClient" />
   <Table Name="dbo.view_patient" Member="view_patients">
     <Type Name="view_patient">
       <Column Name="cn" Type="System.Int32" DbType="Int" CanBeNull="true" />
@@ -2819,6 +2819,89 @@
       <Column Name="other_H" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="cn" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
       <Column Name="hbA1c_H" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Panama_DataRelatedCovid" Method="Panama_DataRelatedCovid">
+    <Parameter Name="ResultID" Parameter="resultID" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="Panama_DataRelatedCovidResult">
+      <Column Name="RecId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ResultMainUID" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="ContactInCovidPositive" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CovidTest" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CovidDateTest" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="HadFeverLast30Days" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="VaccinationCovid" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="VaccineType" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="NumberofDoses" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Booster" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.PanamaPEPD" Method="PanamaPEPD">
+    <Parameter Name="ResultID" Parameter="resultID" Type="System.String" DbType="VarChar(100)" />
+    <ElementType Name="PanamaPEPDResult">
+      <Column Name="RecId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HighBloodPressure" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Eyeproblem" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EarNoseThroat" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="HeartSurgery" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Varicoseveins" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="AsthmaBronchitis" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="BloodDisorder" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Diabetes" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ThyroidProblem" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DigestiveDisorders" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="KidneyDisorders" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SkinProblem" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Allergies" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Epilipsy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SickleCell" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Herinas" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="GenitalDisorders" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Pregnancy" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Sleepproblem" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DoyouSmoke" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Surgeries" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Infectious" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="DizzinessFainting" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Lossofconsciousness" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PsychiatricProblem" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Depression" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Attemptedsuicide" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Lossofmemory" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="BalanceProblems" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SevereHeadAches" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Vasculardisease" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="RestrictedMobility" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="BackJointProblem" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Amputation" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="FracturesDislocation" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Covid19" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Repatriated" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Hospitalized" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SeaDuty" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="[Revoke]" Member="Revoke" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ConsiderDisease" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="FitToPerformDuries" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="AllergicToAnyMedication" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="AlternativeSupliment" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="AlternativeSuplimentComment1" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="TakenMedications" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="TakenMedicationsComment1" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Comment1" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="resultid" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Comment2" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Comment3" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Comment4" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="Comment5" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="AlternativeSuplimentComment2" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="AlternativeSuplimentComment3" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="AlternativeSuplimentComment4" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="AlternativeSuplimentComment5" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="TakenMedicationsComment2" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="TakenMedicationsComment3" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="TakenMedicationsComment4" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="TakenMedicationsComment5" Type="System.String" DbType="VarChar(254)" CanBeNull="true" />
+      <Column Name="AlternativeSuplimentComment6" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
     </ElementType>
   </Function>
 </Database>

@@ -139,6 +139,9 @@ namespace MedicalManagementSoftware
             }
         }
 
+
+
+
         private void pnlClientArea_Paint(object sender, PaintEventArgs e)
         {
 
@@ -1546,7 +1549,7 @@ namespace MedicalManagementSoftware
             {
                 searchPatient(txtPapin.Text);
             }
-           
+
         }
 
 
@@ -1559,8 +1562,8 @@ namespace MedicalManagementSoftware
                 var i = db.PANAMA_SELECT_PATIENT(keyWord).FirstOrDefault();
 
 
-                //if (i != null)
-                //{
+                if (i.papin != null  || i.papin != "")
+                {
 
                     txtFullaname.Text = i.Fullname;
                     txtPersonundergoingExamination.Text = i.Fullname;
@@ -1594,395 +1597,398 @@ namespace MedicalManagementSoftware
                     txtPerformLookout.Text = i.LookOutDuties;
                     txtRoutine.Text = i.EmergencyDuties;
 
+                    txtResultID.Text = "";
+                    txtResultID.Text = i.resultid;
 
-                    ////newItem();
-
-
-                    ////if (i.countvalidator > 0)
-                    ////{
-
-                    ////    txtRhType.Text = i.RhTypingProfile;
-
-                    ////    if (i.TypeOfShip != null)
-                    ////    {
-
-                    ////        switch (i.TypeOfShip.ToLower())
-                    ////        {
-                    ////            case "container":
-                    ////                rbContainer.Checked = true;
-                    ////                break;
-                    ////            case "tanker":
-                    ////                rbTanker.Checked = true;
-                    ////                break;
-                    ////            case "passenger":
-                    ////                rbPassener.Checked = true;
-                    ////                break;
-
-                    ////            default:
-                    ////                rbTypeOfShipOther.Checked = true;
-                    ////                txtTypeShipOther.Text = i.TypeOfShip;
-                    ////                break;
-                    ////        }
-
-                    ////    }
+                }
+                ////newItem();
 
 
-                    ////    if (txtTypeShipOther.Text != "")
-                    ////    {
-                    ////        rbContainer.Checked = false;
-                    ////        rbTanker.Checked = false;
-                    ////        rbPassener.Checked = false;
-                    ////        rbTypeOfShipOther.Checked = true;
-                    ////    }
+                ////if (i.countvalidator > 0)
+                ////{
+
+                ////    txtRhType.Text = i.RhTypingProfile;
+
+                ////    if (i.TypeOfShip != null)
+                ////    {
+
+                ////        switch (i.TypeOfShip.ToLower())
+                ////        {
+                ////            case "container":
+                ////                rbContainer.Checked = true;
+                ////                break;
+                ////            case "tanker":
+                ////                rbTanker.Checked = true;
+                ////                break;
+                ////            case "passenger":
+                ////                rbPassener.Checked = true;
+                ////                break;
+
+                ////            default:
+                ////                rbTypeOfShipOther.Checked = true;
+                ////                txtTypeShipOther.Text = i.TypeOfShip;
+                ////                break;
+                ////        }
+
+                ////    }
 
 
-
-                    ////    if (i.TradeArea != null)
-                    ////    {
-                    ////        switch (i.TradeArea.ToLower())
-                    ////        {
-                    ////            case "coastal":
-                    ////                rbCoastal.Checked = true;
-                    ////                break;
-                    ////            case "tropical":
-                    ////                rbTropical.Checked = true;
-                    ////                break;
-                    ////            case "worldwide":
-                    ////                rbWorldWide.Checked = true;
-                    ////                break;
-                    ////            default:
-                    ////                // TO DO
-                    ////                break;
-                    ////        }
-                    ////    }
-                    ////    //EXAMINEE PERSONAL DECLARATION
-                    ////    //setCheckBoxValue(cbHighBloodPressureYes, cbHighBloodPressureNo, i.HighBloodPressure);
-                    ////    //setCheckBoxValue(cbEyeproblemYes, cbEyeproblemNo, i.Eyeproblem);
-                    ////    //setCheckBoxValue(cbEarNoseThroatYes, cbEarNoseThroatNo, i.EarNoseThroat);
-                    ////    //setCheckBoxValue(cbHeartSurgeryYes, cbHeartSurgeryNo, i.HeartSurgery);
-                    ////    //setCheckBoxValue(cbVaricoseveinsYes, cbVaricoseveinsNo, i.Varicoseveins);
-                    ////    //setCheckBoxValue(cbAsthmaBronchitisYes, cbAsthmaBronchitisNo, i.AsthmaBronchitis);
-                    ////    //setCheckBoxValue(cbBloodDisorderYes, cbBloodDisorderNo, i.BloodDisorder);
-                    ////    //setCheckBoxValue(cbDiabetesYes_, cbDiabetesNo, i.Diabetes);
-                    ////    //setCheckBoxValue(cbThyroidProblemYes, cbThyroidProblemNo, i.ThyroidProblem);
-                    ////    //setCheckBoxValue(cbDigestiveDisordersYes, cbDigestiveDisordersNo, i.DigestiveDisorders);
-                    ////    //setCheckBoxValue(cbKidneyDisordersYes, cbKidneyDisordersNo_, i.KidneyDisorders);
-                    ////    //setCheckBoxValue(cbSkinProblemYes, cbSkinProblemNo, i.SkinProblem);
-                    ////    //setCheckBoxValue(cbAllergiesYes, cbAllergiesNo, i.Allergies);
-                    ////    //setCheckBoxValue(cbEpilipsyYes, cbEpilipsyNo, i.Epilipsy);
-                    ////    //setCheckBoxValue(cbSickleCellYes, cbSickleCellNo, i.SickleCell);
-                    ////    //setCheckBoxValue(cbHerinasYes, cbHerinasNo, i.Herinas);
-                    ////    //setCheckBoxValue(cbGenitalDisordersYes, cbGenitalDisordersNo, i.GenitalDisorders);
-                    ////    //setCheckBoxValue(cbPregnancyYes, cbPregnancyNo, i.Pregnancy);
-
-                    ////    //setCheckBoxValue(cbSleepproblemYes, cbSleepproblemNo, i.Sleepproblem);
-                    ////    //setCheckBoxValue(cbDoyouSmokeYes, cbDoyouSmokeNo, i.DoyouSmoke);
-                    ////    //setCheckBoxValue(cbSurgeriesYes, cbSurgeriesNo, i.Surgeries);
-                    ////    //setCheckBoxValue(cbInfectiousYes, cbInfectiousNo, i.Infectious);
-                    ////    //setCheckBoxValue(cbDigestiveDisordersYes, cbDigestiveDisordersNo, i.DizzinessFainting);
-                    ////    //setCheckBoxValue(cbLossofconsciousnessYes, cbLossofconsciousnessNo, i.Lossofconsciousness);
-                    ////    //setCheckBoxValue(cbPsychiatricProblemYes, cbPsychiatricProblemNo, i.PsychiatricProblem);
-                    ////    //setCheckBoxValue(cbDepressionYes, cbDepressionNo, i.Depression);
-                    ////    //setCheckBoxValue(cbLossofmemoryYes, cbLossofmemoryNo, i.Attemptedsuicide);
-
-
-                    ////    //setCheckBoxValue(cbRestrictedMobilityYes, cbRestrictedMobilityNo, i.RestrictedMobility);
-                    ////    //setCheckBoxValue(cbBackJointProblemYes, cbBackJointProblemNo, i.BackJointProblem);
-                    ////    //setCheckBoxValue(cbAmputationYes, cbAmputationNo, i.Amputation);
-                    ////    //setCheckBoxValue(cbFracturesDislocationYes, cbFracturesDislocationNo, i.FracturesDislocation);
-                    ////    //setCheckBoxValue(cbCovidYes, cbCovidNo, i.Covid19);
-                    ////    //setCheckBoxValue(cbRepatriatedYes, cbRepatriatedNo, i.Repatriated);
-                    ////    //setCheckBoxValue(cbHospitalizedYes, cbHospitalizedNo, i.Hospitalized);
-                    ////    //setCheckBoxValue(cbSeaDutyYes, cbSeaDutyNo, i.SeaDuty);
-                    ////    //setCheckBoxValue(cbRevokeYes, cbRevokeNo, i.Revoke);
-                    ////    //setCheckBoxValue(cbConsiderDiseaseYes, cbConsiderDiseaseNo, i.ConsiderDisease);
-                    ////    //setCheckBoxValue(cbFitToPerformDuriesYes, cbFitToPerformDuriesNo, i.FitToPerformDuries);
-
-                    ////    //setCheckBoxValue(cbAllergicToAnyMedicationYes, cbAllergicToAnyMedicationNo, i.AllergicToAnyMedication);
-                    ////    //setCheckBoxValue(cbAllergicAlternativeSuplimentYes, cbAllergicAlternativeSuplimentNo, i.AlternativeSupliment);
-
-                    ////    txtAlternativeComment1.Text = i.AlternativeSuplimentComment1;
-                    ////    txtAlternativeComment2.Text = i.AlternativeSuplimentComment2;
-                    ////    txtAlternativeComment3.Text = i.AlternativeSuplimentComment3;
-                    ////    txtAlternativeComment4.Text = i.AlternativeSuplimentComment4;
-                    ////    txtAlternativeComment5.Text = i.AlternativeSuplimentComment5;
-                    ////    txtAlternativeComment6.Text = i.AlternativeSuplimentComment6;
-                    ////    //setCheckBoxValue(cbTakenMedicationsYes, cbTakenMedicationsNo, i.TakenMedications);
-                    ////    txtmedicationsComment1.Text = i.TakenMedicationsComment1;
-                    ////    txtmedicationsComment2.Text = i.TakenMedicationsComment2;
-                    ////    txtmedicationsComment3.Text = i.TakenMedicationsComment3;
-                    ////    txtmedicationsComment4.Text = i.TakenMedicationsComment4;
-                    ////    txtmedicationsComment5.Text = i.TakenMedicationsComment5;
-                    ////    //txtmedicationsComment6.Text = i.TakenMedicationsComment6;
-                    ////    txtExamineeComment1.Text = i.Comment1;
-                    ////    txtExamineeComment2.Text = i.Comment2;
-                    ////    txtExamineeComment3.Text = i.Comment3;
-                    ////    txtExamineeComment4.Text = i.Comment4;
-                    ////    txtExamineeComment5.Text = i.Comment5;
-
-
-                    ////    // Data Related  to covid
-                    ////    //setCheckBoxValue(cbContactInCovidPositiveYes, cbContactInCovidPositiveNo, i.ContactInCovidPositive);
-                    ////    //setCheckBoxValue(cbCovidTestYes, cbCovidTestNo, i.CovidTest);
-                    ////    //validateDate(i.CovidDateTest, dtCovidDateTest, checkBox106);
-                    ////    //setCheckBoxValue(cbHadFeverLast30DaysYes, cbHadFeverLast30DaysNo, i.HadFeverLast30Days);
-                    ////    //setCheckBoxValue(cbVaccinationCovidYes, cbVaccinationCovidNo, i.VaccinationCovid);
-                    ////    txtVaccineType.Text = i.VaccineType;
-                    ////    txtNumberofDoses.Text = i.NumberofDoses;
-                    ////    txtBooster.Text = i.Booster;
-
-                    ////    //STATEMENT
-                    ////    //txtPersonundergoingExamination.Text = i.PersonundergoingExamination;
-                    ////    //validateDate(i.UndergoingExaminationDate, dtUndergoingExamination, checkBox107);
-                    ////    string s = i.fitness_date;
-                    ////    string[] d = s.Split('/');
-
-                    ////    txtStaetementDay.Text = d[0];
-                    ////    txtStaetementMonth.Text = Convert.ToDateTime(i.fitness_date).ToString("MMM");
-                    ////    txtStaetementYear.Text = d[2];
-
-
-                    ////    txtNameOfWitness.Text = i.NameOfWitness;
-                    ////    txtDoctorName.Text = i.DoctorName;
-                    ////    //txtUndergoingExamination.Text = i.UndergoingExamination;
-                    ////    //validateDate(i.UndergoingExaminationDate2, dtUndergoingExamination2, checkBox108);
-
-                    ////    string p4 = i.fitness_date;
-                    ////    string[] d4 = s.Split('/');
-
-                    ////    txtp4Day.Text = d4[0];
-                    ////    txtp4Month.Text = Convert.ToDateTime(i.fitness_date).ToString("MMM");
-                    ////    txtp4Year.Text = d4[2];
+                ////    if (txtTypeShipOther.Text != "")
+                ////    {
+                ////        rbContainer.Checked = false;
+                ////        rbTanker.Checked = false;
+                ////        rbPassener.Checked = false;
+                ////        rbTypeOfShipOther.Checked = true;
+                ////    }
 
 
 
+                ////    if (i.TradeArea != null)
+                ////    {
+                ////        switch (i.TradeArea.ToLower())
+                ////        {
+                ////            case "coastal":
+                ////                rbCoastal.Checked = true;
+                ////                break;
+                ////            case "tropical":
+                ////                rbTropical.Checked = true;
+                ////                break;
+                ////            case "worldwide":
+                ////                rbWorldWide.Checked = true;
+                ////                break;
+                ////            default:
+                ////                // TO DO
+                ////                break;
+                ////        }
+                ////    }
+                ////    //EXAMINEE PERSONAL DECLARATION
+                ////    //setCheckBoxValue(cbHighBloodPressureYes, cbHighBloodPressureNo, i.HighBloodPressure);
+                ////    //setCheckBoxValue(cbEyeproblemYes, cbEyeproblemNo, i.Eyeproblem);
+                ////    //setCheckBoxValue(cbEarNoseThroatYes, cbEarNoseThroatNo, i.EarNoseThroat);
+                ////    //setCheckBoxValue(cbHeartSurgeryYes, cbHeartSurgeryNo, i.HeartSurgery);
+                ////    //setCheckBoxValue(cbVaricoseveinsYes, cbVaricoseveinsNo, i.Varicoseveins);
+                ////    //setCheckBoxValue(cbAsthmaBronchitisYes, cbAsthmaBronchitisNo, i.AsthmaBronchitis);
+                ////    //setCheckBoxValue(cbBloodDisorderYes, cbBloodDisorderNo, i.BloodDisorder);
+                ////    //setCheckBoxValue(cbDiabetesYes_, cbDiabetesNo, i.Diabetes);
+                ////    //setCheckBoxValue(cbThyroidProblemYes, cbThyroidProblemNo, i.ThyroidProblem);
+                ////    //setCheckBoxValue(cbDigestiveDisordersYes, cbDigestiveDisordersNo, i.DigestiveDisorders);
+                ////    //setCheckBoxValue(cbKidneyDisordersYes, cbKidneyDisordersNo_, i.KidneyDisorders);
+                ////    //setCheckBoxValue(cbSkinProblemYes, cbSkinProblemNo, i.SkinProblem);
+                ////    //setCheckBoxValue(cbAllergiesYes, cbAllergiesNo, i.Allergies);
+                ////    //setCheckBoxValue(cbEpilipsyYes, cbEpilipsyNo, i.Epilipsy);
+                ////    //setCheckBoxValue(cbSickleCellYes, cbSickleCellNo, i.SickleCell);
+                ////    //setCheckBoxValue(cbHerinasYes, cbHerinasNo, i.Herinas);
+                ////    //setCheckBoxValue(cbGenitalDisordersYes, cbGenitalDisordersNo, i.GenitalDisorders);
+                ////    //setCheckBoxValue(cbPregnancyYes, cbPregnancyNo, i.Pregnancy);
+
+                ////    //setCheckBoxValue(cbSleepproblemYes, cbSleepproblemNo, i.Sleepproblem);
+                ////    //setCheckBoxValue(cbDoyouSmokeYes, cbDoyouSmokeNo, i.DoyouSmoke);
+                ////    //setCheckBoxValue(cbSurgeriesYes, cbSurgeriesNo, i.Surgeries);
+                ////    //setCheckBoxValue(cbInfectiousYes, cbInfectiousNo, i.Infectious);
+                ////    //setCheckBoxValue(cbDigestiveDisordersYes, cbDigestiveDisordersNo, i.DizzinessFainting);
+                ////    //setCheckBoxValue(cbLossofconsciousnessYes, cbLossofconsciousnessNo, i.Lossofconsciousness);
+                ////    //setCheckBoxValue(cbPsychiatricProblemYes, cbPsychiatricProblemNo, i.PsychiatricProblem);
+                ////    //setCheckBoxValue(cbDepressionYes, cbDepressionNo, i.Depression);
+                ////    //setCheckBoxValue(cbLossofmemoryYes, cbLossofmemoryNo, i.Attemptedsuicide);
 
 
+                ////    //setCheckBoxValue(cbRestrictedMobilityYes, cbRestrictedMobilityNo, i.RestrictedMobility);
+                ////    //setCheckBoxValue(cbBackJointProblemYes, cbBackJointProblemNo, i.BackJointProblem);
+                ////    //setCheckBoxValue(cbAmputationYes, cbAmputationNo, i.Amputation);
+                ////    //setCheckBoxValue(cbFracturesDislocationYes, cbFracturesDislocationNo, i.FracturesDislocation);
+                ////    //setCheckBoxValue(cbCovidYes, cbCovidNo, i.Covid19);
+                ////    //setCheckBoxValue(cbRepatriatedYes, cbRepatriatedNo, i.Repatriated);
+                ////    //setCheckBoxValue(cbHospitalizedYes, cbHospitalizedNo, i.Hospitalized);
+                ////    //setCheckBoxValue(cbSeaDutyYes, cbSeaDutyNo, i.SeaDuty);
+                ////    //setCheckBoxValue(cbRevokeYes, cbRevokeNo, i.Revoke);
+                ////    //setCheckBoxValue(cbConsiderDiseaseYes, cbConsiderDiseaseNo, i.ConsiderDisease);
+                ////    //setCheckBoxValue(cbFitToPerformDuriesYes, cbFitToPerformDuriesNo, i.FitToPerformDuries);
 
-                    ////    txtNameOfWitness2.Text = i.NameOfWitness2;
-                    ////    txtPreviousMedical.Text = i.PreviousMedical;
+                ////    //setCheckBoxValue(cbAllergicToAnyMedicationYes, cbAllergicToAnyMedicationNo, i.AllergicToAnyMedication);
+                ////    //setCheckBoxValue(cbAllergicAlternativeSuplimentYes, cbAllergicAlternativeSuplimentNo, i.AlternativeSupliment);
 
-                    ////    //MEDICAL EXAMINATION
-                    ////    txtHeight.Text = i.Height;
-                    ////    txtWeight.Text = i.Weight;
-                    ////    txtBMI.Text = i.BMI;
-                    ////    txtOxygen.Text = i.Oxygen;
-                    ////    txtHeartRate.Text = i.HeartRate;
-                    ////    txtRespiratory.Text = i.Respiratory;
-                    ////    txtBloodPressure.Text = i.BloodPressure;
-                    ////    txtDiastolic.Text = i.Diatolic;
-                    ////    txtUnaidedRightEyeDistant.Text = i.UnaidedRightEyeDistant;
-                    ////    txtUnAidedLeftEyeDistant.Text = i.UnAidedLeftEyeDistant;
-                    ////    txtUnAidedBonocularDistant.Text = i.UnAidedBonocularDistant;
-                    ////    txtAidedRightEyeDistant.Text = i.AidedRightEyeDistant;
-                    ////    txtAidedLeftEyeDistant.Text = i.AidedLeftEyeDistant;
-                    ////    txtAidedBinocularDistant.Text = i.AidedBinocularDistant;
-                    ////    txtUnaidedRightEyeShort.Text = i.UnaidedRightEyeShort;
-                    ////    txtUnAidedLeftEyeShort.Text = i.UnAidedLeftEyeShort;
-                    ////    txtUnAidedBonocularShort.Text = i.UnAidedBonocularShort;
-                    ////    txtAidedRightEyeShort.Text = i.AidedRightEyeShort;
-                    ////    txtAidedLeftEyeShort.Text = i.AidedLeftEyeShort;
-                    ////    txtAidedBinocularShort.Text = i.AidedBinocularShort;
-
-
-                    ////    //setCheckBoxValue(cbNonTestedColorVision, cbHidden, i.NonTestedColorVision);
-                    ////    //setCheckBoxValue(cbNormalColorVision, cbHidden, i.NormalColorVision);
-                    ////    //setCheckBoxValue(cbDoubtfulColorVision, cbHidden, i.DoubtfulColorVision);
-                    ////    //setCheckBoxValue(cbDefectiveColorVision, cbHidden, i.DefectiveColorVision);
-
-
-                    ////    txtNormalRightEye.Text = i.NormalRightEye;
-                    ////    txtNormalLeftEye.Text = i.NormalLeftEye;
-                    ////    txtDefectiveRightEye.Text = i.DefectiveRightEye;
-                    ////    txtDefectiveLeftEye.Text = i.DefectiveLeftEye;
-                    ////    txtSightComment.Text = "ISHIHARA 38";
-                    ////    txt500HzRightEar.Text = i._500HzRightEar;
-                    ////    txt1kRightEar.Text = i._1kRightEar;
-                    ////    txt2kRightEar.Text = i._2kRightEar;
-                    ////    txt3kRightEar.Text = i._3kRightEar;
-                    ////    txt500HzLeftEar.Text = i._500HzLeftEar;
-                    ////    txt1kLeftEar.Text = i._1kLeftEar;
-                    ////    txt2kLeftEar.Text = i._2kLeftEar;
-                    ////    txt3kLeftEar.Text = i._3kLeftEar;
-
-                    ////    //PHYSICAL EXPLORATION
-                    ////    //setCheckBoxValue(cbHeadYes, cbHeadNo, i.Head);
-                    ////    //setCheckBoxValue(cbMouthYes, cbMouthNo, i.Mouth);
-                    ////    //setCheckBoxValue(cbDental, cbDentalNo, i.Dental);
-                    ////    //setCheckBoxValue(cbEars, cbEarsNo, i.Ears);
-                    ////    //setCheckBoxValue(cbTympanic, cbTympanicNo, i.Tympanic);
-                    ////    //setCheckBoxValue(cbEyes, cbEyesNo, i.Eyes);
-                    ////    //setCheckBoxValue(cbPupils, cbPupilsNo, i.Pupils);
-                    ////    //setCheckBoxValue(cbOfThalmoscopy, cbOfThalmoscopyNo, i.OfThalmoscopy);
-                    ////    //setCheckBoxValue(cbEyeMovement, cbEyeMovementNo, i.EyeMovement);
-                    ////    //setCheckBoxValue(cbLungs, cbLungsNo, i.Lungs);
-                    ////    //setCheckBoxValue(cbBreast, cbBreastNo, i.Breast);
-                    ////    //setCheckBoxValue(cbHeart, cbHeartNo, i.Heart);
-                    ////    //setCheckBoxValue(cbSkin, cbSkinNo, i.Skin);
-                    ////    //setCheckBoxValue(cbVaricoseVenis, cbVaricoseVenisNo, i.VaricoseVenis);
-                    ////    //setCheckBoxValue(cbVascular, cbVascularNo, i.Vascular);
-                    ////    //setCheckBoxValue(cbAbnomen, cbAbnomenNo, i.Abdomen);
-                    ////    //setCheckBoxValue(cbHernias, cbHerniasNo, i.Hernias);
-                    ////    //setCheckBoxValue(cbAnus, cbAnusNo, i.Anus);
-                    ////    //setCheckBoxValue(cbGu, cbGuNo, i.Gu);
-                    ////    //setCheckBoxValue(cbUpper, cbUpperNo, i.Upper);
-                    ////    //setCheckBoxValue(cbSpine, cbSpineNo, i.Spine);
-                    ////    //setCheckBoxValue(cbNeurologic, cbNeurologicNo, i.Neurologic);
-                    ////    //setCheckBoxValue(cbPsychiatric, cbPsychiatricNo, i.Psychiatric);
-                    ////    //setCheckBoxValue(cbGeneralAppearance, cbGeneralAppearanceNo, i.GeneralAppearance);
-                    ////    txtPhysicalExploration1.Text = i.PhysicalExplorationComment1;
-
-                    ////    //DIAGNOSTIC TEST AND RESULTS 
-                    ////    setCheckBoxValue(cbHemogram, cbHidden, i.Hemogram);
-                    ////    txtHemogramNormal.Text = i.HemogramNormal;
-                    ////    txtHemogramAbNormal.Text = i.HemogramAbNormal;
-                    ////    txtHemogramOservation.Text = i.HemogramOservation;
-                    ////    setCheckBoxValue(cbLipid, cbHidden, i.Lipid);
-                    ////    txtLipidNormal.Text = i.LipidNormal;
-                    ////    txtLipidAbNormal.Text = i.LipidAbNormal; ;
-                    ////    txtLipidObservation.Text = i.LipidObservation;
-                    ////    setCheckBoxValue(cbCreatinine, cbHidden, i.Creatinine);
-                    ////    txtCreatinineNormal.Text = i.CreatinineNormal;
-                    ////    txtCreatinineAbnormal.Text = i.CreatinineAbnormal;
-                    ////    txtCreatinineObservation.Text = i.CreatinineObservation;
-                    ////    setCheckBoxValue(cbCholesterol, cbHidden, i.Cholesterol);
-                    ////    txtCholesterolNormal.Text = i.CholesterolNormal;
-                    ////    txtCholesterolAbnormal.Text = i.CholesterolAbnormal;
-                    ////    txtCholesterolObservation.Text = i.CholesterolObservation;
-                    ////    setCheckBoxValue(cbTriglycerides, cbHidden, i.Triglycerides);
-                    ////    txtTriglyceridesNormal.Text = i.TriglyceridesNormal;
-                    ////    txtTriglyceridesAbnormal.Text = i.TriglyceridesAbnormal;
-                    ////    txtTriglyceridesObservation.Text = i.TriglyceridesObservation;
-                    ////    setCheckBoxValue(cbGlucose, cbHidden, i.Glucose);
-                    ////    txtGlucoseNormal.Text = i.GlucoseNormal;
-                    ////    txtGlucoseAbNormal.Text = i.GlucoseAbNormal;
-                    ////    txtGlucoseObservation.Text = i.GlucoseObservation;
-                    ////    setCheckBoxValue(cbNitrogen, cbHidden, i.Nitrogen);
-                    ////    txtNitrogenNormal.Text = i.NitrogenNormal;
-                    ////    txtNitrogenAbnormal.Text = i.NitrogenAbnormal;
-                    ////    txtNitrogenObservation.Text = i.NitrogenObservation;
-                    ////    setCheckBoxValue(cbRhTyping, cbHidden, i.RhTyping);
-                    ////    txtRhTypingNormal.Text = i.RhTypingNormal;
-                    ////    txtRhTypingAbnormal.Text = i.RhTypingAbnormal;
-                    ////    txtRhTypingObservation.Text = i.RhTypingObservation;
-                    ////    setCheckBoxValue(cbHiv, cbHidden, i.Hiv);
-                    ////    txtHivNormal.Text = i.HivNormal;
-                    ////    txtHivAbnormal.Text = i.HivAbnormal;
-                    ////    txtHivObservation.Text = i.HivObservation;
-                    ////    setCheckBoxValue(cbVdrl, cbHidden, i.Vdrl);
-                    ////    txtVdrlNormal.Text = i.VdrlNormal;
-                    ////    txtVdrlAbnormal.Text = i.VdrlAbnormal;
-                    ////    txtVdrlObservation.Text = i.VdrlObservation;
-                    ////    setCheckBoxValue(cbGch, cbHidden, i.Gch);
-                    ////    txtGchNormal.Text = i.GchNormal.Replace("NA", "N/A");
-                    ////    txtGchAbnormal.Text = i.GchAbnormal;
-                    ////    txtGchObservation.Text = i.GchObservation;
-                    ////    setCheckBoxValue(cbGeneralUrien, cbHidden, i.GeneralUrien);
-                    ////    txtGeneralUrineNormal.Text = i.GeneralUrineNormal;
-                    ////    txtGeneralUrineAbNormal.Text = i.GeneralUrineAbNormal;
-                    ////    txtGeneralUrineObservation.Text = i.GeneralUrineObservation;
-                    ////    setCheckBoxValue(cbStool, cbHidden, i.Stool);
-                    ////    txtStoolNormal.Text = i.StoolNormal;
-                    ////    txtStoolAbNormal.Text = i.StoolAbNormal;
-                    ////    txtStoolObservation.Text = i.StoolObservation;
-                    ////    setCheckBoxValue(cbDrugtest, cbHidden, i.Drugtest);
-                    ////    txtDrugTestNormal.Text = i.DrugTestNormal;
-                    ////    txtDrugTestAbNormal.Text = i.DrugTestAbNormal;
-                    ////    txtDrugTestObservation.Text = i.DrugTestObservation;
-                    ////    setCheckBoxValue(cbAlcohol, cbHidden, i.Alcohol);
-                    ////    txtAlcoholNormal.Text = i.AlcoholNormal;
-                    ////    txtAlcoholAbNormal.Text = i.AlcoholAbNormal;
-                    ////    txtAlcoholObservation.Text = i.AlcoholObservation;
-                    ////    //setCheckBoxValue(cbBreast, cbHidden, i.Breast);
-                    ////    txtBreastExaminationNormal.Text = i.BreastExaminationNormal.Replace("NA", "N/A");
-                    ////    txtBreastExaminationAbNormal.Text = i.BreastExaminationAbNormal;
-                    ////    txtBreastExaminationObservation.Text = i.BreastExaminationObservation;
-                    ////    setCheckBoxValue(cbPapTest, cbHidden, i.PapTest);
-                    ////    txtPaptestJNormal.Text = i.PaptestJNormal.Replace("NA", "N/A");
-                    ////    txtPapAbnormal.Text = i.PapAbnormal;
-                    ////    txtPapObservation.Text = i.PapObservation;
-                    ////    setCheckBoxValue(cbPsa, cbHidden, i.Psa);
-                    ////    txtPsaNormal.Text = i.PsaNormal.Replace("NA", "N/A");
-                    ////    txtPsaAbNormal.Text = i.PsaAbNormal;
-                    ////    txtPsaObservation.Text = i.PsaObservation;
-                    ////    setCheckBoxValue(cbXray, cbHidden, i.Xray);
-
-                    ////    validateDate(i.XrayDate, dtXrayDate, checkBox109);
-                    ////    txtXrayObservation.Text = i.XrayObservation;
-                    ////    setCheckBoxValue(cbEkg, cbHidden, i.Ekg);
-                    ////    validateDate(i.Ekg, dtEkg, checkBox110);
-                    ////    txtEkgObservation.Text = i.EkgObservation;
+                ////    txtAlternativeComment1.Text = i.AlternativeSuplimentComment1;
+                ////    txtAlternativeComment2.Text = i.AlternativeSuplimentComment2;
+                ////    txtAlternativeComment3.Text = i.AlternativeSuplimentComment3;
+                ////    txtAlternativeComment4.Text = i.AlternativeSuplimentComment4;
+                ////    txtAlternativeComment5.Text = i.AlternativeSuplimentComment5;
+                ////    txtAlternativeComment6.Text = i.AlternativeSuplimentComment6;
+                ////    //setCheckBoxValue(cbTakenMedicationsYes, cbTakenMedicationsNo, i.TakenMedications);
+                ////    txtmedicationsComment1.Text = i.TakenMedicationsComment1;
+                ////    txtmedicationsComment2.Text = i.TakenMedicationsComment2;
+                ////    txtmedicationsComment3.Text = i.TakenMedicationsComment3;
+                ////    txtmedicationsComment4.Text = i.TakenMedicationsComment4;
+                ////    txtmedicationsComment5.Text = i.TakenMedicationsComment5;
+                ////    //txtmedicationsComment6.Text = i.TakenMedicationsComment6;
+                ////    txtExamineeComment1.Text = i.Comment1;
+                ////    txtExamineeComment2.Text = i.Comment2;
+                ////    txtExamineeComment3.Text = i.Comment3;
+                ////    txtExamineeComment4.Text = i.Comment4;
+                ////    txtExamineeComment5.Text = i.Comment5;
 
 
-                    ////    txtSarsCovidByPcr.Text = i.SarsCovidByPcr;
-                    ////    txtSarsCovidByAntigens.Text = i.SarsCovidByAntigens;
+                ////    // Data Related  to covid
+                ////    //setCheckBoxValue(cbContactInCovidPositiveYes, cbContactInCovidPositiveNo, i.ContactInCovidPositive);
+                ////    //setCheckBoxValue(cbCovidTestYes, cbCovidTestNo, i.CovidTest);
+                ////    //validateDate(i.CovidDateTest, dtCovidDateTest, checkBox106);
+                ////    //setCheckBoxValue(cbHadFeverLast30DaysYes, cbHadFeverLast30DaysNo, i.HadFeverLast30Days);
+                ////    //setCheckBoxValue(cbVaccinationCovidYes, cbVaccinationCovidNo, i.VaccinationCovid);
+                ////    txtVaccineType.Text = i.VaccineType;
+                ////    txtNumberofDoses.Text = i.NumberofDoses;
+                ////    txtBooster.Text = i.Booster;
+
+                ////    //STATEMENT
+                ////    //txtPersonundergoingExamination.Text = i.PersonundergoingExamination;
+                ////    //validateDate(i.UndergoingExaminationDate, dtUndergoingExamination, checkBox107);
+                ////    string s = i.fitness_date;
+                ////    string[] d = s.Split('/');
+
+                ////    txtStaetementDay.Text = d[0];
+                ////    txtStaetementMonth.Text = Convert.ToDateTime(i.fitness_date).ToString("MMM");
+                ////    txtStaetementYear.Text = d[2];
 
 
-                    ////    txtOtherDiagnosticTest.Text = i.OtherTest;
-                    ////    txtOtherDiagnosticResult.Text = i.OtherTestResult;
-                    ////    txtOtherDiagnosticComment1.Text = i.DiagnosticComment1;
-                    ////    txtOtherDiagnosticComment2.Text = i.DiagnosticComment2;
-                    ////    txtOtherDiagnosticComment3.Text = i.DiagnosticComment3;
-                    ////    txtOtherDiagnosticComment4.Text = i.DiagnosticComment4;
+                ////    txtNameOfWitness.Text = i.NameOfWitness;
+                ////    txtDoctorName.Text = i.DoctorName;
+                ////    //txtUndergoingExamination.Text = i.UndergoingExamination;
+                ////    //validateDate(i.UndergoingExaminationDate2, dtUndergoingExamination2, checkBox108);
 
+                ////    string p4 = i.fitness_date;
+                ////    string[] d4 = s.Split('/');
 
-                    ////    //ASSESSMENT OF FITNESS FOR SERVICE AT SEA  /// RESULT MAIN
-                    ////    string reco = "";
-                    ////    if (i.recommendation.ToLower().Equals("FIT FOR SEA DUTY"))
-                    ////    {
-                    ////        reco = "Yes";
-                    ////    }
-                    ////    else
-                    ////    {
-                    ////        reco = "No";
-                    ////    }
-                    ////    //setRadioButtonValue(rbFitForLookOut, reco);
-
-
-                    ////    string deck_srvc_flag_ = i.deck_srvc_flag.ToString();
-                    ////    if (deck_srvc_flag_ == "Y") { cbDeckServiceFit.Checked = true; } else if (deck_srvc_flag_ == "N") { cbDeckServiceUnFit.Checked = true; } else { cbDeckServiceFit.Checked = false; cbDeckServiceUnFit.Checked = false; }
-
-                    ////    string t_engine_srvc_flag_ = i.engine_srvc_flag.ToString();
-                    ////    if (t_engine_srvc_flag_ == "Y") { this.cbEngineFit.Checked = true; } else if (t_engine_srvc_flag_ == "N") { this.cbEngineUnFit.Checked = true; } else { cbEngineFit.Checked = false; cbEngineUnFit.Checked = false; }
-
-                    ////    string t_catering_srvc_flag_ = i.catering_srvc_flag.ToString();
-                    ////    if (t_catering_srvc_flag_ == "Y") { this.cbCateringFit.Checked = true; } else if (t_catering_srvc_flag_ == "N") { this.cbCateringUnFit.Checked = true; } else { cbCateringFit.Checked = false; cbCateringUnFit.Checked = false; }
-
-                    ////    string t_other_srvc_flag_ = i.other_srvc_flag.ToString();
-                    ////    if (t_other_srvc_flag_ == "Y") { this.cbOtherServiceFit.Checked = true; } else if (t_other_srvc_flag_ == "N") { this.cbOtherUnFit.Checked = true; } else { cbOtherServiceFit.Checked = false; cbOtherUnFit.Checked = false; }
-
-
-
-                    ////    //setCheckBoxValue(cbWithOutRestrictions, cbHidden, i.WithOutRestrictions);
-                    ////    //setCheckBoxValue(cbWithRestrictions, cbHidden, i.WithRestrictions);
-                    ////    //setCheckBoxValue(cbVisualAidYes, cbHidden, i.cbVisualAidRequiredYes);
-                    ////    //setCheckBoxValue(cbVisualAidRequiredNo, cbHidden, i.cbVisualAidRequiredNo);
-                    ////    txtAssessmentComment1.Text = i.assessmentComment1;
-                    ////    txtAssessmentComment2.Text = i.assessmentComment2;
-                    ////    txtAssessmentComment3.Text = i.assessmentComment3;
-                    ////    txtAssessmentComment4.Text = i.assessmentComment4;
-                    ////    txtAssessmentComment5.Text = i.assessmentComment5;
-                    ////    //validateDate(i.MedicalCertificateExpiration, dtMedicalCertificateExpiration, checkBox111);
-                    ////    //validateDate(i.MedicalCertificateIssued, dtMedicalCertificateIssued, checkBox112);
-
-                    ////    string[] e = i.valid_until.Split('/');
-                    ////    expirateDay.Text = e[0];
-                    ////    expirateMonth.Text = Convert.ToDateTime(i.fitness_date).ToString("MMM");
-                    ////    expirateYear.Text = e[2];
-
-
-                    ////    string[] iss = i.fitness_date.Split('/');
-                    ////    issuedDay.Text = iss[0];
-                    ////    issuedMonth.Text = Convert.ToDateTime(i.fitness_date).ToString("MMM");
-                    ////    issuedYear.Text = iss[2];
+                ////    txtp4Day.Text = d4[0];
+                ////    txtp4Month.Text = Convert.ToDateTime(i.fitness_date).ToString("MMM");
+                ////    txtp4Year.Text = d4[2];
 
 
 
 
-                    ////    txtNumberOfMedicalCertificate.Text = i.NumberOfMedicalCertificate;
-                    ////    txtPhysicianName.Text = "MA. LUCIA B. LAGUIMUN, M.D.  -  License No. 77460";
 
-                    ////}
+
+                ////    txtNameOfWitness2.Text = i.NameOfWitness2;
+                ////    txtPreviousMedical.Text = i.PreviousMedical;
+
+                ////    //MEDICAL EXAMINATION
+                ////    txtHeight.Text = i.Height;
+                ////    txtWeight.Text = i.Weight;
+                ////    txtBMI.Text = i.BMI;
+                ////    txtOxygen.Text = i.Oxygen;
+                ////    txtHeartRate.Text = i.HeartRate;
+                ////    txtRespiratory.Text = i.Respiratory;
+                ////    txtBloodPressure.Text = i.BloodPressure;
+                ////    txtDiastolic.Text = i.Diatolic;
+                ////    txtUnaidedRightEyeDistant.Text = i.UnaidedRightEyeDistant;
+                ////    txtUnAidedLeftEyeDistant.Text = i.UnAidedLeftEyeDistant;
+                ////    txtUnAidedBonocularDistant.Text = i.UnAidedBonocularDistant;
+                ////    txtAidedRightEyeDistant.Text = i.AidedRightEyeDistant;
+                ////    txtAidedLeftEyeDistant.Text = i.AidedLeftEyeDistant;
+                ////    txtAidedBinocularDistant.Text = i.AidedBinocularDistant;
+                ////    txtUnaidedRightEyeShort.Text = i.UnaidedRightEyeShort;
+                ////    txtUnAidedLeftEyeShort.Text = i.UnAidedLeftEyeShort;
+                ////    txtUnAidedBonocularShort.Text = i.UnAidedBonocularShort;
+                ////    txtAidedRightEyeShort.Text = i.AidedRightEyeShort;
+                ////    txtAidedLeftEyeShort.Text = i.AidedLeftEyeShort;
+                ////    txtAidedBinocularShort.Text = i.AidedBinocularShort;
+
+
+                ////    //setCheckBoxValue(cbNonTestedColorVision, cbHidden, i.NonTestedColorVision);
+                ////    //setCheckBoxValue(cbNormalColorVision, cbHidden, i.NormalColorVision);
+                ////    //setCheckBoxValue(cbDoubtfulColorVision, cbHidden, i.DoubtfulColorVision);
+                ////    //setCheckBoxValue(cbDefectiveColorVision, cbHidden, i.DefectiveColorVision);
+
+
+                ////    txtNormalRightEye.Text = i.NormalRightEye;
+                ////    txtNormalLeftEye.Text = i.NormalLeftEye;
+                ////    txtDefectiveRightEye.Text = i.DefectiveRightEye;
+                ////    txtDefectiveLeftEye.Text = i.DefectiveLeftEye;
+                ////    txtSightComment.Text = "ISHIHARA 38";
+                ////    txt500HzRightEar.Text = i._500HzRightEar;
+                ////    txt1kRightEar.Text = i._1kRightEar;
+                ////    txt2kRightEar.Text = i._2kRightEar;
+                ////    txt3kRightEar.Text = i._3kRightEar;
+                ////    txt500HzLeftEar.Text = i._500HzLeftEar;
+                ////    txt1kLeftEar.Text = i._1kLeftEar;
+                ////    txt2kLeftEar.Text = i._2kLeftEar;
+                ////    txt3kLeftEar.Text = i._3kLeftEar;
+
+                ////    //PHYSICAL EXPLORATION
+                ////    //setCheckBoxValue(cbHeadYes, cbHeadNo, i.Head);
+                ////    //setCheckBoxValue(cbMouthYes, cbMouthNo, i.Mouth);
+                ////    //setCheckBoxValue(cbDental, cbDentalNo, i.Dental);
+                ////    //setCheckBoxValue(cbEars, cbEarsNo, i.Ears);
+                ////    //setCheckBoxValue(cbTympanic, cbTympanicNo, i.Tympanic);
+                ////    //setCheckBoxValue(cbEyes, cbEyesNo, i.Eyes);
+                ////    //setCheckBoxValue(cbPupils, cbPupilsNo, i.Pupils);
+                ////    //setCheckBoxValue(cbOfThalmoscopy, cbOfThalmoscopyNo, i.OfThalmoscopy);
+                ////    //setCheckBoxValue(cbEyeMovement, cbEyeMovementNo, i.EyeMovement);
+                ////    //setCheckBoxValue(cbLungs, cbLungsNo, i.Lungs);
+                ////    //setCheckBoxValue(cbBreast, cbBreastNo, i.Breast);
+                ////    //setCheckBoxValue(cbHeart, cbHeartNo, i.Heart);
+                ////    //setCheckBoxValue(cbSkin, cbSkinNo, i.Skin);
+                ////    //setCheckBoxValue(cbVaricoseVenis, cbVaricoseVenisNo, i.VaricoseVenis);
+                ////    //setCheckBoxValue(cbVascular, cbVascularNo, i.Vascular);
+                ////    //setCheckBoxValue(cbAbnomen, cbAbnomenNo, i.Abdomen);
+                ////    //setCheckBoxValue(cbHernias, cbHerniasNo, i.Hernias);
+                ////    //setCheckBoxValue(cbAnus, cbAnusNo, i.Anus);
+                ////    //setCheckBoxValue(cbGu, cbGuNo, i.Gu);
+                ////    //setCheckBoxValue(cbUpper, cbUpperNo, i.Upper);
+                ////    //setCheckBoxValue(cbSpine, cbSpineNo, i.Spine);
+                ////    //setCheckBoxValue(cbNeurologic, cbNeurologicNo, i.Neurologic);
+                ////    //setCheckBoxValue(cbPsychiatric, cbPsychiatricNo, i.Psychiatric);
+                ////    //setCheckBoxValue(cbGeneralAppearance, cbGeneralAppearanceNo, i.GeneralAppearance);
+                ////    txtPhysicalExploration1.Text = i.PhysicalExplorationComment1;
+
+                ////    //DIAGNOSTIC TEST AND RESULTS 
+                ////    setCheckBoxValue(cbHemogram, cbHidden, i.Hemogram);
+                ////    txtHemogramNormal.Text = i.HemogramNormal;
+                ////    txtHemogramAbNormal.Text = i.HemogramAbNormal;
+                ////    txtHemogramOservation.Text = i.HemogramOservation;
+                ////    setCheckBoxValue(cbLipid, cbHidden, i.Lipid);
+                ////    txtLipidNormal.Text = i.LipidNormal;
+                ////    txtLipidAbNormal.Text = i.LipidAbNormal; ;
+                ////    txtLipidObservation.Text = i.LipidObservation;
+                ////    setCheckBoxValue(cbCreatinine, cbHidden, i.Creatinine);
+                ////    txtCreatinineNormal.Text = i.CreatinineNormal;
+                ////    txtCreatinineAbnormal.Text = i.CreatinineAbnormal;
+                ////    txtCreatinineObservation.Text = i.CreatinineObservation;
+                ////    setCheckBoxValue(cbCholesterol, cbHidden, i.Cholesterol);
+                ////    txtCholesterolNormal.Text = i.CholesterolNormal;
+                ////    txtCholesterolAbnormal.Text = i.CholesterolAbnormal;
+                ////    txtCholesterolObservation.Text = i.CholesterolObservation;
+                ////    setCheckBoxValue(cbTriglycerides, cbHidden, i.Triglycerides);
+                ////    txtTriglyceridesNormal.Text = i.TriglyceridesNormal;
+                ////    txtTriglyceridesAbnormal.Text = i.TriglyceridesAbnormal;
+                ////    txtTriglyceridesObservation.Text = i.TriglyceridesObservation;
+                ////    setCheckBoxValue(cbGlucose, cbHidden, i.Glucose);
+                ////    txtGlucoseNormal.Text = i.GlucoseNormal;
+                ////    txtGlucoseAbNormal.Text = i.GlucoseAbNormal;
+                ////    txtGlucoseObservation.Text = i.GlucoseObservation;
+                ////    setCheckBoxValue(cbNitrogen, cbHidden, i.Nitrogen);
+                ////    txtNitrogenNormal.Text = i.NitrogenNormal;
+                ////    txtNitrogenAbnormal.Text = i.NitrogenAbnormal;
+                ////    txtNitrogenObservation.Text = i.NitrogenObservation;
+                ////    setCheckBoxValue(cbRhTyping, cbHidden, i.RhTyping);
+                ////    txtRhTypingNormal.Text = i.RhTypingNormal;
+                ////    txtRhTypingAbnormal.Text = i.RhTypingAbnormal;
+                ////    txtRhTypingObservation.Text = i.RhTypingObservation;
+                ////    setCheckBoxValue(cbHiv, cbHidden, i.Hiv);
+                ////    txtHivNormal.Text = i.HivNormal;
+                ////    txtHivAbnormal.Text = i.HivAbnormal;
+                ////    txtHivObservation.Text = i.HivObservation;
+                ////    setCheckBoxValue(cbVdrl, cbHidden, i.Vdrl);
+                ////    txtVdrlNormal.Text = i.VdrlNormal;
+                ////    txtVdrlAbnormal.Text = i.VdrlAbnormal;
+                ////    txtVdrlObservation.Text = i.VdrlObservation;
+                ////    setCheckBoxValue(cbGch, cbHidden, i.Gch);
+                ////    txtGchNormal.Text = i.GchNormal.Replace("NA", "N/A");
+                ////    txtGchAbnormal.Text = i.GchAbnormal;
+                ////    txtGchObservation.Text = i.GchObservation;
+                ////    setCheckBoxValue(cbGeneralUrien, cbHidden, i.GeneralUrien);
+                ////    txtGeneralUrineNormal.Text = i.GeneralUrineNormal;
+                ////    txtGeneralUrineAbNormal.Text = i.GeneralUrineAbNormal;
+                ////    txtGeneralUrineObservation.Text = i.GeneralUrineObservation;
+                ////    setCheckBoxValue(cbStool, cbHidden, i.Stool);
+                ////    txtStoolNormal.Text = i.StoolNormal;
+                ////    txtStoolAbNormal.Text = i.StoolAbNormal;
+                ////    txtStoolObservation.Text = i.StoolObservation;
+                ////    setCheckBoxValue(cbDrugtest, cbHidden, i.Drugtest);
+                ////    txtDrugTestNormal.Text = i.DrugTestNormal;
+                ////    txtDrugTestAbNormal.Text = i.DrugTestAbNormal;
+                ////    txtDrugTestObservation.Text = i.DrugTestObservation;
+                ////    setCheckBoxValue(cbAlcohol, cbHidden, i.Alcohol);
+                ////    txtAlcoholNormal.Text = i.AlcoholNormal;
+                ////    txtAlcoholAbNormal.Text = i.AlcoholAbNormal;
+                ////    txtAlcoholObservation.Text = i.AlcoholObservation;
+                ////    //setCheckBoxValue(cbBreast, cbHidden, i.Breast);
+                ////    txtBreastExaminationNormal.Text = i.BreastExaminationNormal.Replace("NA", "N/A");
+                ////    txtBreastExaminationAbNormal.Text = i.BreastExaminationAbNormal;
+                ////    txtBreastExaminationObservation.Text = i.BreastExaminationObservation;
+                ////    setCheckBoxValue(cbPapTest, cbHidden, i.PapTest);
+                ////    txtPaptestJNormal.Text = i.PaptestJNormal.Replace("NA", "N/A");
+                ////    txtPapAbnormal.Text = i.PapAbnormal;
+                ////    txtPapObservation.Text = i.PapObservation;
+                ////    setCheckBoxValue(cbPsa, cbHidden, i.Psa);
+                ////    txtPsaNormal.Text = i.PsaNormal.Replace("NA", "N/A");
+                ////    txtPsaAbNormal.Text = i.PsaAbNormal;
+                ////    txtPsaObservation.Text = i.PsaObservation;
+                ////    setCheckBoxValue(cbXray, cbHidden, i.Xray);
+
+                ////    validateDate(i.XrayDate, dtXrayDate, checkBox109);
+                ////    txtXrayObservation.Text = i.XrayObservation;
+                ////    setCheckBoxValue(cbEkg, cbHidden, i.Ekg);
+                ////    validateDate(i.Ekg, dtEkg, checkBox110);
+                ////    txtEkgObservation.Text = i.EkgObservation;
+
+
+                ////    txtSarsCovidByPcr.Text = i.SarsCovidByPcr;
+                ////    txtSarsCovidByAntigens.Text = i.SarsCovidByAntigens;
+
+
+                ////    txtOtherDiagnosticTest.Text = i.OtherTest;
+                ////    txtOtherDiagnosticResult.Text = i.OtherTestResult;
+                ////    txtOtherDiagnosticComment1.Text = i.DiagnosticComment1;
+                ////    txtOtherDiagnosticComment2.Text = i.DiagnosticComment2;
+                ////    txtOtherDiagnosticComment3.Text = i.DiagnosticComment3;
+                ////    txtOtherDiagnosticComment4.Text = i.DiagnosticComment4;
+
+
+                ////    //ASSESSMENT OF FITNESS FOR SERVICE AT SEA  /// RESULT MAIN
+                ////    string reco = "";
+                ////    if (i.recommendation.ToLower().Equals("FIT FOR SEA DUTY"))
+                ////    {
+                ////        reco = "Yes";
+                ////    }
+                ////    else
+                ////    {
+                ////        reco = "No";
+                ////    }
+                ////    //setRadioButtonValue(rbFitForLookOut, reco);
+
+
+                ////    string deck_srvc_flag_ = i.deck_srvc_flag.ToString();
+                ////    if (deck_srvc_flag_ == "Y") { cbDeckServiceFit.Checked = true; } else if (deck_srvc_flag_ == "N") { cbDeckServiceUnFit.Checked = true; } else { cbDeckServiceFit.Checked = false; cbDeckServiceUnFit.Checked = false; }
+
+                ////    string t_engine_srvc_flag_ = i.engine_srvc_flag.ToString();
+                ////    if (t_engine_srvc_flag_ == "Y") { this.cbEngineFit.Checked = true; } else if (t_engine_srvc_flag_ == "N") { this.cbEngineUnFit.Checked = true; } else { cbEngineFit.Checked = false; cbEngineUnFit.Checked = false; }
+
+                ////    string t_catering_srvc_flag_ = i.catering_srvc_flag.ToString();
+                ////    if (t_catering_srvc_flag_ == "Y") { this.cbCateringFit.Checked = true; } else if (t_catering_srvc_flag_ == "N") { this.cbCateringUnFit.Checked = true; } else { cbCateringFit.Checked = false; cbCateringUnFit.Checked = false; }
+
+                ////    string t_other_srvc_flag_ = i.other_srvc_flag.ToString();
+                ////    if (t_other_srvc_flag_ == "Y") { this.cbOtherServiceFit.Checked = true; } else if (t_other_srvc_flag_ == "N") { this.cbOtherUnFit.Checked = true; } else { cbOtherServiceFit.Checked = false; cbOtherUnFit.Checked = false; }
+
+
+
+                ////    //setCheckBoxValue(cbWithOutRestrictions, cbHidden, i.WithOutRestrictions);
+                ////    //setCheckBoxValue(cbWithRestrictions, cbHidden, i.WithRestrictions);
+                ////    //setCheckBoxValue(cbVisualAidYes, cbHidden, i.cbVisualAidRequiredYes);
+                ////    //setCheckBoxValue(cbVisualAidRequiredNo, cbHidden, i.cbVisualAidRequiredNo);
+                ////    txtAssessmentComment1.Text = i.assessmentComment1;
+                ////    txtAssessmentComment2.Text = i.assessmentComment2;
+                ////    txtAssessmentComment3.Text = i.assessmentComment3;
+                ////    txtAssessmentComment4.Text = i.assessmentComment4;
+                ////    txtAssessmentComment5.Text = i.assessmentComment5;
+                ////    //validateDate(i.MedicalCertificateExpiration, dtMedicalCertificateExpiration, checkBox111);
+                ////    //validateDate(i.MedicalCertificateIssued, dtMedicalCertificateIssued, checkBox112);
+
+                ////    string[] e = i.valid_until.Split('/');
+                ////    expirateDay.Text = e[0];
+                ////    expirateMonth.Text = Convert.ToDateTime(i.fitness_date).ToString("MMM");
+                ////    expirateYear.Text = e[2];
+
+
+                ////    string[] iss = i.fitness_date.Split('/');
+                ////    issuedDay.Text = iss[0];
+                ////    issuedMonth.Text = Convert.ToDateTime(i.fitness_date).ToString("MMM");
+                ////    issuedYear.Text = iss[2];
+
+
+
+
+                ////    txtNumberOfMedicalCertificate.Text = i.NumberOfMedicalCertificate;
+                ////    txtPhysicianName.Text = "MA. LUCIA B. LAGUIMUN, M.D.  -  License No. 77460";
+
+                ////}
 
                 //}
                 //else
@@ -1994,6 +2000,153 @@ namespace MedicalManagementSoftware
             {
                 //MessageBox.Show(this, string.Format("An error occured {0}", ex.Message), Properties.Settings.Default.SystemName.ToString(), MessageBoxButtons.OK, MessageBoxIcon.Exclamation); return;
                 MessageBox.Show(string.Format("An error occured {0}", ex.Message), "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+        void setRadioButtonState(RadioButton rbYes, RadioButton rbNo, string input)
+        {
+            if (input.Contains("Yes"))
+            {
+                rbYes.Checked = true;
+                rbNo.Checked = false;
+            }
+            else
+            {
+                rbYes.Checked = false;
+                rbNo.Checked = true;
+            }
+
+        }
+
+        public void searchPEPD(string keyword)
+        {
+            try
+            {
+                DataClasses1DataContext db = new DataClasses1DataContext(Properties.Settings.Default.MyConString);
+                var i = db.PanamaPEPD(keyword).FirstOrDefault();
+
+                if (i != null)
+                {
+
+
+                    //EXAMINEE PERSONAL DECLARATION
+                    setRadioButtonState(cbHighBloodPressureYes, cbHighBloodPressureNo, i.HighBloodPressure);
+                    setRadioButtonState(cbEyeproblemYes, cbEyeproblemNo, i.Eyeproblem);
+                    setRadioButtonState(cbEarNoseThroatYes, cbEarNoseThroatNo, i.EarNoseThroat);
+                    setRadioButtonState(cbHeartSurgeryYes, cbHeartSurgeryNo, i.HeartSurgery);
+                    setRadioButtonState(cbVaricoseveinsYes, cbVaricoseveinsNo, i.Varicoseveins);
+                    setRadioButtonState(cbAsthmaBronchitisYes, cbAsthmaBronchitisNo, i.AsthmaBronchitis);
+                    setRadioButtonState(cbBloodDisorderYes, cbBloodDisorderNo, i.BloodDisorder);
+                    setRadioButtonState(cbDiabetesYes_, cbDiabetesNo, i.Diabetes);
+                    setRadioButtonState(cbThyroidProblemYes, cbThyroidProblemNo, i.ThyroidProblem);
+                    setRadioButtonState(cbDigestiveDisordersYes, cbDigestiveDisordersNo, i.DigestiveDisorders);
+                    setRadioButtonState(cbKidneyDisordersYes, cbKidneyDisordersNo_, i.KidneyDisorders);
+                    setRadioButtonState(cbSkinProblemYes, cbSkinProblemNo, i.SkinProblem);
+                    setRadioButtonState(cbAllergiesYes, cbAllergiesNo, i.Allergies);
+                    setRadioButtonState(cbEpilipsyYes, cbEpilipsyNo, i.Epilipsy);
+                    setRadioButtonState(cbSickleCellYes, cbSickleCellNo, i.SickleCell);
+                    setRadioButtonState(cbHerinasYes, cbHerinasNo, i.Herinas);
+                    setRadioButtonState(cbGenitalDisordersYes, cbGenitalDisordersNo, i.GenitalDisorders);
+                    setRadioButtonState(cbPregnancyYes, cbPregnancyNo, i.Pregnancy);
+
+                    setRadioButtonState(cbSleepproblemYes, cbSleepproblemNo, i.Sleepproblem);
+                    setRadioButtonState(cbDoyouSmokeYes, cbDoyouSmokeNo, i.DoyouSmoke);
+                    setRadioButtonState(cbSurgeriesYes, cbSurgeriesNo, i.Surgeries);
+                    setRadioButtonState(cbInfectiousYes, cbInfectiousNo, i.Infectious);
+                    setRadioButtonState(cbDigestiveDisordersYes, cbDigestiveDisordersNo, i.DizzinessFainting);
+                    setRadioButtonState(cbLossofconsciousnessYes, cbLossofconsciousnessNo, i.Lossofconsciousness);
+                    setRadioButtonState(cbPsychiatricProblemYes, cbPsychiatricProblemNo, i.PsychiatricProblem);
+                    setRadioButtonState(cbDepressionYes, cbDepressionNo, i.Depression);
+                    setRadioButtonState(cbLossofmemoryYes, cbLossofmemoryNo, i.Attemptedsuicide);
+
+
+                    setRadioButtonState(cbRestrictedMobilityYes, cbRestrictedMobilityNo, i.RestrictedMobility);
+                    setRadioButtonState(cbBackJointProblemYes, cbBackJointProblemNo, i.BackJointProblem);
+                    setRadioButtonState(cbAmputationYes, cbAmputationNo, i.Amputation);
+                    setRadioButtonState(cbFracturesDislocationYes, cbFracturesDislocationNo, i.FracturesDislocation);
+                    setRadioButtonState(cbCovidYes, cbCovidNo, i.Covid19);
+                    setRadioButtonState(cbRepatriatedYes, cbRepatriatedNo, i.Repatriated);
+                    setRadioButtonState(cbHospitalizedYes, cbHospitalizedNo, i.Hospitalized);
+                    setRadioButtonState(cbSeaDutyYes, cbSeaDutyNo, i.SeaDuty);
+                    setRadioButtonState(cbRevokeYes, cbRevokeNo, i.Revoke);
+                    setRadioButtonState(cbConsiderDiseaseYes, cbConsiderDiseaseNo, i.ConsiderDisease);
+                    setRadioButtonState(cbFitToPerformDuriesYes, cbFitToPerformDuriesNo, i.FitToPerformDuries);
+
+                    setRadioButtonState(cbAllergicToAnyMedicationYes, cbAllergicToAnyMedicationNo, i.AllergicToAnyMedication);
+                    setRadioButtonState(cbAllergicAlternativeSuplimentYes, cbAllergicAlternativeSuplimentNo, i.AlternativeSupliment);
+
+                    txtAlternativeComment1.Text = i.AlternativeSuplimentComment1;
+                    txtAlternativeComment2.Text = i.AlternativeSuplimentComment2;
+                    txtAlternativeComment3.Text = i.AlternativeSuplimentComment3;
+                    txtAlternativeComment4.Text = i.AlternativeSuplimentComment4;
+                    txtAlternativeComment5.Text = i.AlternativeSuplimentComment5;
+                    txtAlternativeComment6.Text = i.AlternativeSuplimentComment6;
+                    //setCheckBoxValue(cbTakenMedicationsYes, cbTakenMedicationsNo, i.TakenMedications);
+                    txtmedicationsComment1.Text = i.TakenMedicationsComment1;
+                    txtmedicationsComment2.Text = i.TakenMedicationsComment2;
+                    txtmedicationsComment3.Text = i.TakenMedicationsComment3;
+                    txtmedicationsComment4.Text = i.TakenMedicationsComment4;
+                    txtmedicationsComment5.Text = i.TakenMedicationsComment5;
+                    //txtmedicationsComment6.Text = i.TakenMedicationsComment6;
+                    txtExamineeComment1.Text = i.Comment1;
+                    txtExamineeComment2.Text = i.Comment2;
+                    txtExamineeComment3.Text = i.Comment3;
+                    txtExamineeComment4.Text = i.Comment4;
+                    txtExamineeComment5.Text = i.Comment5;
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(string.Format("An error occured {0}", ex.Message), "Examinee Personal Declaration", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+        public void searchPDC(string keyword)
+        {
+            try
+            {
+                DataClasses1DataContext db = new DataClasses1DataContext(Properties.Settings.Default.MyConString);
+                var i = db.Panama_DataRelatedCovid(keyword).FirstOrDefault();
+
+                 if (i  != null)
+                {
+                
+
+
+                    // Data Related  to covid
+                    setRadioButtonState(cbContactInCovidPositiveYes, cbContactInCovidPositiveNo, i.ContactInCovidPositive);
+                    setRadioButtonState(cbCovidTestYes, cbCovidTestNo, i.CovidTest);
+                    validateDate(i.CovidDateTest, dtCovidDateTest, checkBox106);
+                    setRadioButtonState(cbHadFeverLast30DaysYes, cbHadFeverLast30DaysNo, i.HadFeverLast30Days);
+                    setRadioButtonState(cbVaccinationCovidYes, cbVaccinationCovidNo, i.VaccinationCovid);
+                    txtVaccineType.Text = i.VaccineType;
+                    txtNumberofDoses.Text = i.NumberofDoses;
+                    txtBooster.Text = i.Booster;
+                
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(string.Format("An error occured {0}", ex.Message), "Data related to covid", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+
+        private void txtResultID_TextChanged(object sender, EventArgs e)
+        {
+            if (txtResultID.Text != "")
+            {
+                searchPEPD(txtResultID.Text);
+                searchPDC(txtResultID.Text);
             }
         }
 

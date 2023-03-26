@@ -8866,6 +8866,8 @@ namespace MedicalManagementSoftware.Model
 		
 		private string _specimen_no;
 		
+		private string _resultid;
+		
 		public PANAMA_SELECT_PATIENTResult()
 		{
 		}
@@ -9090,6 +9092,22 @@ namespace MedicalManagementSoftware.Model
 				if ((this._specimen_no != value))
 				{
 					this._specimen_no = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_resultid", DbType="VarChar(254)")]
+		public string resultid
+		{
+			get
+			{
+				return this._resultid;
+			}
+			set
+			{
+				if ((this._resultid != value))
+				{
+					this._resultid = value;
 				}
 			}
 		}

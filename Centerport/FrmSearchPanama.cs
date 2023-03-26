@@ -111,8 +111,8 @@ namespace MedicalManagementSoftware
             {
                 this.Close();
                 Cursor.Current = Cursors.WaitCursor;
-                //frm_seafarer_MEC.LabID.Clear();
-                //frm_seafarer_MEC.LabID.Text = this.dg_result.SelectedRows[0].Cells[2].Value.ToString();
+                //FrmPanama.txtResultID.Clear();
+                //FrmPanama.txtResultID.Text = this.dg_result.SelectedRows[0].Cells[2].Value.ToString();
                 FrmPanama.pin.Clear();
                 FrmPanama.pin.Text = this.dg_result.SelectedRows[0].Cells[1].Value.ToString();
                 FrmPanama.cn_SeabaseResultMain = this.dg_result.SelectedRows[0].Cells[0].Value.ToString();
